@@ -1,0 +1,15 @@
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Debug\netcoreapp2.2\SoccerKing.deps.json
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Debug\netcoreapp2.2\SoccerKing.runtimeconfig.json
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Debug\netcoreapp2.2\SoccerKing.runtimeconfig.dev.json
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Debug\netcoreapp2.2\SoccerKing.dll
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Debug\netcoreapp2.2\SoccerKing.csprojAssemblyReference.cache
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Debug\netcoreapp2.2\SoccerKing.csproj.CoreCompileInputs.cache
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Debug\netcoreapp2.2\SoccerKing.RazorAssemblyInfo.cache
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Debug\netcoreapp2.2\SoccerKing.RazorAssemblyInfo.cs
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Debug\netcoreapp2.2\SoccerKing.AssemblyInfoInputs.cache
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Debug\netcoreapp2.2\SoccerKing.AssemblyInfo.cs
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Debug\netcoreapp2.2\SoccerKing.RazorTargetAssemblyInfo.cache
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Debug\netcoreapp2.2\SoccerKing.pdb
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Debug\netcoreapp2.2\SoccerKing.dll
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Debug\netcoreapp2.2\SoccerKing.pdb
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Debug\netcoreapp2.2\SoccerKing.exe

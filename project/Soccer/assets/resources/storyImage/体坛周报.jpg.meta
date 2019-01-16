@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.0",
+  "uuid": "0b379aa9-de60-438a-940b-9e69891ca6b5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "体坛周报": {
+      "ver": "1.0.3",
+      "uuid": "aca170ae-bbc2-47ab-a50a-4e3e2dd6b094",
+      "rawTextureUuid": "0b379aa9-de60-438a-940b-9e69891ca6b5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 750,
+      "height": 440,
+      "rawWidth": 750,
+      "rawHeight": 440,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -12,4 +12,3 @@ H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Debug\netcorea
 H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Debug\netcoreapp2.2\SoccerKing.pdb
 H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Debug\netcoreapp2.2\SoccerKing.dll
 H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Debug\netcoreapp2.2\SoccerKing.pdb
-H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Debug\netcoreapp2.2\SoccerKing.exe

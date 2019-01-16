@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.EntityFrameworkCore;
+using SoccerKing.Models;
 
 namespace SoccerKing
 {
@@ -25,7 +27,18 @@ namespace SoccerKing
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
+			services.AddDbContext<soccerkingContext>(opt => opt.UseMySql("Server=localhost;User Id=root;Password=haitao;Database=soccerking"));
+			
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+			//配置跨域处理，允许所有来源：
+			services.AddCors(options =>
+			{
+				options.AddPolicy("corsAll", builder =>
+				{
+					builder.WithOrigins("http://localhost:7456").AllowAnyMethod().AllowAnyHeader();
+				});
+			}
+			);
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,8 +53,10 @@ namespace SoccerKing
 				// The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
 				app.UseHsts();
 			}
-
-			app.UseHttpsRedirection();
+			app.UseCors("corsAll");//必须位于UserMvc之前 
+			app.UseDefaultFiles();
+			app.UseStaticFiles();
+			app.UseHttpsRedirection();			
 			app.UseMvc();
 		}
 	}

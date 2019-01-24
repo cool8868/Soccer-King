@@ -39,6 +39,10 @@ namespace SoccerKing
 				});
 			}
 			);
+
+			services.Configure<WxConfig>(Configuration.GetSection("WxConfig"));
+
+			services.AddTransient<WxConfigurtaionServices>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

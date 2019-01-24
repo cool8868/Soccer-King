@@ -1,0 +1,17 @@
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Release\netcoreapp2.2\SoccerKing.deps.json
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Release\netcoreapp2.2\SoccerKing.runtimeconfig.json
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Release\netcoreapp2.2\SoccerKing.runtimeconfig.dev.json
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Release\netcoreapp2.2\SoccerKing.dll
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Release\netcoreapp2.2\SoccerKing.pdb
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Release\netcoreapp2.2\SoccerKing.csproj.CoreCompileInputs.cache
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Release\netcoreapp2.2\SoccerKing.RazorAssemblyInfo.cache
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Release\netcoreapp2.2\SoccerKing.RazorAssemblyInfo.cs
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Release\netcoreapp2.2\SoccerKing.AssemblyInfoInputs.cache
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Release\netcoreapp2.2\SoccerKing.AssemblyInfo.cs
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Release\netcoreapp2.2\SoccerKing.RazorTargetAssemblyInfo.cache
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Release\netcoreapp2.2\SoccerKing.dll
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Release\netcoreapp2.2\SoccerKing.pdb
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Release\netcoreapp2.2\SoccerKing.csprojAssemblyReference.cache
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Release\netcoreapp2.2\Deepleo.Weixin.SDK.Core.dll
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Release\netcoreapp2.2\Deepleo.Weixin.SDK.Core.pdb
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Release\netcoreapp2.2\SoccerKing.csproj.CopyComplete

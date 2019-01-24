@@ -1,0 +1,9 @@
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\Deepleo.Weixin.SDK.Core\bin\Debug\netcoreapp2.0\Deepleo.Weixin.SDK.Core.deps.json
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\Deepleo.Weixin.SDK.Core\bin\Debug\netcoreapp2.0\Deepleo.Weixin.SDK.Core.dll
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\Deepleo.Weixin.SDK.Core\bin\Debug\netcoreapp2.0\Deepleo.Weixin.SDK.Core.pdb
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\Deepleo.Weixin.SDK.Core\obj\Debug\netcoreapp2.0\Deepleo.Weixin.SDK.Core.csprojAssemblyReference.cache
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\Deepleo.Weixin.SDK.Core\obj\Debug\netcoreapp2.0\Deepleo.Weixin.SDK.Core.csproj.CoreCompileInputs.cache
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\Deepleo.Weixin.SDK.Core\obj\Debug\netcoreapp2.0\Deepleo.Weixin.SDK.Core.AssemblyInfoInputs.cache
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\Deepleo.Weixin.SDK.Core\obj\Debug\netcoreapp2.0\Deepleo.Weixin.SDK.Core.AssemblyInfo.cs
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\Deepleo.Weixin.SDK.Core\obj\Debug\netcoreapp2.0\Deepleo.Weixin.SDK.Core.dll
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\Deepleo.Weixin.SDK.Core\obj\Debug\netcoreapp2.0\Deepleo.Weixin.SDK.Core.pdb

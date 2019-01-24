@@ -9,6 +9,7 @@ namespace SoccerKing.Models
         public string Sub { get; set; }
         public string Who { get; set; }
         public string Scene { get; set; }
-        public string Content { get; set; }
+        public string Lines { get; set; }
+        public int Nid { get; set; }
     }
 }

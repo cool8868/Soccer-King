@@ -1,13 +1,3 @@
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-
 cc.Class({
     extends: cc.Component,
 
@@ -49,14 +39,16 @@ cc.Class({
         xhr.onreadystatechange = function () {
             if (xhr.readyState == 4 && (xhr.status >= 200 && xhr.status < 400)) {
                 
-                self._storyArray = JSON.parse(xhr.responseText);                
+                self._storyArray = JSON.parse(xhr.responseText);    
+                console.log(xhr.responseText);            
                 if(self._storyArray.length === 0)
                 {
                     console.log(self._storyArray.length);
                     //return;
                 }
                 else{
-                    self.labelStory.string = self._storyArray[self._storyIndex].content;
+                    console.log(self._storyArray[self._storyIndex].lines);
+                    self.labelStory.string = self._storyArray[self._storyIndex].lines;
                     let path = "storyImage/" + self._storyArray[self._storyIndex].scene;
                     cc.loader.loadRes(path, cc.SpriteFrame, function (err, sf) {
                         self.imageStory.spriteFrame = sf;
@@ -65,7 +57,7 @@ cc.Class({
                 }
             }
         };
-        let url = "https://localhost:44330/api/story";        
+        let url = "https://rxqq.dingpamao.net/api/story";        
         
         xhr.open("GET", url, true);
         xhr.send();
@@ -78,7 +70,7 @@ cc.Class({
     {
         if(this._storyIndex < this._storyArray.length)
         {
-            this.labelStory.string = this._storyArray[this._storyIndex].content;
+            this.labelStory.string = this._storyArray[this._storyIndex].lines;
 
             let path = "storyImage/" + this._storyArray[this._storyIndex].scene;
             console.log(path);

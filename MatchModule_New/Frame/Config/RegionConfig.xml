@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <positions type="x">
+    <!--Whole-->
+    <add key="5" value="10, 62" />
+    <add key="20" value="0, 62" />
+    <add key="38" value="10, 85" />
+    <add key="66" value="10, 105" />
+    <add key="94" value="50, 125" />
+    <add key="122" value="75, 150" />
+    <add key="150" value="75, 200" />
+    <add key="170" value="95, 200" />
+    <!--Half-->
+    <add key="30" value="10, 85" />
+    <add key="45" value="10, 105" />
+    <add key="60" value="50, 125" />
+    <add key="75" value="75, 150" />
+    <add key="90" value="75, 200" />
+    <add key="105" value="95, 200" />
+    <!--Old-->
+    <!--<add key="5" value="10, 62" />
+    <add key="20" value="0, 62" />
+    <add key="38" value="10, 66" />
+    <add key="66" value="10, 122" />
+    <add key="94" value="66, 150" />
+    <add key="122" value="94, 170" />
+    <add key="150" value="122, 200" />
+    <add key="170" value="150, 200" />-->
+  </positions>
+  <positions type="y">
+    <add key="8" value="0, 38" />
+    <add key="28" value="0, 48" />
+    <add key="48" value="35, 68" />
+    <add key="68" value="48, 88" />
+    <add key="88" value="68, 101" />
+    <add key="108" value="88, 136" />
+    <add key="128" value="98, 136" />
+  </positions>
+</config>

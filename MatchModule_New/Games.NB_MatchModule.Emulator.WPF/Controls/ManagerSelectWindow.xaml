@@ -1,0 +1,29 @@
+﻿<Window x:Class="Games.NB.Match.Emulator.WPF.Controls.ManagerSelectWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ManagerSelectWindow" Height="600" Width="600" WindowStartupLocation="CenterScreen" Loaded="ManagerSelectWindow_OnLoaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Content="经理类型：" Grid.Row="1" Margin="2,2,0,2"></Label>
+        <ComboBox x:Name="cmbType" Width="108" Height="25" Grid.Row="1" Margin="80,2,0,2" Style="{DynamicResource SimpleComboBox}" HorizontalAlignment="Left" SelectionChanged="CmbType_OnSelectionChanged"></ComboBox>
+        <DataGrid x:Name="datagridList" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="2">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="选择" x:Name="btnSelect" Click="BtnSelect_OnClick"></Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="名称" Binding="{Binding Name,Mode=OneWay}"></DataGridTextColumn>
+                <DataGridTextColumn Header="所属关卡" Binding="{Binding Stage,Mode=OneWay}"></DataGridTextColumn>
+                <DataGridTextColumn Header="综合实力" Binding="{Binding Kpi,Mode=OneWay}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Npcid" Binding="{Binding NpcId,Mode=OneWay}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,86 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Games.NB.Match.Emulator.WPF.Controls" x:Class="Games.NB.Match.Emulator.WPF.Controls.StatisticsManagerControl" 
+             mc:Ignorable="d" 
+             d:DesignHeight="370" d:DesignWidth="950" BorderThickness="1" BorderBrush="Green">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="LightGray"/>
+        <Label x:Name="lblName" Content="Name" />
+        <Label x:Name="lblInfo" Content="Info" Margin="150,0,0,0"/>
+        <ScrollViewer Grid.Row="1" Height="340" Width="1006" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" >
+            <Grid Width="1760" Height="322">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="27"/>
+                    <RowDefinition Height="27"/>
+                    <RowDefinition Height="27"/>
+                    <RowDefinition Height="27"/>
+                    <RowDefinition Height="27"/>
+                    <RowDefinition Height="27"/>
+                    <RowDefinition Height="27"/>
+                    <RowDefinition Height="27"/>
+                    <RowDefinition Height="27"/>
+                    <RowDefinition Height="27"/>
+                    <RowDefinition Height="27"/>
+                </Grid.RowDefinitions>
+                <local:StatisticsPlayerHeadControl Grid.Row="0" />
+                <local:StatisticsPlayerControl Grid.Row="1" x:Name="spc1"/>
+                <local:StatisticsPlayerControl Grid.Row="2" x:Name="spc2"/>
+                <local:StatisticsPlayerControl Grid.Row="3" x:Name="spc3"/>
+                <local:StatisticsPlayerControl Grid.Row="4" x:Name="spc4"/>
+                <local:StatisticsPlayerControl Grid.Row="5" x:Name="spc5"/>
+                <local:StatisticsPlayerControl Grid.Row="6" x:Name="spc6"/>
+                <local:StatisticsPlayerControl Grid.Row="7" x:Name="spc7"/>
+                <local:StatisticsPlayerControl Grid.Row="8" x:Name="spc8"/>
+                <local:StatisticsPlayerControl Grid.Row="9" x:Name="spc9"/>
+                <local:StatisticsPlayerControl Grid.Row="10" x:Name="spc10"/>
+                <local:StatisticsPlayerControl Grid.Row="11" x:Name="spc11"/>
+            </Grid>
+        </ScrollViewer>
+        
+        <DataGrid Visibility="Hidden" x:Name="PlayerDatagrid"  Grid.Row="1" CanUserAddRows="False"  AutoGenerateColumns="False" RowHeight="25" VerticalScrollBarVisibility="Auto">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="球员名" Binding="{Binding Name, Mode=OneWay}" Width="80" IsReadOnly="True"/>
+                <DataGridTextColumn Header="位置" Binding="{Binding Position, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="状态" Binding="{Binding State, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="速度" Binding="{Binding SpeedStr, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="射门" Binding="{Binding ShootingStr, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="射门距离" Binding="{Binding ShootingDistStr, Mode=OneWay}" Width="56" IsReadOnly="True"/>
+                <DataGridTextColumn Header="任意球" Binding="{Binding FreeKickStr, Mode=OneWay}" Width="46" IsReadOnly="True"/>
+                <DataGridTextColumn Header="控制" Binding="{Binding BalanceStr, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="体能" Binding="{Binding StaminaStr, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="力量" Binding="{Binding StrengthStr, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="侵略性" Binding="{Binding AggressionStr, Mode=OneWay}" Width="46" IsReadOnly="True"/>
+                <DataGridTextColumn Header="干扰" Binding="{Binding DisturbStr, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="抢断" Binding="{Binding InterceptionStr, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="控球" Binding="{Binding DribbleStr, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="传球" Binding="{Binding PassingStr, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="意识" Binding="{Binding MentalityStr, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="反应" Binding="{Binding ReflexesStr, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="位置感" Binding="{Binding PositioningStr, Mode=OneWay}" Width="46" IsReadOnly="True"/>
+                <DataGridTextColumn Header="手控球" Binding="{Binding HandlingStr, Mode=OneWay}" Width="46" IsReadOnly="True"/>
+                <DataGridTextColumn Header="加速度" Binding="{Binding AccelerationStr, Mode=OneWay}" Width="46" IsReadOnly="True"/>
+
+                <DataGridTextColumn Header="射门成功率" Binding="{Binding ShootSuccRateStr, Mode=OneWay}" Width="70" IsReadOnly="True"/>
+                <DataGridTextColumn Header="传球成功率" Binding="{Binding PassSuccRateStr, Mode=OneWay}" Width="70" IsReadOnly="True"/>
+                <DataGridTextColumn Header="抢断成功率" Binding="{Binding StealSuccRateStr, Mode=OneWay}" Width="70" IsReadOnly="True"/>
+                <DataGridTextColumn Header="带球成功率" Binding="{Binding DribbleSuccRateStr, Mode=OneWay}" Width="70" IsReadOnly="True"/>
+
+                <DataGridTextColumn Header="射门选择率" Binding="{Binding ShootChooseRateStr, Mode=OneWay}" Width="70" IsReadOnly="True"/>
+                <DataGridTextColumn Header="传球选择率" Binding="{Binding PassChooseRateStr, Mode=OneWay}" Width="70" IsReadOnly="True"/>
+                <DataGridTextColumn Header="带球选择率" Binding="{Binding DribbleChooseRateStr, Mode=OneWay}" Width="70" IsReadOnly="True"/>
+
+                <DataGridTextColumn Header="抢断概率" Binding="{Binding StealRateStr, Mode=OneWay}" Width="70" IsReadOnly="True"/>
+                <DataGridTextColumn Header="反抢概率" Binding="{Binding AntiStealRateStr, Mode=OneWay}" Width="70" IsReadOnly="True"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        
+    </Grid>
+</UserControl>

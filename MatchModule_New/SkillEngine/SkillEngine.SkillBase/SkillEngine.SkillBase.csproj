@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F82272AE-DFF6-4563-9475-D7BBF23C05B6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SkillEngine.SkillBase</RootNamespace>
+    <AssemblyName>SkillEngine.SkillBase</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buff\BuffBase.cs" />
+    <Compile Include="Buff\CoreBase.cs" />
+    <Compile Include="Buff\IBuff.cs" />
+    <Compile Include="Buff\IBuffCore.cs" />
+    <Compile Include="Buff\IBuffFunc.cs" />
+    <Compile Include="Defines\SkillDefines.cs" />
+    <Compile Include="Effect\EffectBase.cs" />
+    <Compile Include="Effect\EffectorBase.cs" />
+    <Compile Include="Effect\IEffectFunc.cs" />
+    <Compile Include="Effect\ValueRangeFilterBase.cs" />
+    <Compile Include="Effect\ValueSetFilterBase.cs" />
+    <Compile Include="Enum.Football\EnumBuffCodeEx.cs" />
+    <Compile Include="Enum.Football\EnumBuffType.cs" />
+    <Compile Include="Enum.NBA\EnumBuffCodeEx.cs" />
+    <Compile Include="Enum.NBA\EnumSkillType.cs" />
+    <Compile Include="Enum\EnumBlurType.cs" />
+    <Compile Include="Enum.Football\EnumGraphSeekType.cs" />
+    <Compile Include="Enum.Football\EnumMotionSeekType.cs" />
+    <Compile Include="Enum.Football\EnumSkillType.cs" />
+    <Compile Include="Enum.NBA\EnumBuffCode.cs" />
+    <Compile Include="Enum.NBA\EnumGraphSeekType.cs" />
+    <Compile Include="Enum.NBA\EnumMotionSeekType.cs" />
+    <Compile Include="Enum.NBA\EnumSpecEffect.cs" />
+    <Compile Include="Enum\EnumBoostType.cs" />
+    <Compile Include="Enum.Football\EnumBuffCode.cs" />
+    <Compile Include="Enum\EnumBuffType.cs" />
+    <Compile Include="Enum\EnumFilterType.cs" />
+    <Compile Include="Enum\EnumSeekType.cs" />
+    <Compile Include="Enum\EnumSkillTimeType.cs" />
+    <Compile Include="Enum\EnumSkillState.cs" />
+    <Compile Include="Enum.Football\EnumSpecEffect.cs" />
+    <Compile Include="Enum.Football\EnumSpecTrigger.cs" />
+    <Compile Include="Extetion.Football\BuffCoreExtetions.cs" />
+    <Compile Include="Extetion.Football\PlayerExtetions.cs" />
+    <Compile Include="Extetion.Football\SpecBuffCoreExtetions.cs" />
+    <Compile Include="Extetion.NBA\BuffCoreExtetions.cs" />
+    <Compile Include="Extetion.NBA\PlayerExtetions.cs" />
+    <Compile Include="Extetion.NBA\SpecBuffCoreExtetions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Effect\IEffect.cs" />
+    <Compile Include="Skill\IRawSkill.cs" />
+    <Compile Include="Skill\ISkill.cs" />
+    <Compile Include="Skill\ISkillContext.cs" />
+    <Compile Include="Skill\ISkillCore.cs" />
+    <Compile Include="Skill\ISkillFunc.cs" />
+    <Compile Include="Util\BoostUtil.cs" />
+    <Compile Include="Util\BuffUtil.cs" />
+    <Compile Include="Xtern\ISkillBall.cs" />
+    <Compile Include="Xtern\ISkillManager.cs" />
+    <Compile Include="Xtern\ISkillMatch.cs" />
+    <Compile Include="Xtern\ISkillPlayer.cs" />
+    <Compile Include="Xtern\PlayerEventArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SkillEngine.Extern\SkillEngine.Extern.csproj">
+      <Project>{9cd61fed-b828-414a-820f-3d99d433bdb9}</Project>
+      <Name>SkillEngine.Extern</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

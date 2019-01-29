@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6438F44E-09EC-4575-8621-C2BDB4B9E5FB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Games.NB.Match.AI</RootNamespace>
+    <AssemblyName>Games.NB.Match.AI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Games.NB.Match.AI.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'TEST|AnyCPU'">
+    <OutputPath>bin\TEST\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ErrorReport>send</ErrorReport>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Support\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\ChaceAction.cs" />
+    <Compile Include="Actions\IdleAction.cs" />
+    <Compile Include="Actions\PositionalAction.cs" />
+    <Compile Include="Actions\StopballAction.cs" />
+    <Compile Include="Decides\Factory\PositionalDecideFactory.cs" />
+    <Compile Include="Decides\Forward\PositionalDecide.cs" />
+    <Compile Include="Decides\Fullback\PositionalDecide.cs" />
+    <Compile Include="Decides\Goalkeeper\PositionalDecide.cs" />
+    <Compile Include="Decides\HoldBallPositionalDecide.cs" />
+    <Compile Include="Decides\IPositionalDecide.cs" />
+    <Compile Include="Decides\Midfielder\PositionalDecide.cs" />
+    <Compile Include="Decides\PositionalDecide.cs" />
+    <Compile Include="Decides\Utility.cs" />
+    <Compile Include="MatchStates\AirBallState.cs" />
+    <Compile Include="MatchStates\DefaultBallState.cs" />
+    <Compile Include="MatchStates\GoalState.cs" />
+    <Compile Include="States\Defence\HeadingDuelState.cs" />
+    <Compile Include="States\Dribble\BreakThroughState.cs" />
+    <Compile Include="States\Defence\InterruptionState.cs" />
+    <Compile Include="States\Defence\SlideTackleState.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StateInitializer.cs" />
+    <Compile Include="StateSelecter.cs" />
+    <Compile Include="States\ActionState.cs" />
+    <Compile Include="States\ChaceState.cs" />
+    <Compile Include="States\DefenceState.cs" />
+    <Compile Include="States\DiveBallState.cs" />
+    <Compile Include="States\DribbleState.cs" />
+    <Compile Include="States\Dribble\DefaultDribbleState.cs" />
+    <Compile Include="States\HoldBallState.cs" />
+    <Compile Include="States\IdleState.cs" />
+    <Compile Include="States\Idle\GKHoldBallState.cs" />
+    <Compile Include="States\OffBallState.cs" />
+    <Compile Include="States\PassState.cs" />
+    <Compile Include="States\Pass\LongPassState.cs" />
+    <Compile Include="States\Pass\ShortPassState.cs" />
+    <Compile Include="States\PositionalState.cs" />
+    <Compile Include="States\ShootState.cs" />
+    <Compile Include="States\Shoot\DefaultShootState.cs" />
+    <Compile Include="States\Shoot\FreekickShootState.cs" />
+    <Compile Include="States\Shoot\RebelShootState.cs" />
+    <Compile Include="States\Shoot\VolleyShootState.cs" />
+    <Compile Include="States\State.cs" />
+    <Compile Include="States\StopballState.cs" />
+    <Compile Include="States\SubState.cs" />
+    <Compile Include="States\WalkState.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Games.NB_MatchModule.Base\Base.csproj">
+      <Project>{31eeb097-fb38-4a42-940d-36cd5b77c36e}</Project>
+      <Name>Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Games.NB_MatchModule.Common\Common.csproj">
+      <Project>{67DD5621-BBE5-4FD8-9073-17646ED88453}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Log\Log.csproj">
+      <Project>{C9CF5D1B-E731-49BB-8693-4BFC88E5A32D}</Project>
+      <Name>Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine\SkillEngine.Extern\SkillEngine.Extern.csproj">
+      <Project>{9cd61fed-b828-414a-820f-3d99d433bdb9}</Project>
+      <Name>SkillEngine.Extern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine\SkillEngine.SkillBase\SkillEngine.SkillBase.csproj">
+      <Project>{f82272ae-dff6-4563-9475-d7bbf23c05b6}</Project>
+      <Name>SkillEngine.SkillBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

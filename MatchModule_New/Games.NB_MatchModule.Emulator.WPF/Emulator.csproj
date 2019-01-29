@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E3EAA92-CEEA-4221-952C-D14F1AE4B3C4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Games.NB.Match.Emulator.WPF</RootNamespace>
+    <AssemblyName>emulator</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ExpressionBlendVersion>3.0.1927.0</ExpressionBlendVersion>
+    <ManifestCertificateThumbprint>5B347B7473C5AE16DAC016854E9D7C70BDB10EA7</ManifestCertificateThumbprint>
+    <ManifestKeyFile>HB_MatchModule.Emulator.WPF_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>false</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>E:\Users\chengjiawei\Desktop\热血球球II\Emulator\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'TEST|AnyCPU'">
+    <OutputPath>bin\TEST\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core">
+      <HintPath>..\Support\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor">
+      <HintPath>..\Support\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="Enyim.Caching">
+      <HintPath>..\Support\Enyim.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Games.NBall.Bll, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Support\Game\Games.NBall.Bll.dll</HintPath>
+    </Reference>
+    <Reference Include="Games.NBall.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Support\Game\Games.NBall.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Games.NBall.Core">
+      <HintPath>..\Support\Game\Games.NBall.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Games.NBall.Dal, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Support\Game\Games.NBall.Dal.dll</HintPath>
+    </Reference>
+    <Reference Include="Games.NBall.Entity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Support\Game\Games.NBall.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Support\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching">
+      <HintPath>..\Support\MsEntLib\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>..\Support\MsEntLib\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\Support\MsEntLib\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder2">
+      <HintPath>..\Support\MsEntLib\Microsoft.Practices.ObjectBuilder2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\Support\MsEntLib\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="MsEntLibWrapper">
+      <HintPath>..\Support\MsEntLib\MsEntLibWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.0.8.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Support\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net, Version=2.0.0.668, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Support\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartThreadPool">
+      <HintPath>..\Support\SmartThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Batchtest.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\BatchDataControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\LocalDataSettingWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\LocalManagerSettingWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\LocalPlayerSelectControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\LocalPlayerSettingWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\LocalPlayerSkillSelectControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\LocalSuitWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\LocalTalentWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\LocalWillWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ManagerIdControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ManagerSelectWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\MenuControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\PveTestWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\StatisticsManagerControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\StatisticsPlayerControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\StatisticsPlayerHeadControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\StatisticsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LogPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Main.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Player.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Batchtest.xaml.cs">
+      <DependentUpon>Batchtest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BatchDataControl.xaml.cs">
+      <DependentUpon>BatchDataControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LocalDataSettingWindow.xaml.cs">
+      <DependentUpon>LocalDataSettingWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LocalManagerSettingWindow.xaml.cs">
+      <DependentUpon>LocalManagerSettingWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LocalPlayerSelectControl.xaml.cs">
+      <DependentUpon>LocalPlayerSelectControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LocalPlayerSettingWindow.xaml.cs">
+      <DependentUpon>LocalPlayerSettingWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LocalPlayerSkillSelectControl.xaml.cs">
+      <DependentUpon>LocalPlayerSkillSelectControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LocalSuitWindow.xaml.cs">
+      <DependentUpon>LocalSuitWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LocalTalentWindow.xaml.cs">
+      <DependentUpon>LocalTalentWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LocalWillWindow.xaml.cs">
+      <DependentUpon>LocalWillWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ManagerIdControl.xaml.cs">
+      <DependentUpon>ManagerIdControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ManagerSelectWindow.xaml.cs">
+      <DependentUpon>ManagerSelectWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MenuControl.xaml.cs">
+      <DependentUpon>MenuControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PveTestWindow.xaml.cs">
+      <DependentUpon>PveTestWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\StatisticsManagerControl.xaml.cs">
+      <DependentUpon>StatisticsManagerControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\StatisticsPlayerControl.xaml.cs">
+      <DependentUpon>StatisticsPlayerControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\StatisticsPlayerHeadControl.xaml.cs">
+      <DependentUpon>StatisticsPlayerHeadControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\StatisticsWindow.xaml.cs">
+      <DependentUpon>StatisticsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Batch\BatchFoulEntity.cs" />
+    <Compile Include="Entity\Batch\BatchShootEntity.cs" />
+    <Compile Include="Entity\Batch\BatchManagerEntity.cs" />
+    <Compile Include="Entity\Batch\BatchMatchEntity.cs" />
+    <Compile Include="Entity\Batch\BatchRateEntity.cs" />
+    <Compile Include="Entity\KeyValueComboBoxItem.cs" />
+    <Compile Include="Entity\LocalData\LocalCacheEntity.cs" />
+    <Compile Include="Entity\LocalData\LocalDicPlayer.cs" />
+    <Compile Include="Entity\LocalData\LocalNpcEntity.cs" />
+    <Compile Include="Entity\LocalData\LocalSkillcardEntity.cs" />
+    <Compile Include="Entity\LocalData\LocalStarSkillEntity.cs" />
+    <Compile Include="Entity\LocalData\LocalSuitEntity.cs" />
+    <Compile Include="Entity\LocalData\LocalTalentEntity.cs" />
+    <Compile Include="Entity\LocalData\LocalTourEntity.cs" />
+    <Compile Include="Entity\LocalData\LocalTransferEntity.cs" />
+    <Compile Include="Entity\LocalData\LocalWillEntity.cs" />
+    <Compile Include="Entity\Statistics\StatisticsBallEntity.cs" />
+    <Compile Include="Entity\Statistics\StatisticsManagerEntity.cs" />
+    <Compile Include="Entity\Statistics\StatisticsMatchEntity.cs" />
+    <Compile Include="Entity\Statistics\StatisticsPlayerEntity.cs" />
+    <Compile Include="Entity\Statistics\StatisticsSkillEntity.cs" />
+    <Compile Include="Entity\UnitTestEntity.cs" />
+    <Compile Include="Main.xaml.cs">
+      <DependentUpon>Main.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Simple Styles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LogPanel.xaml.cs">
+      <DependentUpon>LogPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Mgrs\ComboBoxHelper.cs" />
+    <Compile Include="Mgrs\DataMgr.cs" />
+    <Compile Include="Mgrs\EmulatorHelper.cs" />
+    <Compile Include="Mgrs\LocalHelper.cs" />
+    <Compile Include="Mgrs\LocalManagerHelper.cs" />
+    <Compile Include="Mgrs\ModelMgr.cs" />
+    <Compile Include="Player.xaml.cs">
+      <DependentUpon>Player.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <Content Include="Config\appSettings.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\connectionStrings.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AI\AI.csproj">
+      <Project>{6438F44E-09EC-4575-8621-C2BDB4B9E5FB}</Project>
+      <Name>AI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Frame\Frame.csproj">
+      <Project>{9ff7d517-ef52-499e-915f-86da7d6fbc6d}</Project>
+      <Name>Frame</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Games.NB_MatchModule.Base\Base.csproj">
+      <Project>{31eeb097-fb38-4a42-940d-36cd5b77c36e}</Project>
+      <Name>Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Games.NB_MatchModule.BLF\ServiceImplement.csproj">
+      <Project>{4EFCDD4F-663A-4380-833E-819EF76A0E8D}</Project>
+      <Name>ServiceImplement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Games.NB_MatchModule.BLL\Core.csproj">
+      <Project>{a9f7979a-2e4d-4476-a991-d74863d17a1f}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Games.NB_MatchModule.Common\Common.csproj">
+      <Project>{67DD5621-BBE5-4FD8-9073-17646ED88453}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Log\Log.csproj">
+      <Project>{c9cf5d1b-e731-49bb-8693-4bfc88e5a32d}</Project>
+      <Name>Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine\SkillEngine.Extern\SkillEngine.Extern.csproj">
+      <Project>{9cd61fed-b828-414a-820f-3d99d433bdb9}</Project>
+      <Name>SkillEngine.Extern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine\SkillEngine.SkillBase\SkillEngine.SkillBase.csproj">
+      <Project>{f82272ae-dff6-4563-9475-d7bbf23c05b6}</Project>
+      <Name>SkillEngine.SkillBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine\SkillEngine.SkillCore\SkillEngine.SkillCore.csproj">
+      <Project>{7c47edbc-bf18-42c7-871b-1feedf00beb5}</Project>
+      <Name>SkillEngine.SkillCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine\SkillEngine.SkillImpl.Football\SkillEngine.SkillImpl.Football.csproj">
+      <Project>{ef995b7d-0d84-49f6-9dbd-f7156709e428}</Project>
+      <Name>SkillEngine.SkillImpl.Football</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine\SkillEngine.SkillImpl\SkillEngine.SkillImpl.csproj">
+      <Project>{97ba95f5-0225-48c6-a0b7-63e75b7aea5e}</Project>
+      <Name>SkillEngine.SkillImpl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\icon.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

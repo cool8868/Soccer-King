@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EF995B7D-0D84-49F6-9DBD-F7156709E428}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SkillEngine.SkillImpl.Football</RootNamespace>
+    <AssemblyName>SkillEngine.SkillImpl.Football</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buff\FootballBlurBuff.cs" />
+    <Compile Include="Buff\FootballFoulBuff.cs" />
+    <Compile Include="Buff\FootballPropBuff.cs" />
+    <Compile Include="Buff\ForceStateBuff.cs" />
+    <Compile Include="Effects\FootballBlurEffect.cs" />
+    <Compile Include="Effects\FootballEventPropPlusEffect.cs" />
+    <Compile Include="Effects\FootballExecEffect.cs" />
+    <Compile Include="Effects\FootballFactPropPlusEffect.cs" />
+    <Compile Include="Effects\FootballForceStateEffect.cs" />
+    <Compile Include="Effects\FootballFoulEffect.cs" />
+    <Compile Include="Effects\FootballFoulProEffect.cs" />
+    <Compile Include="Effects\FootballPlayerEventEffector.cs" />
+    <Compile Include="Effects\FootballPropPlusEffect.cs" />
+    <Compile Include="Locators\FootballPlayerGraphSeeker.cs" />
+    <Compile Include="Locators\FootballPlayerMotionSeeker.cs" />
+    <Compile Include="Locators\ManagerSkillSeeker.cs" />
+    <Compile Include="Locators\ManagerStatFilter.cs" />
+    <Compile Include="Locators\FootballPlayerGraphFilter.cs" />
+    <Compile Include="Locators\PlayerGroundMotionFilter.cs" />
+    <Compile Include="Locators\PlayerSkillSeeker.cs" />
+    <Compile Include="Locators\PlayerStatFilter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Games.NB_MatchModule.Base\Base.csproj">
+      <Project>{31eeb097-fb38-4a42-940d-36cd5b77c36e}</Project>
+      <Name>Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine.Extern\SkillEngine.Extern.csproj">
+      <Project>{9cd61fed-b828-414a-820f-3d99d433bdb9}</Project>
+      <Name>SkillEngine.Extern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine.SkillBase\SkillEngine.SkillBase.csproj">
+      <Project>{f82272ae-dff6-4563-9475-d7bbf23c05b6}</Project>
+      <Name>SkillEngine.SkillBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine.SkillCore\SkillEngine.SkillCore.csproj">
+      <Project>{7c47edbc-bf18-42c7-871b-1feedf00beb5}</Project>
+      <Name>SkillEngine.SkillCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

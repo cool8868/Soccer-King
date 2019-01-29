@@ -1,0 +1,20 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Class="Games.NB.Match.Emulator.WPF.LogPanel"
+    Title="日志窗口" Height="614" Width="200" mc:Ignorable="d" Icon="Resources\icon.jpg">    
+    <Grid>
+        <ScrollViewer x:Name="logScroll" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible">
+            <ScrollViewer.ContextMenu>
+                <ContextMenu>
+                    <ContextMenu.ItemBindingGroup>
+                        <BindingGroup Name=""/>
+                    </ContextMenu.ItemBindingGroup>
+                    <MenuItem x:Name="btnScrollTop" Header="回到开头" Click="btnScrollTop_Click"/>
+                    <MenuItem x:Name="btnClearAll" Header="清空" Click="btnClearAll_Click"/>
+                </ContextMenu>
+            </ScrollViewer.ContextMenu>
+            <StackPanel x:Name="logPanel"/>
+        </ScrollViewer>
+    </Grid>
+</Window>

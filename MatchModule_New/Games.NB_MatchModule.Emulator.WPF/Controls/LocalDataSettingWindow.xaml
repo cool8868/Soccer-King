@@ -1,0 +1,92 @@
+﻿<Window x:Class="Games.NB.Match.Emulator.WPF.Controls.LocalDataSettingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        Title="配置本地数据" Height="600" Width="800" WindowStartupLocation="CenterScreen" mc:Ignorable="d" ResizeMode="CanMinimize" WindowStyle="SingleBorderWindow" Loaded="Window_Loaded_1">
+    <Canvas>
+        <TabControl Height="572" Width="794">
+            <TabItem Header="经理管理">
+                <Canvas>
+                    <Button x:Name="btnNewManager" Content="新建经理" Canvas.Left="10" Canvas.Top="10" Width="75" Style="{DynamicResource SimpleButton}" Height="25" Click="btnNewManager_Click"/>
+                    <DataGrid x:Name="DataGridManager" CanUserAddRows="False" AutoGenerateColumns="False" Width="779" Canvas.Left="5" Canvas.Top="40" Height="500">
+                        <DataGrid.Columns>
+                            <DataGridTemplateColumn>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button x:Name="btnGridSettingManager" Tag="{Binding Id,Mode=OneWay}" Content="配置" Click="btnGridSettingManager_OnClick"></Button>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn Header="Id" Binding="{Binding Id, Mode=OneWay}" Width="100"/>
+                            <DataGridTextColumn Header="名称" Binding="{Binding Name, Mode=OneWay}" Width="100"/>
+                            <DataGridTextColumn Header="综合实力" Binding="{Binding Kpi, Mode=OneWay}" Width="100"/>
+                            <DataGridTextColumn Header="意志" Binding="{Binding WillId, Mode=OneWay}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="天赋" Binding="{Binding TalentId, Mode=OneWay}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="套装" Binding="{Binding SuitId, Mode=OneWay}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="阵型" Binding="{Binding FormationStr, Mode=OneWay}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="阵型等级" Binding="{Binding FormationLevel, Mode=OneWay}"></DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Canvas>
+            </TabItem>
+            <TabItem Header="天赋管理">
+                <Canvas>
+                    <Button x:Name="btnNewTalent" Content="新建天赋"  Canvas.Top="10" Canvas.Left="10" Style="{DynamicResource SimpleButton}" Width="71" Height="24" Click="btnNewTalent_Click"></Button>
+                    <DataGrid x:Name="DataGridTalent" CanUserAddRows="False"  AutoGenerateColumns="False" Width="779" Canvas.Left="5" Canvas.Top="39" Height="501">
+                        <DataGrid.Columns>
+                            <DataGridTemplateColumn>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button x:Name="btnGridSettingTalent" Tag="{Binding Id,Mode=OneWay}" Content="配置" Click="btnGridSettingTalent_OnClick"></Button>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn Header="Id" Binding="{Binding Id, Mode=OneWay}" Width="100"/>
+                            <DataGridTextColumn Header="名称" Binding="{Binding Name, Mode=OneWay}" Width="100"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                </Canvas>
+            </TabItem>
+            <TabItem Header="意志管理">
+                <Canvas>
+                    <Button x:Name="btnNewWill" Content="新建意志"  Canvas.Top="10" Canvas.Left="10" Style="{DynamicResource SimpleButton}" Width="71" Height="24" Click="btnNewWill_Click"></Button>
+                    <DataGrid x:Name="DataGridWill" CanUserAddRows="False"  AutoGenerateColumns="False" Width="779" Canvas.Left="5" Canvas.Top="39" Height="501">
+                        <DataGrid.Columns>
+                            <DataGridTemplateColumn>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button x:Name="btnGridSettingWill" Tag="{Binding Id,Mode=OneWay}" Content="配置" Click="btnGridSettingWill_OnClick"></Button>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn Header="Id" Binding="{Binding Id, Mode=OneWay}" Width="100"/>
+                            <DataGridTextColumn Header="名称" Binding="{Binding Name, Mode=OneWay}" Width="100"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                </Canvas>
+            </TabItem>
+            <TabItem Header="套装管理">
+                <Canvas>
+                    <Button x:Name="btnNewSuit" Content="新建套装"  Canvas.Top="10" Canvas.Left="10" Style="{DynamicResource SimpleButton}" Width="71" Height="24" Click="btnNewSuit_Click"></Button>
+                    <DataGrid x:Name="DataGridSuit" CanUserAddRows="False"  AutoGenerateColumns="False" Width="779" Canvas.Left="5" Canvas.Top="39" Height="501">
+                        <DataGrid.Columns>
+                            <DataGridTemplateColumn>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button x:Name="btnGridSettingSuit" Tag="{Binding Id,Mode=OneWay}" Content="配置" Click="btnGridSettingSuit_OnClick"></Button>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn Header="Id" Binding="{Binding Id, Mode=OneWay}" Width="100"/>
+                            <DataGridTextColumn Header="名称" Binding="{Binding Name, Mode=OneWay}" Width="100"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                </Canvas>
+            </TabItem>
+        </TabControl>
+
+    </Canvas>
+</Window>

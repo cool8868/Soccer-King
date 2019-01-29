@@ -1,0 +1,78 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Games.NB.Match.Emulator.WPF.Controls" x:Class="Games.NB.Match.Emulator.WPF.Controls.LocalManagerSettingWindow"
+        Title="LocalManagerSettingWindow" Height="550" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" WindowStyle="SingleBorderWindow" Loaded="Window_Loaded_1">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition />
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="经理名称：" Grid.Row="1" HorizontalAlignment="Right"/>
+        <TextBox x:Name="txtManagerName" Grid.Row="1" Grid.Column="1" Height="25" HorizontalAlignment="Left" Style="{DynamicResource SimpleTextBox}" Width="165"/>
+        <Label Content="综合实力：" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Right"></Label>
+        <Label x:Name="lblKpi" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Left"></Label>
+        <Label Grid.Row="2" Content="球员意志：" HorizontalAlignment="Right"/>
+        <ComboBox x:Name="cmbManagerWill" Grid.Row="2" Grid.Column="1" Height="25" Width="165" HorizontalAlignment="Left" Style="{DynamicResource SimpleComboBox}" />
+        <Label Grid.Row="2" Content="经理天赋：" Grid.Column="2" HorizontalAlignment="Right"/>
+        <ComboBox x:Name="cmbTalent" Grid.Row="2" Grid.Column="3" Height="25" Width="165" HorizontalAlignment="Left" Style="{DynamicResource SimpleComboBox}" />
+        <Label Grid.Row="3" Content="套装效果：" Grid.Column="0" HorizontalAlignment="Right"/>
+        <ComboBox x:Name="cmbSuit" Grid.Row="3" Grid.Column="1" Height="25" Width="165" HorizontalAlignment="Left" Style="{DynamicResource SimpleComboBox}" />
+
+        <Label Grid.Row="4" Content="阵型：" HorizontalAlignment="Right"/>
+        <ComboBox x:Name="cmbFormation" Grid.Row="4" Grid.Column="1" Height="25" Width="165" HorizontalAlignment="Left" Style="{DynamicResource SimpleComboBox}" />
+        <Label Grid.Row="4" Content="阵型等级：" Grid.Column="2" HorizontalAlignment="Right"/>
+        <TextBox x:Name="txtFormationLevel" Grid.Row="4" Grid.Column="3" Height="25" Width="165" HorizontalAlignment="Left" Style="{DynamicResource SimpleTextBox}" />
+        <DataGrid x:Name="datagridPlayer" CanUserAddRows="False" AutoGenerateColumns="False" Grid.Row="5" Grid.ColumnSpan="5">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="" Width="40">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="配置" x:Name="btnSettingPlayer" Click="btnSettingPlayer_Click" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="序号" Binding="{Binding Index, Mode=OneWay}"></DataGridTextColumn>
+                <DataGridTextColumn Header="球员名" Binding="{Binding Name, Mode=OneWay}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="球员Id" Binding="{Binding PlayerId, Mode=OneWay}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="能力值" Binding="{Binding Kpi, Mode=OneWay}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="场上位置" Binding="{Binding Position, Mode=OneWay}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="技能1" Binding="{Binding Skill, Mode=OneWay}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="技能2" Binding="{Binding Skill2, Mode=OneWay}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="球星技能" Binding="{Binding StarSkill, Mode=OneWay}" IsReadOnly="True"/>
+                
+                <DataGridTextColumn Header="速度" Binding="{Binding Speed, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="射门" Binding="{Binding Shooting, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="任意球" Binding="{Binding FreeKick, Mode=OneWay}" Width="46" IsReadOnly="True"/>
+                <DataGridTextColumn Header="控制" Binding="{Binding Balance, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="体能" Binding="{Binding Stamina, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="力量" Binding="{Binding Strength, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="侵略性" Binding="{Binding Aggression, Mode=OneWay}" Width="46" IsReadOnly="True"/>
+                <DataGridTextColumn Header="干扰" Binding="{Binding Disturb, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="抢断" Binding="{Binding Interception, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="控球" Binding="{Binding Dribble, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="传球" Binding="{Binding Passing, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="意识" Binding="{Binding Mentality, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="反应" Binding="{Binding Reflexes, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                <DataGridTextColumn Header="位置感" Binding="{Binding Positioning, Mode=OneWay}" Width="46" IsReadOnly="True"/>
+                <DataGridTextColumn Header="手控球" Binding="{Binding Handling, Mode=OneWay}" Width="46" IsReadOnly="True"/>
+                <DataGridTextColumn Header="加速度" Binding="{Binding Acceleration, Mode=OneWay}" Width="46" IsReadOnly="True"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button x:Name="btnSave" Content="保存" Margin="0,0,120,0" Grid.ColumnSpan="5" Grid.Row="6" Width="75" Style="{DynamicResource SimpleButton}" Height="25" Click="btnSave_Click"/>
+        <Button x:Name="btnClose" Content="关闭" Margin="120,0,0,0" Grid.ColumnSpan="5" Grid.Row="6" Width="75" Style="{DynamicResource SimpleButton}" Height="25" Click="btnClose_Click"/>
+    </Grid>
+</Window>

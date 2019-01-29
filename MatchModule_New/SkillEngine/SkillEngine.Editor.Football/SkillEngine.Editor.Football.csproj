@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C53814F7-7621-4DC2-B9E4-DA15A9DA1001}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SkillEngine.Editor.Football</RootNamespace>
+    <AssemblyName>SkillEngine.Editor.Football</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\Support\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinForm.Pickers">
+      <HintPath>..\..\Support\WinForm.Pickers.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\IFlatControl.cs" />
+    <Compile Include="Data\DataModel.cs" />
+    <Compile Include="Data\Enums.cs" />
+    <Compile Include="Data\SharedData.cs" />
+    <Compile Include="Rules\CheckRules.cs" />
+    <Compile Include="Rules\SharedLogic.cs" />
+    <Compile Include="UI.ControlBase\SkillCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.ControlBase\SkillCtrl.Designer.cs">
+      <DependentUpon>SkillCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.ControlLib\VCheckedListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI.ControlLib\VCheckedListBox.Designer.cs">
+      <DependentUpon>VCheckedListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.ControlLib\VComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI.ControlLib\VComboBox.Designer.cs">
+      <DependentUpon>VComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.ControlLib\VMaskedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI.ControlLib\VMaskedTextBox.Designer.cs">
+      <DependentUpon>VMaskedTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.EffectControls\ForceStateEffectCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.EffectControls\ForceStateEffectCtrl.Designer.cs">
+      <DependentUpon>ForceStateEffectCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.EffectControls\FoulProEffectCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.EffectControls\FoulProEffectCtrl.Designer.cs">
+      <DependentUpon>FoulProEffectCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.FilterControls\GroundMotionFilterCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.FilterControls\GroundMotionFilterCtrl.Designer.cs">
+      <DependentUpon>GroundMotionFilterCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util\CollectionsUtil.cs" />
+    <Compile Include="Util\ControlDataUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\LogUtil.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI.ControlBase\FlatAddCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.ControlBase\FlatAddCtrl.Designer.cs">
+      <DependentUpon>FlatAddCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.ControlBase\EffectCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.ControlBase\EffectCtrl.Designer.cs">
+      <DependentUpon>EffectCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.ControlBase\EffectorCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.ControlBase\EffectorCtrl.Designer.cs">
+      <DependentUpon>EffectorCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.ControlBase\FilterCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.ControlBase\FilterCtrl.Designer.cs">
+      <DependentUpon>FilterCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.ControlBase\FlatListCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.ControlBase\FlatListCtrl.Designer.cs">
+      <DependentUpon>FlatListCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.ControlBase\FlatCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.ControlBase\FlatCtrl.Designer.cs">
+      <DependentUpon>FlatCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.ControlBase\LocatorCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.ControlBase\LocatorCtrl.Designer.cs">
+      <DependentUpon>LocatorCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.ControlBase\SeekerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.ControlBase\SeekerCtrl.Designer.cs">
+      <DependentUpon>SeekerCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.ControlBase\TriggerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.ControlBase\TriggerCtrl.Designer.cs">
+      <DependentUpon>TriggerCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.ControlLib\LightYellowSplit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI.ControlLib\LightYellowSplit.Designer.cs">
+      <DependentUpon>LightYellowSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.ControlLib\SilverSplit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI.ControlLib\SilverSplit.Designer.cs">
+      <DependentUpon>SilverSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.ControlLib\ValueSetDropDownUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.ControlLib\ValueSetDropDownUI.Designer.cs">
+      <DependentUpon>ValueSetDropDownUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.ControlLib\ValueSetPicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI.ControlLib\ValueSetPicker.Designer.cs">
+      <DependentUpon>ValueSetPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Controls\ManagerEffectorCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.Controls\ManagerEffectorCtrl.Designer.cs">
+      <DependentUpon>ManagerEffectorCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Controls\ManagerLocatorCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.Controls\ManagerLocatorCtrl.Designer.cs">
+      <DependentUpon>ManagerLocatorCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Controls\PlayerEffectorCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.Controls\PlayerEffectorCtrl.Designer.cs">
+      <DependentUpon>PlayerEffectorCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Controls\PlayreLocatorCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.Controls\PlayreLocatorCtrl.Designer.cs">
+      <DependentUpon>PlayreLocatorCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Controls\SkillEffectorCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.Controls\SkillEffectorCtrl.Designer.cs">
+      <DependentUpon>SkillEffectorCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Controls\SkillLocatorCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.Controls\SkillLocatorCtrl.Designer.cs">
+      <DependentUpon>SkillLocatorCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.EffectControls\BlurEffectCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.EffectControls\BlurEffectCtrl.Designer.cs">
+      <DependentUpon>BlurEffectCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.EffectControls\BoostEffectCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.EffectControls\BoostEffectCtrl.Designer.cs">
+      <DependentUpon>BoostEffectCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.EffectControls\ClearCDEffectCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.EffectControls\ClearCDEffectCtrl.Designer.cs">
+      <DependentUpon>ClearCDEffectCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.EffectControls\EventPropPlusEffectCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.EffectControls\EventPropPlusEffectCtrl.Designer.cs">
+      <DependentUpon>EventPropPlusEffectCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.EffectControls\ExecEffectCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.EffectControls\ExecEffectCtrl.Designer.cs">
+      <DependentUpon>ExecEffectCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.EffectControls\FactPropPlusEffectCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.EffectControls\FactPropPlusEffectCtrl.Designer.cs">
+      <DependentUpon>FactPropPlusEffectCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.EffectControls\FoulEffectCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.EffectControls\FoulEffectCtrl.Designer.cs">
+      <DependentUpon>FoulEffectCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.EffectControls\PropPlusEffectCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.EffectControls\PropPlusEffectCtrl.Designer.cs">
+      <DependentUpon>PropPlusEffectCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.EffectControls\RatePropPlusEffectCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.EffectControls\RatePropPlusEffectCtrl.Designer.cs">
+      <DependentUpon>RatePropPlusEffectCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.EffectControls\VaryPropPlusEffectCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.EffectControls\VaryPropPlusEffectCtrl.Designer.cs">
+      <DependentUpon>VaryPropPlusEffectCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.FilterControls\BallStateFilterCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.FilterControls\BallStateFilterCtrl.Designer.cs">
+      <DependentUpon>BallStateFilterCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.FilterControls\ColourFilterCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.FilterControls\ColourFilterCtrl.Designer.cs">
+      <DependentUpon>ColourFilterCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.FilterControls\GraphFilterCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.FilterControls\GraphFilterCtrl.Designer.cs">
+      <DependentUpon>GraphFilterCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.FilterControls\IdMotionFilterCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.FilterControls\IdMotionFilterCtrl.Designer.cs">
+      <DependentUpon>IdMotionFilterCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.FilterControls\ManagerStatFilterCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.FilterControls\ManagerStatFilterCtrl.Designer.cs">
+      <DependentUpon>ManagerStatFilterCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.FilterControls\MotionFilterCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.FilterControls\MotionFilterCtrl.Designer.cs">
+      <DependentUpon>MotionFilterCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.FilterControls\PlayerStatFilterCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.FilterControls\PlayerStatFilterCtrl.Designer.cs">
+      <DependentUpon>PlayerStatFilterCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.FilterControls\PositionFilterCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.FilterControls\PositionFilterCtrl.Designer.cs">
+      <DependentUpon>PositionFilterCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.FilterControls\SkillStateFilterCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.FilterControls\SkillStateFilterCtrl.Designer.cs">
+      <DependentUpon>SkillStateFilterCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.FilterControls\StaminaCompareFilterCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.FilterControls\StaminaCompareFilterCtrl.Designer.cs">
+      <DependentUpon>StaminaCompareFilterCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.FilterControls\TalentPositonFilterCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.FilterControls\TalentPositonFilterCtrl.Designer.cs">
+      <DependentUpon>TalentPositonFilterCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.SeekerControls\GraphSeekerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.SeekerControls\GraphSeekerCtrl.Designer.cs">
+      <DependentUpon>GraphSeekerCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.SeekerControls\IdSeekerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.SeekerControls\IdSeekerCtrl.Designer.cs">
+      <DependentUpon>IdSeekerCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.SeekerControls\ManagerSkillSeekerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.SeekerControls\ManagerSkillSeekerCtrl.Designer.cs">
+      <DependentUpon>ManagerSkillSeekerCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.SeekerControls\MotionSeekerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.SeekerControls\MotionSeekerCtrl.Designer.cs">
+      <DependentUpon>MotionSeekerCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.SeekerControls\PlayerSkillSeekerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.SeekerControls\PlayerSkillSeekerCtrl.Designer.cs">
+      <DependentUpon>PlayerSkillSeekerCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.SeekerControls\TalentPositonSeekerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.SeekerControls\TalentPositonSeekerCtrl.Designer.cs">
+      <DependentUpon>TalentPositonSeekerCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SkillEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SkillEditForm.Designer.cs">
+      <DependentUpon>SkillEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SkillListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SkillListForm.Designer.cs">
+      <DependentUpon>SkillListForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI.ControlBase\EffectorCtrl.resx">
+      <DependentUpon>EffectorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.ControlBase\FlatAddCtrl.resx">
+      <DependentUpon>FlatAddCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.ControlBase\EffectCtrl.resx">
+      <DependentUpon>EffectCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.ControlBase\FilterCtrl.resx">
+      <DependentUpon>FilterCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.ControlBase\FlatListCtrl.resx">
+      <DependentUpon>FlatListCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.ControlBase\LocatorCtrl.resx">
+      <DependentUpon>LocatorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.ControlBase\SeekerCtrl.resx">
+      <DependentUpon>SeekerCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.ControlBase\SkillCtrl.resx">
+      <DependentUpon>SkillCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.ControlBase\TriggerCtrl.resx">
+      <DependentUpon>TriggerCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.ControlLib\ValueSetDropDownUI.resx">
+      <DependentUpon>ValueSetDropDownUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Controls\ManagerEffectorCtrl.resx">
+      <DependentUpon>ManagerEffectorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Controls\ManagerLocatorCtrl.resx">
+      <DependentUpon>ManagerLocatorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Controls\PlayerEffectorCtrl.resx">
+      <DependentUpon>PlayerEffectorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Controls\PlayreLocatorCtrl.resx">
+      <DependentUpon>PlayreLocatorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Controls\SkillEffectorCtrl.resx">
+      <DependentUpon>SkillEffectorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Controls\SkillLocatorCtrl.resx">
+      <DependentUpon>SkillLocatorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.EffectControls\BlurEffectCtrl.resx">
+      <DependentUpon>BlurEffectCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.EffectControls\BoostEffectCtrl.resx">
+      <DependentUpon>BoostEffectCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.EffectControls\ClearCDEffectCtrl.resx">
+      <DependentUpon>ClearCDEffectCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.EffectControls\EventPropPlusEffectCtrl.resx">
+      <DependentUpon>EventPropPlusEffectCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.EffectControls\ExecEffectCtrl.resx">
+      <DependentUpon>ExecEffectCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.EffectControls\FactPropPlusEffectCtrl.resx">
+      <DependentUpon>FactPropPlusEffectCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.EffectControls\ForceStateEffectCtrl.resx">
+      <DependentUpon>ForceStateEffectCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.EffectControls\FoulEffectCtrl.resx">
+      <DependentUpon>FoulEffectCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.EffectControls\FoulProEffectCtrl.resx">
+      <DependentUpon>FoulProEffectCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.EffectControls\PropPlusEffectCtrl.resx">
+      <DependentUpon>PropPlusEffectCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.EffectControls\VaryPropPlusEffectCtrl.resx">
+      <DependentUpon>VaryPropPlusEffectCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.FilterControls\BallStateFilterCtrl.resx">
+      <DependentUpon>BallStateFilterCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.FilterControls\ColourFilterCtrl.resx">
+      <DependentUpon>ColourFilterCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.FilterControls\GraphFilterCtrl.resx">
+      <DependentUpon>GraphFilterCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.FilterControls\GroundMotionFilterCtrl.resx">
+      <DependentUpon>GroundMotionFilterCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.FilterControls\IdMotionFilterCtrl.resx">
+      <DependentUpon>IdMotionFilterCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.FilterControls\ManagerStatFilterCtrl.resx">
+      <DependentUpon>ManagerStatFilterCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.FilterControls\MotionFilterCtrl.resx">
+      <DependentUpon>MotionFilterCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.FilterControls\PlayerStatFilterCtrl.resx">
+      <DependentUpon>PlayerStatFilterCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.FilterControls\PositionFilterCtrl.resx">
+      <DependentUpon>PositionFilterCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.FilterControls\SkillStateFilterCtrl.resx">
+      <DependentUpon>SkillStateFilterCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.FilterControls\StaminaCompareFilterCtrl.resx">
+      <DependentUpon>StaminaCompareFilterCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.FilterControls\TalentPositonFilterCtrl.resx">
+      <DependentUpon>TalentPositonFilterCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.SeekerControls\GraphSeekerCtrl.resx">
+      <DependentUpon>GraphSeekerCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.SeekerControls\IdSeekerCtrl.resx">
+      <DependentUpon>IdSeekerCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.SeekerControls\MotionSeekerCtrl.resx">
+      <DependentUpon>MotionSeekerCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.SeekerControls\PlayerSkillSeekerCtrl.resx">
+      <DependentUpon>PlayerSkillSeekerCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.SeekerControls\TalentPositonSeekerCtrl.resx">
+      <DependentUpon>TalentPositonSeekerCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SkillEditForm.resx">
+      <DependentUpon>SkillEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SkillListForm.resx">
+      <DependentUpon>SkillListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="img\miniplus.png" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\miniminus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\arrrow_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\arrow_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Log\Log.csproj">
+      <Project>{c9cf5d1b-e731-49bb-8693-4bfc88e5a32d}</Project>
+      <Name>Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine.Extern\SkillEngine.Extern.csproj">
+      <Project>{9cd61fed-b828-414a-820f-3d99d433bdb9}</Project>
+      <Name>SkillEngine.Extern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine.SkillBase\SkillEngine.SkillBase.csproj">
+      <Project>{f82272ae-dff6-4563-9475-d7bbf23c05b6}</Project>
+      <Name>SkillEngine.SkillBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

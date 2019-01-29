@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Formations>
+  <HomeXMap>
+    <HomeX global="5" home="5" />
+    <HomeX global="20" home="20" />
+    <HomeX global="38" home="30" />
+    <HomeX global="66" home="45" />
+    <HomeX global="94" home="60" />
+    <HomeX global="122" home="75" />
+    <HomeX global="150" home="90" />
+    <HomeX global="170" home="105" />
+  </HomeXMap>
+  <Formation id="1" name="3-5-2（A）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,68" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="2" coordinate="66,88" />
+    <Player type="2" coordinate="66,48" />
+    <Player type="2" coordinate="94,128" />
+    <Player type="2" coordinate="94,8" />
+    <Player type="2" coordinate="122,68" />
+    <Player type="3" coordinate="170,88" />
+    <Player type="3" coordinate="170,48" />
+  </Formation>
+  <Formation id="2" name="4-4-2（A）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,108" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="1" coordinate="38,28" />
+    <Player type="2" coordinate="94,108" />
+    <Player type="2" coordinate="94,88" />
+    <Player type="2" coordinate="94,48" />
+    <Player type="2" coordinate="94,28" />
+    <Player type="3" coordinate="170,88" />
+    <Player type="3" coordinate="170,48" />
+  </Formation>
+  <Formation id="3" name="3-4-3（A）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,68" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="2" coordinate="94,108" />
+    <Player type="2" coordinate="94,88" />
+    <Player type="2" coordinate="94,48" />
+    <Player type="2" coordinate="94,28" />
+    <Player type="3" coordinate="150,88" />
+    <Player type="3" coordinate="150,68" />
+    <Player type="3" coordinate="150,48" />
+  </Formation>
+  <Formation id="4" name="4-3-3（A）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,108" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="1" coordinate="38,28" />
+    <Player type="2" coordinate="94,88" />
+    <Player type="2" coordinate="94,68" />
+    <Player type="2" coordinate="94,48" />
+    <Player type="3" coordinate="170,88" />
+    <Player type="3" coordinate="170,68" />
+    <Player type="3" coordinate="170,48" />
+  </Formation>
+  <Formation id="5" name="4-5-1（A）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,108" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="1" coordinate="38,28" />
+    <Player type="2" coordinate="94,108" />
+    <Player type="2" coordinate="94,68" />
+    <Player type="2" coordinate="94,28" />
+    <Player type="2" coordinate="122,88" />
+    <Player type="2" coordinate="122,48" />
+    <Player type="3" coordinate="170,68" />
+  </Formation>
+  <Formation id="6" name="5-3-2（A）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,128" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,68" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="1" coordinate="38,8" />
+    <Player type="2" coordinate="94,88" />
+    <Player type="2" coordinate="94,68" />
+    <Player type="2" coordinate="94,48" />
+    <Player type="3" coordinate="170,88" />
+    <Player type="3" coordinate="170,48" />
+  </Formation>
+  <Formation id="7" name="5-3-2（B）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,128" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,68" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="1" coordinate="38,8" />
+    <Player type="2" coordinate="94,88" />
+    <Player type="2" coordinate="94,68" />
+    <Player type="2" coordinate="94,48" />
+    <Player type="3" coordinate="170,88" />
+    <Player type="3" coordinate="170,48" />
+  </Formation>
+  <Formation id="8" name="5-4-1（A）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,128" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,68" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="1" coordinate="38,8" />
+    <Player type="2" coordinate="66,68" />
+    <Player type="2" coordinate="94,108" />
+    <Player type="2" coordinate="94,28" />
+    <Player type="2" coordinate="122,68" />
+    <Player type="3" coordinate="170,68" />
+  </Formation>
+  <Formation id="9" name="3-4-3（B）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,68" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="2" coordinate="94,108" />
+    <Player type="2" coordinate="94,88" />
+    <Player type="2" coordinate="94,48" />
+    <Player type="2" coordinate="94,28" />
+    <Player type="3" coordinate="150,68" />
+    <Player type="3" coordinate="170,88" />
+    <Player type="3" coordinate="170,48" />
+  </Formation>
+  <Formation id="10" name="3-4-3（C）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,68" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="2" coordinate="94,108" />
+    <Player type="2" coordinate="94,88" />
+    <Player type="2" coordinate="94,48" />
+    <Player type="2" coordinate="94,28" />
+    <Player type="3" coordinate="150,88" />
+    <Player type="3" coordinate="150,48" />
+    <Player type="3" coordinate="170,68" />
+  </Formation>
+  <Formation id="11" name="4-4-2（C）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,108" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="1" coordinate="38,28" />
+    <Player type="2" coordinate="66,88" />
+    <Player type="2" coordinate="66,48" />
+    <Player type="2" coordinate="122,108" />
+    <Player type="2" coordinate="122,28" />
+    <Player type="3" coordinate="170,88" />
+    <Player type="3" coordinate="170,48" />
+  </Formation>
+  <Formation id="12" name="4-4-2（D）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,108" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="1" coordinate="38,28" />
+    <Player type="2" coordinate="66,88" />
+    <Player type="2" coordinate="66,48" />
+    <Player type="2" coordinate="122,108" />
+    <Player type="2" coordinate="122,28" />
+    <Player type="3" coordinate="150,68" />
+    <Player type="3" coordinate="170,68" />
+  </Formation>
+  <Formation id="13" name="4-3-3（B）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,108" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="1" coordinate="38,28" />
+    <Player type="2" coordinate="94,88" />
+    <Player type="2" coordinate="94,68" />
+    <Player type="2" coordinate="94,48" />
+    <Player type="3" coordinate="150,68" />
+    <Player type="3" coordinate="170,88" />
+    <Player type="3" coordinate="170,48" />
+  </Formation>
+  <Formation id="14" name="4-3-3（C）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,108" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="1" coordinate="38,28" />
+    <Player type="2" coordinate="94,88" />
+    <Player type="2" coordinate="94,68" />
+    <Player type="2" coordinate="94,48" />
+    <Player type="3" coordinate="150,108" />
+    <Player type="3" coordinate="150,28" />
+    <Player type="3" coordinate="170,68" />
+  </Formation>
+  <Formation id="15" name="4-4-2（E）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,108" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="1" coordinate="38,28" />
+    <Player type="2" coordinate="94,108" />
+    <Player type="2" coordinate="94,88" />
+    <Player type="2" coordinate="94,48" />
+    <Player type="2" coordinate="94,28" />
+    <Player type="3" coordinate="150,68" />
+    <Player type="3" coordinate="170,68" />
+  </Formation>
+  <Formation id="16" name="5-2-3（A）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,128" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,68" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="1" coordinate="38,8" />
+    <Player type="2" coordinate="94,88" />
+    <Player type="2" coordinate="94,48" />
+    <Player type="3" coordinate="150,68" />
+    <Player type="3" coordinate="170,88" />
+    <Player type="3" coordinate="170,48" />
+  </Formation>
+  <Formation id="17" name="4-4-2（B）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,108" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="1" coordinate="38,28" />
+    <Player type="2" coordinate="66,68" />
+    <Player type="2" coordinate="94,108" />
+    <Player type="2" coordinate="94,28" />
+    <Player type="2" coordinate="122,68" />
+    <Player type="3" coordinate="170,88" />
+    <Player type="3" coordinate="170,48" />
+  </Formation>
+  <Formation id="18" name="5-2-3（B）">
+    <Player type="0" coordinate="5,68" />
+    <Player type="1" coordinate="38,128" />
+    <Player type="1" coordinate="38,88" />
+    <Player type="1" coordinate="38,68" />
+    <Player type="1" coordinate="38,48" />
+    <Player type="1" coordinate="38,8" />
+    <Player type="2" coordinate="94,88" />
+    <Player type="2" coordinate="94,48" />
+    <Player type="3" coordinate="150,88" />
+    <Player type="3" coordinate="150,48" />
+    <Player type="3" coordinate="170,68" />
+  </Formation>
+</Formations>
+

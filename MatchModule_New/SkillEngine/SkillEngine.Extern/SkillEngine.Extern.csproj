@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9CD61FED-B828-414A-820F-3D99D433BDB9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SkillEngine.Extern</RootNamespace>
+    <AssemblyName>SkillEngine.Extern</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entity\SkillShowSetting.cs" />
+    <Compile Include="Enum.Football\EnumFoulState.cs" />
+    <Compile Include="Enum.Football\EnumManagerStat.cs" />
+    <Compile Include="Enum.Football\EnumPlayerColour.cs" />
+    <Compile Include="Enum.NBA\EnumFoulState.cs" />
+    <Compile Include="Enum.NBA\EnumManagerStat.cs" />
+    <Compile Include="Enum.NBA\EnumMotionState.cs" />
+    <Compile Include="Enum.NBA\EnumPlayerColour.cs" />
+    <Compile Include="Enum.NBA\EnumPlayerPosition.cs" />
+    <Compile Include="Enum.NBA\EnumPlayerStat.cs" />
+    <Compile Include="Enum\EnumDoneStateFlag.cs" />
+    <Compile Include="Enum\EnumMatchSide.cs" />
+    <Compile Include="Enum.Football\EnumMotionState.cs" />
+    <Compile Include="Enum.Football\EnumPlayerPosition.cs" />
+    <Compile Include="Enum.Football\EnumPlayerStat.cs" />
+    <Compile Include="Interface\IRandom.cs" />
+    <Compile Include="Interface\ISkillFoul.cs" />
+    <Compile Include="Interface\ISkillStat.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LogUtil.cs" />
+    <Compile Include="RandomHelper.cs" />
+    <Compile Include="Singleton.cs" />
+    <Compile Include="Entity\SkillResult.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Log\Log.csproj">
+      <Project>{c9cf5d1b-e731-49bb-8693-4bfc88e5a32d}</Project>
+      <Name>Log</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

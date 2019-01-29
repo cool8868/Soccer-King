@@ -1,0 +1,59 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:BatchTools="clr-namespace:Games.NB.Match.Emulator.WPF.Controls"
+        x:Class="Games.NB.Match.Emulator.WPF.Batchtest"
+         Title="比赛测试" Height="614" Width="1100" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" WindowStyle="SingleBorderWindow" Loaded="Window_Loaded_1">
+    <Canvas HorizontalAlignment="Left" Width="1090" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Margin="0,0,-6,0" >
+        <BatchTools:MenuControl Canvas.Top="0" Width="1090" CurName="Batch"/>
+        <Canvas x:Name="MainCanvas" Margin="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="1085" Height="561" Canvas.Left="5" Canvas.Top="25">
+            <Label Content="测试次数：" Canvas.Left="441" Canvas.Top="5"/>
+            <CheckBox x:Name="chkStatistics" Content="统计详细数据" Canvas.Left="655" Canvas.Top="10"></CheckBox>
+            <TextBox x:Name="txtTestCount" Height="23" Canvas.Left="516" Style="{DynamicResource SimpleTextBox}" Text="10" Canvas.Top="6" Width="120"/>
+            <Label Content="主队账号：" Canvas.Left="10" Canvas.Top="5"/>
+            <BatchTools:ManagerIdControl x:Name="miControl1" Canvas.Top="5" Canvas.Left="85"/>
+            <Label Content="客队账号：" Canvas.Left="219" Canvas.Top="5"/>
+            <BatchTools:ManagerIdControl x:Name="miControl2" Canvas.Top="5" Canvas.Left="294"/>
+
+            <Label Content="比赛时长：" Canvas.Left="10" Canvas.Top="30"/>
+            <Label Content="秒" Canvas.Left="148" Canvas.Top="30"></Label>
+            <TextBox x:Name="txtTime" Canvas.Top="30" Width="58" Height="23" Canvas.Left="85" Style="{DynamicResource SimpleTextBox}" Text="120"/>
+            <Button x:Name="btnStartTest" Content="开始测试" Canvas.Left="757" Canvas.Top="7" Width="75" RenderTransformOrigin="0.148,0.871" Click="btnStartTest_Click"/>
+            <Label x:Name="lblProcess" Content="进度" Canvas.Left="1017" Canvas.Top="26"/>
+            <ProgressBar x:Name="ProgressBar1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="790" Height="10" Canvas.Left="222" Canvas.Top="36"/>
+            <Label x:Name="lblResult" Content="--"  Canvas.Left="225" Canvas.Top="65" RenderTransformOrigin="0.5,0.5" Width="425">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.437"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <DataGrid x:Name="DataGridMatchList" AutoGenerateColumns="False" Width="212" Canvas.Left="5" Canvas.Top="60" Height="486" SelectionChanged="DataGridMatchList_SelectionChanged" MouseDoubleClick="DataGridMatchList_MouseDoubleClick">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="场次" Binding="{Binding Id, Mode=OneWay}" Width="50"/>
+                    <DataGridTextColumn Header="比分" Binding="{Binding ScoreStr, Mode=OneWay}" Width="70"/>
+                    <DataGridTextColumn Header="耗时" Binding="{Binding Cost, Mode=OneWay}" Width="40"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Button Content="暂停" IsEnabled="False" Canvas.Left="846" Canvas.Top="7" Width="75" />
+            <Button Content="停止" IsEnabled="False" Canvas.Left="937" Canvas.Top="7" Width="75" />
+
+            <GroupBox x:Name="GroupBox1" Background="White" Canvas.Left="222" Canvas.Top="99" Height="447" Width="853">
+                <Canvas>
+                    <Label x:Name="lblMatchId" Content="比赛id :"  BorderBrush="DodgerBlue" BorderThickness="1" Canvas.Left="9" Canvas.Top="7" Width="342"></Label>
+                    <Label x:Name="lblMatchCount" Content="场次" HorizontalContentAlignment="Center" BorderBrush="Gray" BorderThickness="1" Canvas.Left="368" Canvas.Top="113" Width="92"></Label>
+                    <Button x:Name="btnViewEmulator" Content="模拟器" IsEnabled="False" Canvas.Left="368" Canvas.Top="163" Width="92" Height="27" Click="btnViewEmulator_Click"></Button>
+                    <Button x:Name="btnViewStatistics" Content="显示统计" IsEnabled="False" Canvas.Left="368" Canvas.Top="213" Width="92" Height="27" Click="btnViewStatistics_Click"/>
+                    <BatchTools:BatchDataControl x:Name="BatchDataControl1" Canvas.Left="9" Canvas.Top="60"/>
+                    <BatchTools:BatchDataControl x:Name="BatchDataControl2" Canvas.Left="459" Canvas.Top="60"/>
+                    <Label Content="主队" Canvas.Left="20" Canvas.Top="44"  Background="Black" Foreground="White"></Label>
+                    <Label Content="客队" Canvas.Left="774" Canvas.Top="44" Background="Black" Foreground="White"/>
+                </Canvas>
+            </GroupBox>
+            <Button x:Name="btnViewAvg" Content="查看平均数据" IsEnabled="False" Canvas.Left="655" Canvas.Top="64" Click="btnViewAvg_Click"/>
+        </Canvas>
+    </Canvas>
+</Window>

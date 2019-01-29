@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A9F7979A-2E4D-4476-A991-D74863D17A1F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Games.NB.Match.BLL</RootNamespace>
+    <AssemblyName>Games.NB.Match.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'TEST|AnyCPU'">
+    <OutputPath>bin\TEST\</OutputPath>
+    <DefineConstants>TRACE;TEST</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ErrorReport>send</ErrorReport>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Facade\MatchFacade.cs" />
+    <Compile Include="Model\Creatures\ManagerStatus.cs" />
+    <Compile Include="Model\Creatures\Player.IAddBuff.cs" />
+    <Compile Include="Model\Creatures\Player.IDecide.cs" />
+    <Compile Include="Model\Creatures\Player.IDribble.cs" />
+    <Compile Include="Model\Creatures\Player.IFoul.cs" />
+    <Compile Include="Model\Creatures\Player.IMoveable.cs" />
+    <Compile Include="Model\Creatures\Player.IPass.cs" />
+    <Compile Include="Model\Creatures\Player.INotifyDecide.cs" />
+    <Compile Include="Model\Creatures\PlayerStatStatus.cs" />
+    <Compile Include="Model\IReport\Manager.IReport.cs" />
+    <Compile Include="Model\IReport\MatchEntity.IReport.cs" />
+    <Compile Include="Model\IReport\Player.IReport.cs" />
+    <Compile Include="Model\Creatures\Player.IRotate.cs" />
+    <Compile Include="Model\Creatures\Player.IShoot.cs" />
+    <Compile Include="Model\Creatures\Player.IStopball.cs" />
+    <Compile Include="Model\ISkill\SkillManager.cs" />
+    <Compile Include="Model\ISkill\SkillMatch.cs" />
+    <Compile Include="Model\ISkill\SkillPlayer.cs" />
+    <Compile Include="Model\Pitchs\Pitch.cs" />
+    <Compile Include="Model\Pitchs\Goal.cs" />
+    <Compile Include="Model\Creatures\Manager.cs" />
+    <Compile Include="Model\Creatures\PlayerStatus.cs" />
+    <Compile Include="Model\Football.cs" />
+    <Compile Include="Model\MatchEntity.cs" />
+    <Compile Include="Model\Creatures\Player.ISkillState.cs" />
+    <Compile Include="Model\Creatures\Player.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules\FootballRule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rules\FreeKickRules\CornerKickRules.cs" />
+    <Compile Include="Rules\FreeKickRules\DirectFreeKickRule.cs" />
+    <Compile Include="Rules\FreeKickRules\FreeKickRuleFactory.cs" />
+    <Compile Include="Rules\FreeKickRules\FreeKickRule.cs" />
+    <Compile Include="Rules\FreeKickRules\GkOpenballRule.cs" />
+    <Compile Include="Rules\FreeKickRules\IndirectFreeKickRule.cs" />
+    <Compile Include="Rules\FreeKickRules\OpenballRule.cs" />
+    <Compile Include="Rules\FreeKickRules\PenaltyKickRule.cs" />
+    <Compile Include="Rules\FreeKickRules\PenaltyShootout.cs" />
+    <Compile Include="Rules\MatchRule.cs" />
+    <Compile Include="Rules\PassTargetDecideRule.cs" />
+    <Compile Include="Rules\PlayerRule.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AI\AI.csproj">
+      <Project>{6438F44E-09EC-4575-8621-C2BDB4B9E5FB}</Project>
+      <Name>AI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Frame\Frame.csproj">
+      <Project>{9ff7d517-ef52-499e-915f-86da7d6fbc6d}</Project>
+      <Name>Frame</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Games.NB_MatchModule.Base\Base.csproj">
+      <Project>{31eeb097-fb38-4a42-940d-36cd5b77c36e}</Project>
+      <Name>Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Games.NB_MatchModule.Common\Common.csproj">
+      <Project>{67DD5621-BBE5-4FD8-9073-17646ED88453}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Log\Log.csproj">
+      <Project>{C9CF5D1B-E731-49BB-8693-4BFC88E5A32D}</Project>
+      <Name>Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine\SkillEngine.Extern\SkillEngine.Extern.csproj">
+      <Project>{9cd61fed-b828-414a-820f-3d99d433bdb9}</Project>
+      <Name>SkillEngine.Extern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine\SkillEngine.SkillBase\SkillEngine.SkillBase.csproj">
+      <Project>{f82272ae-dff6-4563-9475-d7bbf23c05b6}</Project>
+      <Name>SkillEngine.SkillBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine\SkillEngine.SkillCore\SkillEngine.SkillCore.csproj">
+      <Project>{7c47edbc-bf18-42c7-871b-1feedf00beb5}</Project>
+      <Name>SkillEngine.SkillCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine\SkillEngine.SkillImpl.Football\SkillEngine.SkillImpl.Football.csproj">
+      <Project>{ef995b7d-0d84-49f6-9dbd-f7156709e428}</Project>
+      <Name>SkillEngine.SkillImpl.Football</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkillEngine\SkillEngine.SkillImpl\SkillEngine.SkillImpl.csproj">
+      <Project>{97ba95f5-0225-48c6-a0b7-63e75b7aea5e}</Project>
+      <Name>SkillEngine.SkillImpl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Creatures\Player.IModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Creatures\Player.IDefence.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Creatures\Player.IDiveBall.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

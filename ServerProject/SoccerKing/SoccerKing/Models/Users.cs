@@ -15,5 +15,6 @@ namespace SoccerKing.Models
         public int? Train { get; set; }
         public sbyte? Status { get; set; }
         public DateTime RowTime { get; set; }
+        public DateTime TimeSpan { get; set; }
     }
 }

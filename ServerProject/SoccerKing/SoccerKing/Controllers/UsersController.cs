@@ -62,21 +62,21 @@ namespace SoccerKing.Controllers
 		[HttpGet("login/{token}")]
 		public IActionResult GetAccessToken(string token)
 		{
-			Log l = new Log();
-			l.Content = "clientToken:" + token;
-			l.Rowtime = DateTime.Now;
-			_context.Log.Add(l);
-			_context.SaveChanges();
+			//Log l = new Log();
+			//l.Content = "clientToken:" + token;
+			//l.Rowtime = DateTime.Now;
+			//_context.Log.Add(l);
+			//_context.SaveChanges();
 
 			string appId = _wxConfigService.WxConfiguration.AppId;
 			string appSecret = _wxConfigService.WxConfiguration.AppSecret;
 			var serverToken = GetAccessToken(token, appId, appSecret);
 
-			l = new Log();
-			l.Content = serverToken.ToString();
-			l.Rowtime = DateTime.Now;
-			_context.Log.Add(l);
-			_context.SaveChanges();
+			//l = new Log();
+			//l.Content = serverToken.ToString();
+			//l.Rowtime = DateTime.Now;
+			//_context.Log.Add(l);
+			//_context.SaveChanges();
 
 			return NoContent();
 		}

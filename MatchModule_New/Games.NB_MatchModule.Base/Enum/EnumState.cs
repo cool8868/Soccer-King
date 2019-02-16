@@ -88,27 +88,27 @@ namespace Games.NB.Match.Base.Enum
         /// </summary>
         VolleyShoot=18,
         /// <summary>
-        /// 19
+        /// 19突破
         /// </summary>
         BreakThrough=19,
         /// <summary>
-        /// 20
+        /// 20任意球
         /// </summary>
         FreekickShoot=20,
         /// <summary>
-        /// 21
+        /// 21门将持球
         /// </summary>
         GKHoldBall=21,
         /// <summary>
-        /// 22
+        /// 22走路
         /// </summary>
         Walk=22,
         /// <summary>
-        /// 23
+        /// 23乌龙射门
         /// </summary>
         RebelShoot=23,
         /// <summary>
-        /// 24
+        /// 24头球对决
         /// </summary>
         HeadingDuel=24,
 

@@ -31,7 +31,7 @@ namespace SoccerKing.Controllers
 		[HttpGet("u/{uid}")]		
 		public async Task<ActionResult<IEnumerable<Userplayers>>> GetByUid(string uid)
 		{
-			return await _context.Userplayers.Where(b => b.Uid == uid).ToListAsync();
+			return await _context.Userplayers.Include(b => b.P).Where(b => b.Uid == uid).ToListAsync();
 		}
 
 		// POST: api/Todo

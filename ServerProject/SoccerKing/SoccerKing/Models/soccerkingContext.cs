@@ -28,8 +28,13 @@ namespace SoccerKing.Models
         public virtual DbSet<Dicplayersmrelation> Dicplayersmrelation { get; set; }
         public virtual DbSet<Dictalent> Dictalent { get; set; }
         public virtual DbSet<Employee> Employee { get; set; }
+        public virtual DbSet<Freesignplayers> Freesignplayers { get; set; }
+        public virtual DbSet<League> League { get; set; }
+        public virtual DbSet<LeagueMatch> LeagueMatch { get; set; }
+        public virtual DbSet<Leaguememebers> Leaguememebers { get; set; }
         public virtual DbSet<Log> Log { get; set; }
         public virtual DbSet<Options> Options { get; set; }
+        public virtual DbSet<Playercontract> Playercontract { get; set; }
         public virtual DbSet<Randomstory> Randomstory { get; set; }
         public virtual DbSet<Story> Story { get; set; }
         public virtual DbSet<Talent> Talent { get; set; }
@@ -795,6 +800,149 @@ namespace SoccerKing.Models
                     .HasColumnType("varchar(50)");
             });
 
+            modelBuilder.Entity<Freesignplayers>(entity =>
+            {
+                entity.ToTable("freesignplayers");
+
+                entity.HasIndex(e => e.LeagueId)
+                    .HasName("LeagueId");
+
+                entity.HasIndex(e => e.PlayerId)
+                    .HasName("PlayerId");
+
+                entity.Property(e => e.Id).HasColumnType("bigint(20)");
+
+                entity.Property(e => e.LeagueId)
+                    .HasColumnType("bigint(20)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.PlayerId)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.RowVersion)
+                    .HasColumnType("timestamp")
+                    .HasDefaultValueSql("'current_timestamp()'")
+                    .ValueGeneratedOnAddOrUpdate();
+
+                entity.Property(e => e.Status)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
+            });
+
+            modelBuilder.Entity<League>(entity =>
+            {
+                entity.ToTable("league");
+
+                entity.Property(e => e.Id).HasColumnType("bigint(20)");
+
+                entity.Property(e => e.EndDate).HasColumnType("datetime");
+
+                entity.Property(e => e.Level).HasColumnType("int(11)");
+
+                entity.Property(e => e.Rowtime)
+                    .HasColumnType("datetime")
+                    .HasDefaultValueSql("'current_timestamp()'");
+
+                entity.Property(e => e.StartDate).HasColumnType("datetime");
+
+                entity.Property(e => e.Status)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
+            });
+
+            modelBuilder.Entity<LeagueMatch>(entity =>
+            {
+                entity.ToTable("league_match");
+
+                entity.HasIndex(e => e.LeagueId)
+                    .HasName("LeagueId");
+
+                entity.Property(e => e.Id).HasColumnType("bigint(20)");
+
+                entity.Property(e => e.AwayGoals)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.AwayId)
+                    .IsRequired()
+                    .HasColumnType("varchar(50)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.HomeGoals)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.HomeId)
+                    .IsRequired()
+                    .HasColumnType("varchar(50)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.LeagueId)
+                    .HasColumnType("bigint(20)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.Round)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.Rowtime)
+                    .HasColumnType("datetime")
+                    .HasDefaultValueSql("'current_timestamp()'");
+
+                entity.Property(e => e.Status)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
+            });
+
+            modelBuilder.Entity<Leaguememebers>(entity =>
+            {
+                entity.ToTable("leaguememebers");
+
+                entity.HasIndex(e => e.LeagueId)
+                    .HasName("LeagueId");
+
+                entity.HasIndex(e => e.UserId)
+                    .HasName("UserId");
+
+                entity.Property(e => e.Id).HasColumnType("bigint(20)");
+
+                entity.Property(e => e.Draw)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.Goals).HasColumnType("int(11)");
+
+                entity.Property(e => e.LeagueId)
+                    .HasColumnType("bigint(20)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.Lose)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.Losts).HasColumnType("int(11)");
+
+                entity.Property(e => e.Rowtime)
+                    .HasColumnType("datetime")
+                    .HasDefaultValueSql("'current_timestamp()'");
+
+                entity.Property(e => e.Score)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.Status).HasColumnType("tinyint(4)");
+
+                entity.Property(e => e.UserId)
+                    .IsRequired()
+                    .HasColumnType("varchar(50)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.Win)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
+            });
+
             modelBuilder.Entity<Log>(entity =>
             {
                 entity.ToTable("log");
@@ -830,6 +978,45 @@ namespace SoccerKing.Models
                 entity.Property(e => e.Pro).HasColumnType("tinyint(3)");
 
                 entity.Property(e => e.Sid).HasColumnType("int(11)");
+            });
+
+            modelBuilder.Entity<Playercontract>(entity =>
+            {
+                entity.ToTable("playercontract");
+
+                entity.HasIndex(e => new { e.PlayerId, e.UserId })
+                    .HasName("PlayerId_UserId");
+
+                entity.Property(e => e.Id).HasColumnType("bigint(20)");
+
+                entity.Property(e => e.PlayerId)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.Rowtime)
+                    .HasColumnType("datetime")
+                    .HasDefaultValueSql("'current_timestamp()'")
+                    .ValueGeneratedOnAddOrUpdate();
+
+                entity.Property(e => e.Salary)
+                    .HasColumnType("bigint(20)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.Status)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.UserId)
+                    .HasColumnType("varchar(50)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.Weiyujin)
+                    .HasColumnType("bigint(20)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.Years)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
             });
 
             modelBuilder.Entity<Randomstory>(entity =>

@@ -15,3 +15,4 @@ H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Debug\netcorea
 H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Debug\netcoreapp2.2\Deepleo.Weixin.SDK.Core.dll
 H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Debug\netcoreapp2.2\Deepleo.Weixin.SDK.Core.pdb
 H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\obj\Debug\netcoreapp2.2\SoccerKing.csproj.CopyComplete
+H:\SoccerKing\Soccer-King\ServerProject\SoccerKing\SoccerKing\bin\Debug\netcoreapp2.2\SoccerKing.exe

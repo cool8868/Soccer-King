@@ -13,7 +13,8 @@ namespace SoccerKing.Models
         public int? Sw { get; set; }
         public int? Diamond { get; set; }
         public int? Train { get; set; }
-        public sbyte? Status { get; set; }
+		public int? Dw { get; set; }
+		public sbyte? Status { get; set; }
         public DateTime RowTime { get; set; }
         public DateTime TimeSpan { get; set; }
     }

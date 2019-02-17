@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/allocators/detail
+END
+adaptive_node_pool.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/allocators/detail/adaptive_node_pool.hpp
+END
+node_pool.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/allocators/detail/node_pool.hpp
+END
+node_tools.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/allocators/detail/node_tools.hpp
+END
+allocator_common.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/allocators/detail/allocator_common.hpp
+END

@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts
+END
+ManagerChangesSkillPart.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/ManagerChangesSkillPart.h
+END
+TriggerSkillPart.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/TriggerSkillPart.h
+END
+SkillUpgradesSkillPart.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/SkillUpgradesSkillPart.cpp
+END
+ImmunitySkillPart.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/ImmunitySkillPart.cpp
+END
+FoulRelatedSkillPart.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/FoulRelatedSkillPart.h
+END
+BallRelatedSkillPart.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/BallRelatedSkillPart.cpp
+END
+PropertyChangesSkillPart.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/PropertyChangesSkillPart.cpp
+END
+DebuffsSkillPart.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/DebuffsSkillPart.cpp
+END
+SkillUpgradesSkillPart.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/SkillUpgradesSkillPart.h
+END
+WillTriggersSkillPart.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/WillTriggersSkillPart.cpp
+END
+ImmunitySkillPart.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/ImmunitySkillPart.h
+END
+BallRelatedSkillPart.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/BallRelatedSkillPart.h
+END
+SpecialEffectsSkillPart.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/SpecialEffectsSkillPart.cpp
+END
+PropertyChangesSkillPart.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/PropertyChangesSkillPart.h
+END
+ModelsSkillPart.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/ModelsSkillPart.cpp
+END
+DebuffsSkillPart.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/DebuffsSkillPart.h
+END
+WillTriggersSkillPart.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/WillTriggersSkillPart.h
+END
+SpecialEffectsSkillPart.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/SpecialEffectsSkillPart.h
+END
+ModelsSkillPart.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/ModelsSkillPart.h
+END
+DisplacementsSkillPart.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/DisplacementsSkillPart.cpp
+END
+DisplacementsSkillPart.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/DisplacementsSkillPart.h
+END
+ManagerChangesSkillPart.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/ManagerChangesSkillPart.cpp
+END
+TriggerSkillPart.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Parts/TriggerSkillPart.cpp
+END

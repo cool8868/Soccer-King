@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/variant
+END
+recursive_variant.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/variant/recursive_variant.hpp
+END
+get.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/variant/get.hpp
+END
+apply_visitor.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/variant/apply_visitor.hpp
+END
+bad_visit.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/variant/bad_visit.hpp
+END
+variant.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/variant/variant.hpp
+END
+variant_fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/variant/variant_fwd.hpp
+END
+visitor_ptr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/variant/visitor_ptr.hpp
+END
+static_visitor.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/variant/static_visitor.hpp
+END
+recursive_wrapper.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/variant/recursive_wrapper.hpp
+END
+recursive_wrapper_fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/variant/recursive_wrapper_fwd.hpp
+END

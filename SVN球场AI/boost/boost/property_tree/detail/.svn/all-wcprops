@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail
+END
+xml_parser_utils.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/xml_parser_utils.hpp
+END
+json_parser_error.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/json_parser_error.hpp
+END
+ptree_utils.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/ptree_utils.hpp
+END
+json_parser_write.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/json_parser_write.hpp
+END
+info_parser_read.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/info_parser_read.hpp
+END
+exception_implementation.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/exception_implementation.hpp
+END
+file_parser_error.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/file_parser_error.hpp
+END
+xml_parser_read_rapidxml.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/xml_parser_read_rapidxml.hpp
+END
+rapidxml.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/rapidxml.hpp
+END
+json_parser_read.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/json_parser_read.hpp
+END
+info_parser_error.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/info_parser_error.hpp
+END
+info_parser_write.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/info_parser_write.hpp
+END
+info_parser_writer_settings.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/info_parser_writer_settings.hpp
+END
+ptree_implementation.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/ptree_implementation.hpp
+END
+xml_parser_error.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/xml_parser_error.hpp
+END
+xml_parser_write.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/xml_parser_write.hpp
+END
+info_parser_utils.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/info_parser_utils.hpp
+END
+xml_parser_flags.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/xml_parser_flags.hpp
+END
+xml_parser_writer_settings.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/property_tree/detail/xml_parser_writer_settings.hpp
+END

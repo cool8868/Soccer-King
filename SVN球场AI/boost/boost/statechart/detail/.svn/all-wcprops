@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/statechart/detail
+END
+avoid_unused_warning.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/statechart/detail/avoid_unused_warning.hpp
+END
+reaction_dispatcher.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/statechart/detail/reaction_dispatcher.hpp
+END
+state_base.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/statechart/detail/state_base.hpp
+END
+counted_base.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/statechart/detail/counted_base.hpp
+END
+rtti_policy.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/statechart/detail/rtti_policy.hpp
+END
+constructor.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/statechart/detail/constructor.hpp
+END
+node_state.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/statechart/detail/node_state.hpp
+END
+leaf_state.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/statechart/detail/leaf_state.hpp
+END
+memory.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/statechart/detail/memory.hpp
+END

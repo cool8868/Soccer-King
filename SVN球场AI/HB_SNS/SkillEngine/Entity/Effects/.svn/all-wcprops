@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Effects
+END
+BallRelatedEffector.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Effects/BallRelatedEffector.h
+END
+DisplacementsEffector.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Effects/DisplacementsEffector.h
+END
+ImmunityEffector.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Effects/ImmunityEffector.h
+END
+PropertyChangesEffector.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Effects/PropertyChangesEffector.h
+END
+DebuffsEffector.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Effects/DebuffsEffector.h
+END
+ModelEffector.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Effects/ModelEffector.h
+END
+SpecialEffectsEffector.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Effects/SpecialEffectsEffector.h
+END
+ManagerChangesEffector.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Effects/ManagerChangesEffector.h
+END
+TargetSelector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Effects/TargetSelector.cpp
+END
+FoulRelatedEffector.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Effects/FoulRelatedEffector.h
+END
+SkillUpgradesEffector.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Effects/SkillUpgradesEffector.h
+END
+TargetSelector.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Entity/Effects/TargetSelector.h
+END

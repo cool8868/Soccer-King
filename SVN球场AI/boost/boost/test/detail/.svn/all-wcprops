@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/detail
+END
+workaround.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/detail/workaround.hpp
+END
+suppress_warnings.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/detail/suppress_warnings.hpp
+END
+enable_warnings.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/detail/enable_warnings.hpp
+END
+global_typedef.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/detail/global_typedef.hpp
+END
+unit_test_parameters.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/detail/unit_test_parameters.hpp
+END
+config.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/detail/config.hpp
+END
+fwd_decl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/detail/fwd_decl.hpp
+END
+log_level.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/detail/log_level.hpp
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/classic/attribute
+END
+closure.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/classic/attribute/closure.hpp
+END
+closure_fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/classic/attribute/closure_fwd.hpp
+END
+closure_context.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/classic/attribute/closure_context.hpp
+END
+typeof.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/classic/attribute/typeof.hpp
+END
+parametric.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/classic/attribute/parametric.hpp
+END

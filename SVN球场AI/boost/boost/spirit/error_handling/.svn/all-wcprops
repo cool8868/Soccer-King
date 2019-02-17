@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/error_handling
+END
+exceptions.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/error_handling/exceptions.hpp
+END
+exceptions_fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/error_handling/exceptions_fwd.hpp
+END
+typeof.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/error_handling/typeof.hpp
+END

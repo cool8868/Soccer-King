@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/local
+END
+stream_protocol.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/local/stream_protocol.hpp
+END
+basic_endpoint.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/local/basic_endpoint.hpp
+END
+datagram_protocol.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/local/datagram_protocol.hpp
+END
+connect_pair.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/local/connect_pair.hpp
+END

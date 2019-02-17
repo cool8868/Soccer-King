@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/numeric/ublas/traits
+END
+iterator_type.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/numeric/ublas/traits/iterator_type.hpp
+END
+c_array.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/numeric/ublas/traits/c_array.hpp
+END
+const_iterator_type.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/numeric/ublas/traits/const_iterator_type.hpp
+END

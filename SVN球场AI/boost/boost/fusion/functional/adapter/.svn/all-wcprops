@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/adapter
+END
+unfused.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/adapter/unfused.hpp
+END
+fused_procedure.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/adapter/fused_procedure.hpp
+END
+unfused_typed.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/adapter/unfused_typed.hpp
+END
+fused_function_object.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/adapter/fused_function_object.hpp
+END
+limits.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/adapter/limits.hpp
+END
+fused.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/adapter/fused.hpp
+END

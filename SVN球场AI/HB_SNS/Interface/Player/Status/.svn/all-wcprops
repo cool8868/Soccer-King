@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Player/Status
+END
+IPlayerStatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Player/Status/IPlayerStatus.h
+END
+IShootStatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/HB_SNS/Interface/Player/Status/IShootStatus.h
+END
+IActionStatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/Interface/Player/Status/IActionStatus.h
+END
+IModelStatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Player/Status/IModelStatus.h
+END
+IFoulStatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/HB_SNS/Interface/Player/Status/IFoulStatus.h
+END
+IPassStatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/HB_SNS/Interface/Player/Status/IPassStatus.h
+END
+IDiveStatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/HB_SNS/Interface/Player/Status/IDiveStatus.h
+END
+IDefenceStatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/HB_SNS/Interface/Player/Status/IDefenceStatus.h
+END
+IDebuffStatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Player/Status/IDebuffStatus.h
+END

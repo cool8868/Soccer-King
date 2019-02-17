@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/output
+END
+compiler_log_formatter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/output/compiler_log_formatter.hpp
+END
+xml_report_formatter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/output/xml_report_formatter.hpp
+END
+plain_report_formatter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/output/plain_report_formatter.hpp
+END
+xml_log_formatter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/output/xml_log_formatter.hpp
+END

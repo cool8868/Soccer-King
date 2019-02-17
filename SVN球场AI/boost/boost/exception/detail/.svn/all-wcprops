@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/exception/detail
+END
+is_output_streamable.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/exception/detail/is_output_streamable.hpp
+END
+type_info.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/exception/detail/type_info.hpp
+END
+attribute_noreturn.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/exception/detail/attribute_noreturn.hpp
+END
+object_hex_dump.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/exception/detail/object_hex_dump.hpp
+END
+exception_ptr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/exception/detail/exception_ptr.hpp
+END
+error_info_impl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/exception/detail/error_info_impl.hpp
+END

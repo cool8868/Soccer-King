@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/mem_algo/detail
+END
+multi_simple_seq_fit.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/mem_algo/detail/multi_simple_seq_fit.hpp
+END
+multi_simple_seq_fit_impl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/mem_algo/detail/multi_simple_seq_fit_impl.hpp
+END
+simple_seq_fit_impl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/mem_algo/detail/simple_seq_fit_impl.hpp
+END
+mem_algo_common.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/mem_algo/detail/mem_algo_common.hpp
+END

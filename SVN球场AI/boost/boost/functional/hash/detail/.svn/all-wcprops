@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/functional/hash/detail
+END
+float_functions.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/functional/hash/detail/float_functions.hpp
+END
+hash_float_x86.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/functional/hash/detail/hash_float_x86.hpp
+END
+limits.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/functional/hash/detail/limits.hpp
+END
+hash_float_generic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/functional/hash/detail/hash_float_generic.hpp
+END
+hash_float.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/functional/hash/detail/hash_float.hpp
+END

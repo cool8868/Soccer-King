@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/AI/States/Shoot
+END
+FreekickShootState.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/AI/States/Shoot/FreekickShootState.cpp
+END
+DefaultShootState.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/AI/States/Shoot/DefaultShootState.cpp
+END
+FreekickShootState.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/AI/States/Shoot/FreekickShootState.h
+END
+DefaultShootState.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/AI/States/Shoot/DefaultShootState.h
+END
+VolleyShootState.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/AI/States/Shoot/VolleyShootState.cpp
+END
+VolleyShootState.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/AI/States/Shoot/VolleyShootState.h
+END

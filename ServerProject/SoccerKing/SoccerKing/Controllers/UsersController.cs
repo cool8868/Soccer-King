@@ -35,9 +35,17 @@ namespace SoccerKing.Controllers
 
 		// POST: api/Todo
 		[HttpPost]
-		public async Task<IActionResult> PostUsers(Users users)
+		public async Task<IActionResult> PostUsers(Users user)
 		{
-			_context.Users.Add(users);
+			user.Diamond = 0;
+			user.Cash = 0;
+			user.Fans = 0;
+			user.Status = 0;
+			user.Train = 0;
+			user.Sw = 0;
+			user.Dw = 0;
+			user.RowTime = DateTime.Now;			
+			_context.Users.Add(user);
 			await _context.SaveChangesAsync();
 
 			return NoContent();

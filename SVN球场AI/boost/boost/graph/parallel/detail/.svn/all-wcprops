@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/graph/parallel/detail
+END
+untracked_pair.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/graph/parallel/detail/untracked_pair.hpp
+END
+inplace_all_to_all.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/graph/parallel/detail/inplace_all_to_all.hpp
+END
+property_holders.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/graph/parallel/detail/property_holders.hpp
+END

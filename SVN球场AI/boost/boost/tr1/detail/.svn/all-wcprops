@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/tr1/detail
+END
+functor2iterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/tr1/detail/functor2iterator.hpp
+END
+config_all.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/tr1/detail/config_all.hpp
+END
+config.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/tr1/detail/config.hpp
+END
+math_overloads.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/tr1/detail/math_overloads.hpp
+END

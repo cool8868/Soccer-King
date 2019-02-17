@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/program_options/detail
+END
+cmdline.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/program_options/detail/cmdline.hpp
+END
+parsers.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/program_options/detail/parsers.hpp
+END
+utf8_codecvt_facet.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/program_options/detail/utf8_codecvt_facet.hpp
+END
+value_semantic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/program_options/detail/value_semantic.hpp
+END
+convert.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/program_options/detail/convert.hpp
+END
+config_file.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/program_options/detail/config_file.hpp
+END

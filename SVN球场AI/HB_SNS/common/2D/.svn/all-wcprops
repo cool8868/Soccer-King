@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/common/2D
+END
+Transformations.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/common/2D/Transformations.h
+END
+WallIntersectionTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/common/2D/WallIntersectionTests.h
+END
+geometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/common/2D/geometry.h
+END
+C2DMatrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/common/2D/C2DMatrix.h
+END
+InvertedAABBox2D.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/common/2D/InvertedAABBox2D.h
+END
+Vector2d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/common/2D/Vector2d.cpp
+END
+Wall2D.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/common/2D/Wall2D.h
+END
+Vector2D.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/HB_SNS/!svn/ver/698/trunk/c++/HB_SNS/HB_SNS/common/2D/Vector2D.h
+END

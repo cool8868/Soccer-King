@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/stl/algorithm
+END
+iteration.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/stl/algorithm/iteration.hpp
+END
+querying.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/stl/algorithm/querying.hpp
+END
+transformation.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/stl/algorithm/transformation.hpp
+END

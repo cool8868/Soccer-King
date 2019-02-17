@@ -1,0 +1,34 @@
+#include <windows.h>
+#include "WindowUtils/DefineUtils.h"
+
+图标0		ICON   res\\icon1.ico
+图标1		ICON   res\\icon2.ico
+
+
+热血球球SNS MENU
+{
+	POPUP "播放速度(&S)"
+	{
+		MENUITEM "慢速(回合播放)",	IDM_PLAY_SLOW
+		MENUITEM "普通",		IDM_PLAY_NORMAL,	CHECKED
+		MENUITEM "快速",		IDM_PLAY_FAST
+	}
+	POPUP "游戏控制(&C)"
+	{
+		MENUITEM "暂停/恢复",	IDM_MATCH_PAUSE
+		MENUITEM "重新开始",	IDM_MATCH_RESTART
+	}
+	POPUP "球员(&P)"
+	{
+		MENUITEM "球员ID",		IDM_PLAYER_ID
+		MENUITEM "球员状态",		IDM_PLAYER_STATE
+		MENUITEM "球员朝向",		IDM_PLAYER_DIRECTION
+		MENUITEM "干扰半径",		IDM_PLAYER_DEFENCERANGE
+		MENUITEM "抢断半径",		IDM_PLAYER_INTERRUPTIONRANGE
+		MENUITEM "视野半径",		IDM_PLAYER_SIGHTRANGE
+	}
+	POPUP "足球(&F)"
+	{
+		MENUITEM "足球坐标点",		IDM_FOOTBALL_POINT
+	}
+}

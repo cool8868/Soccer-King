@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Cache/ConfigCache
+END
+ConfigurationManagerData.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Cache/ConfigCache/ConfigurationManagerData.h
+END
+OpenerSkillConfigCache.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Cache/ConfigCache/OpenerSkillConfigCache.cpp
+END
+WillConfigCache.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Cache/ConfigCache/WillConfigCache.cpp
+END
+ConfigurationManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Cache/ConfigCache/ConfigurationManager.cpp
+END
+PassiveSkillConfigCache.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Cache/ConfigCache/PassiveSkillConfigCache.cpp
+END
+DebuffConfigCache.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Cache/ConfigCache/DebuffConfigCache.cpp
+END
+ActionSkillConfigCache.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Cache/ConfigCache/ActionSkillConfigCache.cpp
+END
+OpenerSkillConfigCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Cache/ConfigCache/OpenerSkillConfigCache.h
+END
+WillConfigCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Cache/ConfigCache/WillConfigCache.h
+END
+ConfigurationManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Cache/ConfigCache/ConfigurationManager.h
+END
+PassiveSkillConfigCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Cache/ConfigCache/PassiveSkillConfigCache.h
+END
+DebuffConfigCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Cache/ConfigCache/DebuffConfigCache.h
+END
+ActionSkillConfigCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Cache/ConfigCache/ActionSkillConfigCache.h
+END
+ConfigurationManagerData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Cache/ConfigCache/ConfigurationManagerData.cpp
+END

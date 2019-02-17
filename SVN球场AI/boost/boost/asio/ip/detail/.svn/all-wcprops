@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/ip/detail
+END
+endpoint.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/ip/detail/endpoint.hpp
+END
+socket_option.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/ip/detail/socket_option.hpp
+END

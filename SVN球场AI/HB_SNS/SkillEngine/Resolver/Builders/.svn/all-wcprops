@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders
+END
+ModelsBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/ModelsBuilder.h
+END
+TriggerFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/TriggerFactory.h
+END
+DisplacementsBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/DisplacementsBuilder.cpp
+END
+TriggersBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/TriggersBuilder.h
+END
+DisplacementsBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/DisplacementsBuilder.h
+END
+TriggerConditionsBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/TriggerConditionsBuilder.h
+END
+ManagerChangesBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/ManagerChangesBuilder.cpp
+END
+FoulRelatedBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/FoulRelatedBuilder.cpp
+END
+ManagerChangesBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/ManagerChangesBuilder.h
+END
+SkillUpgradesBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/SkillUpgradesBuilder.cpp
+END
+ImmunityBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/ImmunityBuilder.cpp
+END
+FoulRelatedBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/FoulRelatedBuilder.h
+END
+BallRelatedBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/BallRelatedBuilder.cpp
+END
+WillTriggerFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/WillTriggerFactory.cpp
+END
+PropertyChangesBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/PropertyChangesBuilder.cpp
+END
+DebuffsBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/DebuffsBuilder.cpp
+END
+SkillUpgradesBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/SkillUpgradesBuilder.h
+END
+ImmunityBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/ImmunityBuilder.h
+END
+BallRelatedBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/BallRelatedBuilder.h
+END
+SpecialEffectsBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/SpecialEffectsBuilder.cpp
+END
+WillTriggerFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/WillTriggerFactory.h
+END
+PropertyChangesBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/PropertyChangesBuilder.h
+END
+ModelsBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/ModelsBuilder.cpp
+END
+DebuffsBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/DebuffsBuilder.h
+END
+TriggerFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/TriggerFactory.cpp
+END
+SpecialEffectsBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/SkillEngine/Resolver/Builders/SpecialEffectsBuilder.h
+END

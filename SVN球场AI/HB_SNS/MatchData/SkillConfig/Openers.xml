@@ -1,0 +1,819 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Openers version="2.0">
+  <Skill id="MT002_1" name="谢亚龙独创之“叉腰肌”" level="1" last="45" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="-5" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="1" rate="-5" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="2" rate="-5" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="3" rate="-5" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="4" rate="-5" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="5" rate="-5" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="9" rate="-5" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="10" rate="-5" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="11" rate="-5" gradient="0" target="4" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT002_2" name="谢亚龙独创之“叉腰肌”" level="2" last="45" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="-7" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="1" rate="-7" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="2" rate="-7" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="3" rate="-7" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="4" rate="-7" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="5" rate="-7" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="9" rate="-7" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="10" rate="-7" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="11" rate="-7" gradient="0" target="4" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT002_3" name="谢亚龙独创之“叉腰肌”" level="3" last="45" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="-10" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="1" rate="-10" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="2" rate="-10" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="3" rate="-10" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="4" rate="-10" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="5" rate="-10" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="9" rate="-10" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="10" rate="-10" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="11" rate="-10" gradient="0" target="4" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT003_1" name="“神奇”米卢" level="1" last="45" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="3" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="4" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="5" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="6" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT003_2" name="“神奇”米卢" level="2" last="45" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="3" rate="8" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="4" rate="8" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="5" rate="8" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="8" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="8" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="8" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT003_3" name="“神奇”米卢" level="3" last="45" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="3" rate="10" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="4" rate="10" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="5" rate="10" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="10" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="10" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="10" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT008_1" name="贝利的诅咒" level="1" last="45" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="-2" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="1" rate="-2" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="2" rate="-2" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="3" rate="-2" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="4" rate="-2" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="5" rate="-2" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="9" rate="-2" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="10" rate="-2" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="11" rate="-2" gradient="0" target="4" targetPosition="0"/>
+    </ManagerChanges>
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="0,2,3,4" target="4" targetPosition="0" targetSkillProperty="1" rate="5" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT008_2" name="贝利的诅咒" level="2" last="45" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="-4" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="1" rate="-4" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="2" rate="-4" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="3" rate="-4" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="4" rate="-4" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="5" rate="-4" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="9" rate="-4" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="10" rate="-4" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="11" rate="-4" gradient="0" target="4" targetPosition="0"/>
+    </ManagerChanges>
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="0,2,3,4" target="4" targetPosition="0" targetSkillProperty="1" rate="10" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT008_3" name="贝利的诅咒" level="3" last="45" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="-6" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="1" rate="-6" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="2" rate="-6" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="3" rate="-6" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="4" rate="-6" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="5" rate="-6" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="9" rate="-6" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="10" rate="-6" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="11" rate="-6" gradient="0" target="4" targetPosition="0"/>
+    </ManagerChanges>
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="0,2,3,4" target="4" targetPosition="0" targetSkillProperty="1" rate="15" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT010_1" name="防守反击" level="1" last="45" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="3" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="3" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="3" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="3" rate="5" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="4" rate="5" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="5" rate="5" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="5" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="5" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="5" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="9" rate="3" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="10" rate="3" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="11" rate="3" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT010_2" name="防守反击" level="2" last="45" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="4" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="4" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="4" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="3" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="4" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="5" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="9" rate="4" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="10" rate="4" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="11" rate="4" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT010_3" name="防守反击" level="3" last="45" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="3" rate="7" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="4" rate="7" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="5" rate="7" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="7" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="7" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="7" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="9" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="10" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="11" rate="6" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT010_4" name="防守反击" level="4" last="45" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="9" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="9" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="9" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="3" rate="10" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="4" rate="10" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="5" rate="10" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="10" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="10" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="10" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="9" rate="9" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="10" rate="9" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="11" rate="9" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT013_1" name="公正怒吼" level="1" last="45" type="1" formation="0">
+    <Immunity>
+      <Immunity type="2" rate="-1" probability="12" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT013_2" name="公正怒吼" level="2" last="45" type="1" formation="0">
+    <Immunity>
+      <Immunity type="2" rate="-1" probability="24" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT013_3" name="公正怒吼" level="3" last="45" type="1" formation="0">
+    <Immunity>
+      <Immunity type="2" rate="-1" probability="36" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT014_1" name="现金刺激" level="1" last="45" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="1" target="3" targetPosition="0" targetSkillProperty="6" rate="5" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT014_2" name="现金刺激" level="2" last="45" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="1" target="3" targetPosition="0" targetSkillProperty="6" rate="8" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT014_3" name="现金刺激" level="3" last="45" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="1" target="3" targetPosition="0" targetSkillProperty="6" rate="11" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT019_1" name="灰哨" level="1" last="45" type="1" formation="0">
+    <Immunity>
+      <Immunity type="2" rate="-1" probability="30" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT019_2" name="灰哨" level="2" last="45" type="1" formation="0"> 
+    <Immunity>
+      <Immunity type="2" rate="-1" probability="60" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT019_3" name="灰哨" level="3" last="45" type="1" formation="0">
+    <Immunity>
+      <Immunity type="2" rate="-1" probability="90" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT020_1" name="黑哨" level="1" last="90" type="1" formation="0">
+    <Immunity>
+      <Immunity type="4" probability="7" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT020_2" name="黑哨" level="2" last="90" type="1" formation="0">
+    <Immunity>
+      <Immunity type="4" probability="14" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT020_3" name="黑哨" level="3" last="90" type="1" formation="0">
+    <Immunity>
+      <Immunity type="4" probability="20" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT021_1" name="中国功夫" level="1" last="90" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="1" target="3" targetPosition="0" targetSkillProperty="1" rate="-15" fixType="1" />
+      <SkillUpgrade type="3" skillType="1" target="3" targetPosition="0" targetSkillProperty="2" rate="7" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT021_2" name="中国功夫" level="2" last="90" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="1" target="3" targetPosition="0" targetSkillProperty="1" rate="-30" fixType="1" />
+      <SkillUpgrade type="3" skillType="1" target="3" targetPosition="0" targetSkillProperty="2" rate="15" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT024_1" name="荷兰3剑客" level="1" last="45" type="2" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="4" gradient="0" target="3" targetPosition="4"/>
+      <PropertyChange property="1" rate="4" gradient="0" target="3" targetPosition="4"/>
+      <PropertyChange property="2" rate="4" gradient="0" target="3" targetPosition="4"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT024_2" name="荷兰3剑客" level="2" last="45" type="2" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="6" gradient="0" target="3" targetPosition="4"/>
+      <PropertyChange property="1" rate="6" gradient="0" target="3" targetPosition="4"/>
+      <PropertyChange property="2" rate="6" gradient="0" target="3" targetPosition="4"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT024_3" name="荷兰3剑客" level="3" last="45" type="2" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="8" gradient="0" target="3" targetPosition="4"/>
+      <PropertyChange property="1" rate="8" gradient="0" target="3" targetPosition="4"/>
+      <PropertyChange property="2" rate="8" gradient="0" target="3" targetPosition="4"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT025_1" name="徐根宝之“抢逼围”" level="1" last="45" type="2" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="2" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="2" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="2" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="4" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="4" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="4" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT025_2" name="徐根宝之“抢逼围”" level="2" last="45" type="2" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="3" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="3" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="3" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="6" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="6" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT025_3" name="徐根宝之“抢逼围”" level="3" last="45" type="2" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="4" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="4" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="4" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="8" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="8" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="8" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT029_1" name="“激光制导”" level="1" last="45" type="2" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="10" gradient="0" target="3" targetPosition="4"/>
+      <PropertyChange property="1" rate="10" gradient="0" target="3" targetPosition="4"/>
+      <PropertyChange property="2" rate="10" gradient="0" target="3" targetPosition="4"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT029_2" name="“激光制导”" level="2" last="90" type="2" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="50" gradient="0" target="3" targetPosition="4"/>
+      <PropertyChange property="1" rate="50" gradient="0" target="3" targetPosition="4"/>
+      <PropertyChange property="2" rate="50" gradient="0" target="3" targetPosition="4"/>
+	  <PropertyChange property="4" rate="50" gradient="0" target="3" targetPosition="4"/>
+	  <PropertyChange property="5" rate="50" gradient="0" target="3" targetPosition="4"/>
+	  <PropertyChange property="6" rate="50" gradient="0" target="3" targetPosition="4"/>
+	  <PropertyChange property="7" rate="50" gradient="0" target="3" targetPosition="4"/>
+	  <PropertyChange property="8" rate="50" gradient="0" target="3" targetPosition="4"/>
+	  <PropertyChange property="9" rate="50" gradient="0" target="3" targetPosition="4"/>
+	  <PropertyChange property="10" rate="50" gradient="0" target="3" targetPosition="4"/>
+	  <PropertyChange property="11" rate="50" gradient="0" target="3" targetPosition="4"/>
+	  <PropertyChange property="12" rate="50" gradient="0" target="3" targetPosition="4"/>
+	  <PropertyChange property="13" rate="50" gradient="0" target="3" targetPosition="4"/>
+	  <PropertyChange property="14" rate="50" gradient="0" target="3" targetPosition="4"/>
+	  <PropertyChange property="15" rate="50" gradient="0" target="3" targetPosition="4"/>
+	  <PropertyChange property="17" rate="50" gradient="0" target="3" targetPosition="4"/>
+	  <PropertyChange property="18" rate="50" gradient="0" target="3" targetPosition="4"/>
+	  <PropertyChange property="19" rate="50" gradient="0" target="3" targetPosition="4"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT031_1" name="温格光环" level="1" last="90" type="2" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="5" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="5" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="5" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+    <Immunity>
+      <Immunity type="7" targetDebuff="5" probability="30" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT031_2" name="温格光环" level="2" last="90" type="2" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="10" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="10" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="10" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+    <Immunity>
+      <Immunity type="7" targetDebuff="5" probability="60" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT031_3" name="温格光环" level="3" last="90" type="2" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="20" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="20" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="20" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+    <Immunity>
+      <Immunity type="7" targetDebuff="5" probability="90" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT034_1" name="突施冷箭" level="1" last="45" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="1" rate="0.5" gradient="0" target="3" targetPosition="3,4" coordinate="21,115,0,0"/>
+    </ManagerChanges>
+
+    <SpecialEffects>
+      <SpecialEffect name="ChangeShootRegionEffector" value="105,0,210,136|21,115,0,0|3,4" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT034_2" name="突施冷箭" level="2" last="45" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="1" rate="1" gradient="0" target="3" targetPosition="3,4" coordinate="21,115,0,0"/>
+    </ManagerChanges>
+
+    <SpecialEffects>
+      <SpecialEffect name="ChangeShootRegionEffector" value="105,0,210,136|21,115,0,0|3,4" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT034_3" name="突施冷箭" level="3" last="45" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="1" rate="1.5" gradient="0" target="3" targetPosition="3,4" coordinate="21,115,0,0"/>
+    </ManagerChanges>
+
+    <SpecialEffects>
+      <SpecialEffect name="ChangeShootRegionEffector" value="105,0,210,136|21,115,0,0|3,4" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT035_1" name="内切打门" level="1" last="45" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="9" rate="5" gradient="0" target="3" targetPosition="4" coordinate="0,20,116,136"/>
+    </ManagerChanges>
+
+    <SpecialEffects>
+      <SpecialEffect name="ChangeShootRegionEffector" value="177,28,210,108|0,20,116,136|4" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT035_2" name="内切打门" level="2" last="45" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="9" rate="10" gradient="0" target="3" targetPosition="4" coordinate="0,20,116,136"/>
+    </ManagerChanges>
+
+    <SpecialEffects>
+      <SpecialEffect name="ChangeShootRegionEffector" value="177,28,210,108|0,20,116,136|4" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT035_3" name="内切打门" level="3" last="45" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="9" rate="15" gradient="0" target="3" targetPosition="4" coordinate="0,20,116,136"/>
+    </ManagerChanges>
+
+    <SpecialEffects>
+      <SpecialEffect name="ChangeShootRegionEffector" value="177,28,210,108|0,20,116,136|4" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT038_1" name="边中结合" level="1" last="45" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="1" rate="0.5" gradient="0" target="3" targetPosition="3,4" coordinate="21,115"/>      
+      <PropertyChange property="9" rate="5" gradient="0" target="3" targetPosition="4" coordinate="0,20,116,136"/>
+    </ManagerChanges>
+
+    <SpecialEffects>
+      <SpecialEffect name="ChangeShootRegionEffector" value="105,0,210,136|21,115,0,0|3,4" />
+      <SpecialEffect name="ChangeShootRegionEffector" value="177,28,210,108|0,20,116,136|4" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT038_2" name="边中结合" level="2" last="45" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="1" rate="1" gradient="0" target="3" targetPosition="3,4" coordinate="21,115"/>      
+      <PropertyChange property="9" rate="10" gradient="0" target="3" targetPosition="4" coordinate="0,20,116,136"/>
+    </ManagerChanges>
+
+    <SpecialEffects>
+      <SpecialEffect name="ChangeShootRegionEffector" value="105,0,210,136|21,115,0,0|3,4" />
+      <SpecialEffect name="ChangeShootRegionEffector" value="177,28,210,108|0,20,116,136|4" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT038_3" name="边中结合" level="3" last="45" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="1" rate="1.5" gradient="0" target="3" targetPosition="3,4" coordinate="21,115"/>      
+      <PropertyChange property="9" rate="15" gradient="0" target="3" targetPosition="4" coordinate="0,20,116,136"/>
+    </ManagerChanges>
+
+    <SpecialEffects>
+      <SpecialEffect name="ChangeShootRegionEffector" value="105,0,210,136|21,115,0,0|3,4" />
+      <SpecialEffect name="ChangeShootRegionEffector" value="177,28,210,108|0,20,116,136|4" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT038_4" name="边中结合" level="4" last="45" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="1" rate="2" gradient="0" target="3" targetPosition="3,4" coordinate="21,115"/>      
+      <PropertyChange property="9" rate="20" gradient="0" target="3" targetPosition="4" coordinate="0,20,116,136"/>
+    </ManagerChanges>
+
+    <SpecialEffects>
+      <SpecialEffect name="ChangeShootRegionEffector" value="105,0,210,136|21,115,0,0|3,4" />
+      <SpecialEffect name="ChangeShootRegionEffector" value="177,28,210,108|0,20,116,136|4" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT038_5" name="边中结合" level="5" last="45" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="1" rate="3" gradient="0" target="3" targetPosition="3,4" coordinate="21,115"/>      
+      <PropertyChange property="9" rate="25" gradient="0" target="3" targetPosition="4" coordinate="0,20,116,136"/>
+    </ManagerChanges>
+
+    <SpecialEffects>
+      <SpecialEffect name="ChangeShootRegionEffector" value="105,0,210,136|21,115,0,0|3,4" />
+      <SpecialEffect name="ChangeShootRegionEffector" value="177,28,210,108|0,20,116,136|4" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT040_1" name="“希氏”进攻" level="1" last="45" type="3" formation="11,12,13,14,15">
+    <ManagerChanges>
+      <PropertyChange property="1" rate="5" gradient="0" target="3" targetPosition="0"/>      
+    </ManagerChanges>
+    <SpecialEffects>
+      <SpecialEffect name="ChangeShootRegionEffector" value="105,0,210,136|0,136,0,0|3,4" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT040_2" name="“希氏”进攻" level="2" last="45" type="3" formation="11,12,13,14,15">
+    <ManagerChanges>
+      <PropertyChange property="1" rate="7" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+    <SpecialEffects>
+      <SpecialEffect name="ChangeShootRegionEffector" value="105,0,210,136|0,136,0,0|3,4" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT040_3" name="“希氏”进攻" level="3" last="45" type="3" formation="11,12,13,14,15">
+    <ManagerChanges>
+      <PropertyChange property="1" rate="10" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+    <SpecialEffects>
+      <SpecialEffect name="ChangeShootRegionEffector" value="0,0,210,136|0,136,0,0|3,4" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT042_1" name="梦幻双翼" level="1" last="45" type="3" formation="7,8,11,12,13,16,17,18">
+    <ManagerChanges>
+      <PropertyChange property="1" rate="5" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="5" rate="5" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+    <SpecialEffects>
+      <SpecialEffect name="WingsEffector" value="1" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT042_2" name="梦幻双翼" level="2" last="45" type="3" formation="7,8,11,12,13,16,17,18">
+    <ManagerChanges>
+      <PropertyChange property="1" rate="7" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="5" rate="7" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+    <SpecialEffects>
+      <SpecialEffect name="WingsEffector" value="2" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT042_3" name="梦幻双翼" level="3" last="45" type="3" formation="7,8,11,12,13,16,17,18">
+    <ManagerChanges>
+      <PropertyChange property="1" rate="10" gradient="0" target="3" targetPosition="0"/>
+      <PropertyChange property="5" rate="10" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+    <SpecialEffects>
+      <SpecialEffect name="WingsEffector" value="3" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT045_1" name="造越位" level="1" last="45" type="4" formation="1,2,3,4,5,6,7,8,9,10,16,17,18">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="-7" gradient="0" target="4" targetPosition="4"/>
+      <PropertyChange property="1" rate="-7" gradient="0" target="4" targetPosition="4"/>
+      <PropertyChange property="2" rate="-7" gradient="0" target="4" targetPosition="4"/>
+      <PropertyChange property="9" rate="-7" gradient="0" target="4" targetPosition="4"/>
+      <PropertyChange property="10" rate="-7" gradient="0" target="4" targetPosition="4"/>
+      <PropertyChange property="11" rate="-7" gradient="0" target="4" targetPosition="4"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT045_2" name="造越位" level="2" last="45" type="4" formation="1,2,3,4,5,6,7,8,9,10,16,17,18">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="-10" gradient="0" target="4" targetPosition="4"/>
+      <PropertyChange property="1" rate="-10" gradient="0" target="4" targetPosition="4"/>
+      <PropertyChange property="2" rate="-10" gradient="0" target="4" targetPosition="4"/>
+      <PropertyChange property="9" rate="-10" gradient="0" target="4" targetPosition="4"/>
+      <PropertyChange property="10" rate="-10" gradient="0" target="4" targetPosition="4"/>
+      <PropertyChange property="11" rate="-10" gradient="0" target="4" targetPosition="4"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT045_3" name="造越位" level="3" last="45" type="4" formation="1,2,3,4,5,6,7,8,9,10,16,17,18">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="-15" gradient="0" target="4" targetPosition="4"/>
+      <PropertyChange property="1" rate="-15" gradient="0" target="4" targetPosition="4"/>
+      <PropertyChange property="2" rate="-15" gradient="0" target="4" targetPosition="4"/>
+      <PropertyChange property="9" rate="-15" gradient="0" target="4" targetPosition="4"/>
+      <PropertyChange property="10" rate="-15" gradient="0" target="4" targetPosition="4"/>
+      <PropertyChange property="11" rate="-15" gradient="0" target="4" targetPosition="4"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT046_1" name="士气高涨" level="1" last="45" type="4" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="4" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="1" rate="4" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="2" rate="4" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="3" rate="4" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="4" rate="4" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="5" rate="4" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="6" rate="4" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="7" rate="4" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="8" rate="4" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="9" rate="4" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="10" rate="4" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="11" rate="4" gradient="0" target="3" targetPosition="3"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT046_2" name="士气高涨" level="2" last="45" type="4" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="7" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="1" rate="7" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="2" rate="7" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="3" rate="7" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="4" rate="7" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="5" rate="7" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="6" rate="7" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="7" rate="7" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="8" rate="7" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="9" rate="7" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="10" rate="7" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="11" rate="7" gradient="0" target="3" targetPosition="3"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT046_3" name="士气高涨" level="3" last="45" type="4" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="10" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="1" rate="10" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="2" rate="10" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="3" rate="10" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="4" rate="10" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="5" rate="10" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="6" rate="10" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="7" rate="10" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="8" rate="10" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="9" rate="10" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="10" rate="10" gradient="0" target="3" targetPosition="3"/>
+      <PropertyChange property="11" rate="10" gradient="0" target="3" targetPosition="3"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT051_1" name="“狂人”穆里尼奥" level="1" last="45" type="4" formation="0">
+    <SpecialEffects>
+      <SpecialEffect name="MadmanEffector" value="1,1" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT051_2" name="“狂人”穆里尼奥" level="2" last="45" type="4" formation="0">
+    <SpecialEffects>
+      <SpecialEffect name="MadmanEffector" value="2,2" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT051_3" name="“狂人”穆里尼奥" level="3" last="45" type="4" formation="0">
+    <SpecialEffects>
+      <SpecialEffect name="MadmanEffector" value="3,3" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT052_1" name="弗格森的吹风机" level="1" last="45" type="4" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="6" rate="15" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT052_2" name="弗格森的吹风机" level="2" last="45" type="4" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="6" rate="30" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT055_1" name="不屈" level="1" last="0" type="5" formation="0">   
+    <Immunity>
+      <Immunity type="0" rate="-30" probability="100"/>
+      <Immunity type="5" rate="0" probability="10"/>
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT055_2" name="不屈" level="2" last="0" type="5" formation="0">   
+    <Immunity>
+      <Immunity type="0" rate="-45" probability="100"/>
+      <Immunity type="5" rate="0" probability="20"/>
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT055_3" name="不屈" level="3" last="0" type="5" formation="0">
+    <Immunity>
+      <Immunity type="0" rate="-60"  probability="100"/>
+      <Immunity type="5" rate="0" probability="30"/>
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT056_1" name="军训" level="1" last="45" type="5" formation="0">
+    <Immunity>
+      <Immunity type="1" probability="0"/>
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT056_2" name="军训" level="2" last="45" type="5" formation="0">
+    <Immunity>
+      <Immunity type="1" probability="0"/>
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT056_3" name="军训" level="3" last="45" type="5" formation="0">
+    <Immunity>
+      <Immunity type="1" probability="0"/>
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT060_1" name="钢铁意志" level="1" last="45" type="5" formation="0">
+    <Immunity>
+      <Immunity type="0" rate="-40" probability="100"/>
+      <Immunity type="1" probability="20"/>
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT060_2" name="钢铁意志" level="2" last="45" type="5" formation="0">
+    <Immunity>
+      <Immunity type="0" rate="-50" probability="100"/>
+      <Immunity type="1" probability="40"/>
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT060_3" name="钢铁意志" level="3" last="45" type="5" formation="0">
+    <Immunity>
+      <Immunity type="0" rate="-60" probability="100"/>
+      <Immunity type="1" probability="60"/>
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT061_1" name="霸体" level="1" last="45" type="5" formation="0">
+    <Immunity>
+      <Immunity type="5" probability="100"/>
+      <Immunity type="7" targetDebuff="1" probability="100"/>
+      <Immunity type="7" targetDebuff="2" probability="100"/>
+      <Immunity type="7" targetDebuff="4" probability="100"/>
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT062_1" name="无尽斗志" level="1" last="45" type="5" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="0" gradient="0.1" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="0" gradient="0.1" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="0" gradient="0.1" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="0" gradient="0.1" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="0" gradient="0.1" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="0" gradient="0.1" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT062_2" name="无尽斗志" level="2" last="45" type="5" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="0" gradient="0.2" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="0" gradient="0.2" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="0" gradient="0.2" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="0" gradient="0.2" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="0" gradient="0.2" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="0" gradient="0.2" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT062_3" name="无尽斗志" level="3" last="45" type="5" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="0" gradient="0.3" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="0" gradient="0.3" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="0" gradient="0.3" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="0" gradient="0.3" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="0" gradient="0.3" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="0" gradient="0.3" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT062_4" name="无尽斗志" level="4" last="45" type="5" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="0" gradient="0.4" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="0" gradient="0.4" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="0" gradient="0.4" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="0" gradient="0.4" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="0" gradient="0.4" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="0" gradient="0.4" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT062_5" name="无尽斗志" level="5" last="45" type="5" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="0" gradient="0.5" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="0" gradient="0.5" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="0" gradient="0.5" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="0" gradient="0.5" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="0" gradient="0.5" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="0" gradient="0.5" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+</Openers>

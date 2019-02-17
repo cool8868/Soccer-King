@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/numeric/conversion/detail
+END
+bounds.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/numeric/conversion/detail/bounds.hpp
+END
+old_numeric_cast.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/numeric/conversion/detail/old_numeric_cast.hpp
+END
+conversion_traits.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/numeric/conversion/detail/conversion_traits.hpp
+END
+int_float_mixture.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/numeric/conversion/detail/int_float_mixture.hpp
+END
+sign_mixture.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/numeric/conversion/detail/sign_mixture.hpp
+END
+udt_builtin_mixture.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/numeric/conversion/detail/udt_builtin_mixture.hpp
+END
+is_subranged.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/numeric/conversion/detail/is_subranged.hpp
+END
+meta.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/numeric/conversion/detail/meta.hpp
+END
+converter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/numeric/conversion/detail/converter.hpp
+END

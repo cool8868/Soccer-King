@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/scope
+END
+local_variable.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/scope/local_variable.hpp
+END
+lambda.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/scope/lambda.hpp
+END
+scoped_environment.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/scope/scoped_environment.hpp
+END
+dynamic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/scope/dynamic.hpp
+END
+let.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/scope/let.hpp
+END

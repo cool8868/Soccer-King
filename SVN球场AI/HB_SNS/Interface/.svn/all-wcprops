@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/HB_SNS/!svn/ver/1667/trunk/c++/HB_SNS/HB_SNS/Interface
+END
+ICreateMatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/HB_SNS/Interface/ICreateMatch.h
+END
+IState.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/IState.h
+END
+IGoal.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/HB_SNS/Interface/IGoal.h
+END
+IVisibleObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/IVisibleObject.h
+END
+IOutputer.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/IOutputer.h
+END
+IMoveable.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/IMoveable.h
+END
+IMatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/IMatch.h
+END
+IFlowEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/IFlowEngine.h
+END
+IFootballProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/HB_SNS/!svn/ver/705/trunk/c++/HB_SNS/HB_SNS/Interface/IFootballProcess.h
+END
+IFootball.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/IFootball.h
+END
+IBinaryOutput.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/IBinaryOutput.h
+END
+IBinaryReadIn.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/HB_SNS/!svn/ver/794/trunk/c++/HB_SNS/HB_SNS/Interface/IBinaryReadIn.h
+END
+IPitch.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/HB_SNS/Interface/IPitch.h
+END
+IRequestInitialize.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/IRequestInitialize.h
+END
+IAction.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/IAction.h
+END
+IProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/HB_SNS/Interface/IProcess.h
+END

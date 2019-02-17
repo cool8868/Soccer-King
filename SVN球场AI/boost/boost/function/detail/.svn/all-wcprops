@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/function/detail
+END
+prologue.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/function/detail/prologue.hpp
+END
+gen_maybe_include.pl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/function/detail/gen_maybe_include.pl
+END
+maybe_include.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/function/detail/maybe_include.hpp
+END
+function_iterate.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/function/detail/function_iterate.hpp
+END

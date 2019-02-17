@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/statement/detail
+END
+catch_eval.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/statement/detail/catch_eval.hpp
+END
+switch_eval.ipp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/statement/detail/switch_eval.ipp
+END
+catch_all_eval.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/statement/detail/catch_all_eval.hpp
+END
+switch.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/statement/detail/switch.hpp
+END
+catch_composite.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/statement/detail/catch_composite.hpp
+END
+switch_eval.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/phoenix/statement/detail/switch_eval.hpp
+END

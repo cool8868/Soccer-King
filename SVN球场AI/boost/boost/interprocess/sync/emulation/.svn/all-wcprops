@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/sync/emulation
+END
+recursive_mutex.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/sync/emulation/recursive_mutex.hpp
+END
+mutex.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/sync/emulation/mutex.hpp
+END
+interprocess_semaphore.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/sync/emulation/interprocess_semaphore.hpp
+END
+interprocess_barrier.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/sync/emulation/interprocess_barrier.hpp
+END
+interprocess_condition.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/sync/emulation/interprocess_condition.hpp
+END
+named_creation_functor.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/interprocess/sync/emulation/named_creation_functor.hpp
+END

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Formations>
+  <!--[type]0-门将, 1-后卫, 2-中场, 3-前锋-->
+  <Formation id="1" name="4-4-2">
+    <Player type="0" coordinate="5,68"></Player>
+    <Player type="1" coordinate="40,34"></Player>
+    <Player type="1" coordinate="60,51"></Player>
+    <Player type="1" coordinate="60,85"></Player>
+    <Player type="1" coordinate="40,102"></Player>
+    <Player type="2" coordinate="100,34"></Player>
+    <Player type="2" coordinate="120,51"></Player>
+    <Player type="2" coordinate="120,85"></Player>
+    <Player type="2" coordinate="100,102"></Player>
+    <Player type="3" coordinate="160,51"></Player>
+    <Player type="3" coordinate="160,85"></Player>
+  </Formation>
+
+  <Formation id="2" name="4-3-3">
+    <Player type="0" coordinate="5,68"></Player>
+    <Player type="1" coordinate="40,34"></Player>
+    <Player type="1" coordinate="60,51"></Player>
+    <Player type="1" coordinate="60,85"></Player>
+    <Player type="1" coordinate="40,102"></Player>
+    <Player type="2" coordinate="100,34"></Player>
+    <Player type="2" coordinate="100,68"></Player>
+    <Player type="2" coordinate="100,102"></Player>
+    <Player type="3" coordinate="160,51"></Player>
+    <Player type="3" coordinate="160,68"></Player>
+    <Player type="3" coordinate="160,85"></Player>
+   </Formation>
+
+   <Formation id="3" name="4-3-2-1">
+     <Player type="0" coordinate="5,68"></Player>
+     <Player type="1" coordinate="60,34"></Player>
+     <Player type="1" coordinate="40,51"></Player>
+     <Player type="1" coordinate="40,85"></Player>
+     <Player type="1" coordinate="60,102"></Player>
+     <Player type="2" coordinate="160,34"></Player>
+     <Player type="2" coordinate="100,51"></Player>
+     <Player type="2" coordinate="120,68"></Player>
+     <Player type="2" coordinate="100,85"></Player>
+     <Player type="2" coordinate="160,102"></Player>
+     <Player type="3" coordinate="180,68"></Player>
+   </Formation>
+
+   <Formation id="4" name="4-2-3-1">
+     <Player type="0" coordinate="5,68"></Player>
+     <Player type="1" coordinate="60,34"></Player>
+     <Player type="1" coordinate="40,51"></Player>
+     <Player type="1" coordinate="40,85"></Player>
+     <Player type="1" coordinate="60,102"></Player>
+     <Player type="2" coordinate="140,34"></Player>
+     <Player type="2" coordinate="80,51"></Player>
+     <Player type="2" coordinate="120,68"></Player>
+     <Player type="2" coordinate="80,85"></Player>
+     <Player type="2" coordinate="140,102"></Player>
+     <Player type="3" coordinate="180,68"></Player>
+   </Formation>
+
+   <Formation id="5" name="3-5-2">
+     <Player type="0" coordinate="5,68"></Player>
+     <Player type="1" coordinate="40,34"></Player>
+     <Player type="1" coordinate="40,68"></Player>
+     <Player type="1" coordinate="40,102"></Player>
+     <Player type="2" coordinate="100,34"></Player>
+     <Player type="2" coordinate="120,51"></Player>
+     <Player type="2" coordinate="100,68"></Player>
+     <Player type="2" coordinate="120,85"></Player>
+     <Player type="2" coordinate="100,102"></Player>
+     <Player type="3" coordinate="160,51"></Player>
+     <Player type="3" coordinate="160,85"></Player>
+   </Formation>
+
+   <Formation id="6" name="3-4-3">
+     <Player type="0" coordinate="5,68"></Player>
+     <Player type="1" coordinate="40,34"></Player>
+     <Player type="1" coordinate="40,68"></Player>
+     <Player type="1" coordinate="40,102"></Player>
+     <Player type="2" coordinate="100,34"></Player>
+     <Player type="2" coordinate="120,51"></Player>
+     <Player type="2" coordinate="120,85"></Player>
+     <Player type="2" coordinate="100,102"></Player>
+     <Player type="3" coordinate="160,51"></Player>
+     <Player type="3" coordinate="180,68"></Player>
+     <Player type="3" coordinate="160,85"></Player>
+   </Formation>
+
+   <Formation id="7" name="5-4-1">
+     <Player type="0" coordinate="5,68"></Player>
+     <Player type="1" coordinate="40,34"></Player>
+     <Player type="1" coordinate="60,51"></Player>
+     <Player type="1" coordinate="40,68"></Player>
+     <Player type="1" coordinate="60,85"></Player>
+     <Player type="1" coordinate="40,102"></Player>
+     <Player type="2" coordinate="120,34"></Player>
+     <Player type="2" coordinate="100,51"></Player>
+     <Player type="2" coordinate="100,85"></Player>
+     <Player type="2" coordinate="120,102"></Player>
+     <Player type="3" coordinate="160,68"></Player>
+   </Formation>
+
+   <Formation id="8" name="5-3-2">
+     <Player type="0" coordinate="5,68"></Player>
+     <Player type="1" coordinate="40,34"></Player>
+     <Player type="1" coordinate="60,51"></Player>
+     <Player type="1" coordinate="40,68"></Player>
+     <Player type="1" coordinate="60,85"></Player>
+     <Player type="1" coordinate="40,102"></Player>
+     <Player type="2" coordinate="120,34"></Player>
+     <Player type="2" coordinate="100,68"></Player>
+     <Player type="2" coordinate="120,102"></Player>
+     <Player type="3" coordinate="160,51"></Player>
+     <Player type="3" coordinate="160,85"></Player>
+   </Formation>
+</Formations>

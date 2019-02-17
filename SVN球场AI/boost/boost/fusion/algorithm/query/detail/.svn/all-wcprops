@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/algorithm/query/detail
+END
+find_if.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/algorithm/query/detail/find_if.hpp
+END
+count_if.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/algorithm/query/detail/count_if.hpp
+END
+any.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/algorithm/query/detail/any.hpp
+END
+all.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/algorithm/query/detail/all.hpp
+END
+count.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/algorithm/query/detail/count.hpp
+END

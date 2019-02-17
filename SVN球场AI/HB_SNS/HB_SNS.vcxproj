@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{45F84118-3794-4143-9467-52DD9A885BC6}</ProjectGuid>
+    <RootNamespace>HB_SNS</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AI\Actions\ChaceAction.h" />
+    <ClInclude Include="AI\Actions\IdleAction.h" />
+    <ClInclude Include="AI\Actions\PositionalAction.h" />
+    <ClInclude Include="AI\Actions\StopballAction.h" />
+    <ClInclude Include="AI\Decides\Factory\PositionalDecideFactory.h" />
+    <ClInclude Include="AI\Decides\Forward\Forward_PositionalDecide.h" />
+    <ClInclude Include="AI\Decides\Fullback\Fullback_PositionalDecide.h" />
+    <ClInclude Include="AI\Decides\Goalkeeper\Goalkeeper_PositionalDecide.h" />
+    <ClInclude Include="AI\Decides\HoldBallPositionalDecide.h" />
+    <ClInclude Include="AI\Decides\Midfielder\Midfielder_PositionalDecide.h" />
+    <ClInclude Include="AI\Decides\PositionalDecide.h" />
+    <ClInclude Include="AI\Decides\Utility.h" />
+    <ClInclude Include="AI\Rules\FootballRule.h" />
+    <ClInclude Include="AI\Rules\FreeKickRules\DirectFreeKickRule.h" />
+    <ClInclude Include="AI\Rules\FreeKickRules\FreeKickRule.h" />
+    <ClInclude Include="AI\Rules\FreeKickRules\FreeKickRuleFactory.h" />
+    <ClInclude Include="AI\Rules\FreeKickRules\GkOpenballRule.h" />
+    <ClInclude Include="AI\Rules\FreeKickRules\IndirectFreeKickRule.h" />
+    <ClInclude Include="AI\Rules\FreeKickRules\OpenballRule.h" />
+    <ClInclude Include="AI\Rules\FreeKickRules\PenaltyKickRule.h" />
+    <ClInclude Include="AI\Rules\FreeKickRules\PenaltyShootout.h" />
+    <ClInclude Include="AI\Rules\MatchRule.h" />
+    <ClInclude Include="AI\Rules\PassTargetDecideRule.h" />
+    <ClInclude Include="AI\Rules\PlayerRule.h" />
+    <ClInclude Include="AI\StateInitializer.h" />
+    <ClInclude Include="AI\StateSelecter.h" />
+    <ClInclude Include="AI\States\ActionState.h" />
+    <ClInclude Include="AI\States\ChaceState.h" />
+    <ClInclude Include="AI\States\DefenceState.h" />
+    <ClInclude Include="AI\States\Defence\InterruptionState.h" />
+    <ClInclude Include="AI\States\Defence\SlideTackleState.h" />
+    <ClInclude Include="AI\States\DiveBallState.h" />
+    <ClInclude Include="AI\States\DribbleState.h" />
+    <ClInclude Include="AI\States\Dribble\BreakThroughState.h" />
+    <ClInclude Include="AI\States\Dribble\DefaultDribbleState.h" />
+    <ClInclude Include="AI\States\HoldBallState.h" />
+    <ClInclude Include="AI\States\IdleState.h" />
+    <ClInclude Include="AI\States\Idle\GKHoldBallState.h" />
+    <ClInclude Include="AI\States\OffBallState.h" />
+    <ClInclude Include="AI\States\PassState.h" />
+    <ClInclude Include="AI\States\Pass\LongPassState.h" />
+    <ClInclude Include="AI\States\Pass\ShortPassState.h" />
+    <ClInclude Include="AI\States\PositionalState.h" />
+    <ClInclude Include="AI\States\ShootState.h" />
+    <ClInclude Include="AI\States\Shoot\DefaultShootState.h" />
+    <ClInclude Include="AI\States\Shoot\FreekickShootState.h" />
+    <ClInclude Include="AI\States\Shoot\VolleyShootState.h" />
+    <ClInclude Include="AI\States\State.h" />
+    <ClInclude Include="AI\States\StopballState.h" />
+    <ClInclude Include="Buff\AbnormalDebuff.h" />
+    <ClInclude Include="Buff\AbsBuff.h" />
+    <ClInclude Include="Buff\AbsDotBuff.h" />
+    <ClInclude Include="Buff\AbsHoldBallBuff.h" />
+    <ClInclude Include="Buff\Buffs\Buff.h" />
+    <ClInclude Include="Buff\Buffs\DeBuff.h" />
+    <ClInclude Include="Buff\Buffs\DownDebuff.h" />
+    <ClInclude Include="Buff\Buffs\FinishingBuff.h" />
+    <ClInclude Include="Buff\Buffs\FreezeDebuff.h" />
+    <ClInclude Include="Buff\Buffs\InertiaDebuff.h" />
+    <ClInclude Include="Buff\Buffs\OutOfHandDebuff.h" />
+    <ClInclude Include="Buff\Buffs\PuzzleDebuff.h" />
+    <ClInclude Include="Buff\Buffs\StunDebuff.h" />
+    <ClInclude Include="Buff\Creature.h" />
+    <ClInclude Include="common\2D\C2DMatrix.h" />
+    <ClInclude Include="common\2D\geometry.h" />
+    <ClInclude Include="common\2D\InvertedAABBox2D.h" />
+    <ClInclude Include="common\2D\Transformations.h" />
+    <ClInclude Include="common\2D\Vector2D.h" />
+    <ClInclude Include="common\2D\Wall2D.h" />
+    <ClInclude Include="common\2D\WallIntersectionTests.h" />
+    <ClInclude Include="common\common.h" />
+    <ClInclude Include="common\Defines\Defines.h" />
+    <ClInclude Include="common\Delegate\Delegate.h" />
+    <ClInclude Include="common\DisplayUtility.h" />
+    <ClInclude Include="common\Enum\BuffType.h" />
+    <ClInclude Include="common\Enum\ColorType.h" />
+    <ClInclude Include="common\Enum\DebuffType.h" />
+    <ClInclude Include="common\Enum\Direction.h" />
+    <ClInclude Include="common\Enum\InterfaceType.h" />
+    <ClInclude Include="common\Enum\Interruption.h" />
+    <ClInclude Include="common\Enum\ModelType.h" />
+    <ClInclude Include="common\Enum\OpenballSide.h" />
+    <ClInclude Include="common\Enum\PlayerProperty.h" />
+    <ClInclude Include="common\Enum\Position.h" />
+    <ClInclude Include="common\Enum\Side.h" />
+    <ClInclude Include="common\Enum\SkillClass.h" />
+    <ClInclude Include="common\Enum\SkillType.h" />
+    <ClInclude Include="common\Enum\Zone.h" />
+    <ClInclude Include="common\Macros.h" />
+    <ClInclude Include="common\misc\autolist.h" />
+    <ClInclude Include="common\misc\CellSpacePartition.h" />
+    <ClInclude Include="common\misc\Cgdi.h" />
+    <ClInclude Include="common\misc\ConsoleUtils.h" />
+    <ClInclude Include="common\misc\FrameCounter.h" />
+    <ClInclude Include="common\misc\iniFileLoaderBase.h" />
+    <ClInclude Include="common\misc\PriorityQueue.h" />
+    <ClInclude Include="common\misc\Smoother.h" />
+    <ClInclude Include="common\misc\Stream_Utility_Functions.h" />
+    <ClInclude Include="common\misc\TypeToString.h" />
+    <ClInclude Include="common\misc\utils.h" />
+    <ClInclude Include="common\Package\NiRefObject.h" />
+    <ClInclude Include="common\Package\NiSmartPointer.h" />
+    <ClInclude Include="common\Package\packetbase.h" />
+    <ClInclude Include="common\Package\utlbuffer.h" />
+    <ClInclude Include="common\Package\utlmemory.h" />
+    <ClInclude Include="common\Package\zconf.h" />
+    <ClInclude Include="common\Package\zlib.h" />
+    <ClInclude Include="common\Pugixml\pugiconfig.hpp" />
+    <ClInclude Include="common\Pugixml\pugixml.hpp" />
+    <ClInclude Include="common\RandomHelper\RandomHelper.h" />
+    <ClInclude Include="common\String\String.h" />
+    <ClInclude Include="common\Structs\Coordinate.h" />
+    <ClInclude Include="common\Structs\Line.h" />
+    <ClInclude Include="common\Structs\Region.h" />
+    <ClInclude Include="common\Structs\ShootTarget.h" />
+    <ClInclude Include="common\Time\CrudeTimer.h" />
+    <ClInclude Include="common\Time\PrecisionTimer.h" />
+    <ClInclude Include="common\Utility.h" />
+    <ClInclude Include="common\utils.h" />
+    <ClInclude Include="Exception\ApplicationException.h" />
+    <ClInclude Include="Exception\ArgumentException.h" />
+    <ClInclude Include="Exception\ArgumentOutOfRangeException.h" />
+    <ClInclude Include="Exception\ConfigurationErrorsException.h" />
+    <ClInclude Include="Exception\MyException.h" />
+    <ClInclude Include="Exception\NotSupportedException.h" />
+    <ClInclude Include="Exception\ObjectNotInitializedException.h" />
+    <ClInclude Include="Exception\SkillErrorException.h" />
+    <ClInclude Include="Exception\SkillPartBuilderNotFoundException.h" />
+    <ClInclude Include="FlowFacade\LocalWorkflowAdapter.h" />
+    <ClInclude Include="FootBall\Football.h" />
+    <ClInclude Include="Goal\Goal.h" />
+    <ClInclude Include="Interface\AI\Decides\IPositionalDecide.h" />
+    <ClInclude Include="Interface\IAction.h" />
+    <ClInclude Include="Interface\IBinaryOutput.h" />
+    <ClInclude Include="Interface\IBinaryReadIn.h" />
+    <ClInclude Include="Interface\ICreateMatch.h" />
+    <ClInclude Include="Interface\IFlowEngine.h" />
+    <ClInclude Include="Interface\IFootball.h" />
+    <ClInclude Include="Interface\IFootballProcess.h" />
+    <ClInclude Include="Interface\IGoal.h" />
+    <ClInclude Include="Interface\IMatch.h" />
+    <ClInclude Include="Interface\IMoveable.h" />
+    <ClInclude Include="Interface\IOutputer.h" />
+    <ClInclude Include="Interface\IPitch.h" />
+    <ClInclude Include="Interface\IProcess.h" />
+    <ClInclude Include="Interface\IRequestInitialize.h" />
+    <ClInclude Include="Interface\IState.h" />
+    <ClInclude Include="Interface\IVisibleObject.h" />
+    <ClInclude Include="Interface\Manager\IManager.h" />
+    <ClInclude Include="Interface\Manager\IManagerData.h" />
+    <ClInclude Include="Interface\Manager\Status\IDecreaseDebuffRateStatus.h" />
+    <ClInclude Include="Interface\Manager\Status\IDecreaseFoulLevelStatus.h" />
+    <ClInclude Include="Interface\Manager\Status\IDecreaseStaminaRateStatus.h" />
+    <ClInclude Include="Interface\Manager\Status\IImmunityDebuffSkillStatus.h" />
+    <ClInclude Include="Interface\Manager\Status\IImmunityDebuffsStatus.h" />
+    <ClInclude Include="Interface\Manager\Status\IMadmanStatus.h" />
+    <ClInclude Include="Interface\Manager\Status\IManagerStatus.h" />
+    <ClInclude Include="Interface\Manager\Status\INoFoulLevelStatus.h" />
+    <ClInclude Include="Interface\Manager\Status\INoInjuredStatus.h" />
+    <ClInclude Include="Interface\Manager\Status\ITransferFoulLevelStatus.h" />
+    <ClInclude Include="Interface\Player\IAddDebuff.h" />
+    <ClInclude Include="Interface\Player\IDecide.h" />
+    <ClInclude Include="Interface\Player\IDefence.h" />
+    <ClInclude Include="Interface\Player\IDisturb.h" />
+    <ClInclude Include="Interface\Player\IDiveBall.h" />
+    <ClInclude Include="Interface\Player\IDribble.h" />
+    <ClInclude Include="Interface\Player\IFoul.h" />
+    <ClInclude Include="Interface\Player\ILongPass.h" />
+    <ClInclude Include="Interface\Player\IModel.h" />
+    <ClInclude Include="Interface\Player\INotifyRedecide.h" />
+    <ClInclude Include="Interface\Player\IPlayer.h" />
+    <ClInclude Include="Interface\Player\IRotate.h" />
+    <ClInclude Include="Interface\Player\IShoot.h" />
+    <ClInclude Include="Interface\Player\IShortPass.h" />
+    <ClInclude Include="Interface\Player\ISight.h" />
+    <ClInclude Include="Interface\Player\IStopball.h" />
+    <ClInclude Include="Interface\Player\Property\IPlayerAttribute.h" />
+    <ClInclude Include="Interface\Player\Property\IRawPlayer.h" />
+    <ClInclude Include="Interface\Player\Status\IActionStatus.h" />
+    <ClInclude Include="Interface\Player\Status\IDebuffStatus.h" />
+    <ClInclude Include="Interface\Player\Status\IDefenceStatus.h" />
+    <ClInclude Include="Interface\Player\Status\IDiveStatus.h" />
+    <ClInclude Include="Interface\Player\Status\IFoulStatus.h" />
+    <ClInclude Include="Interface\Player\Status\IModelStatus.h" />
+    <ClInclude Include="Interface\Player\Status\IPassStatus.h" />
+    <ClInclude Include="Interface\Player\Status\IPlayerStatus.h" />
+    <ClInclude Include="Interface\Player\Status\IShootStatus.h" />
+    <ClInclude Include="Interface\Skill\Entity\Effects\ISpecialEffector.h" />
+    <ClInclude Include="Interface\Skill\IActionRawSkill.h" />
+    <ClInclude Include="Interface\Skill\IActionSkill.h" />
+    <ClInclude Include="Interface\Skill\IEffect.h" />
+    <ClInclude Include="Interface\Skill\IGetSkillTarget.h" />
+    <ClInclude Include="Interface\Skill\IManagerSkill.h" />
+    <ClInclude Include="Interface\Skill\IOpenerRawSkill.h" />
+    <ClInclude Include="Interface\Skill\IOpenerSkill.h" />
+    <ClInclude Include="Interface\Skill\IPassiveRawSkill.h" />
+    <ClInclude Include="Interface\Skill\IRawSkill.h" />
+    <ClInclude Include="Interface\Skill\ISkill.h" />
+    <ClInclude Include="Interface\Skill\ISkillFacade.h" />
+    <ClInclude Include="Interface\Skill\ISkillPart.h" />
+    <ClInclude Include="Interface\Skill\ISkillResult.h" />
+    <ClInclude Include="Interface\Skill\ITrigger.h" />
+    <ClInclude Include="Interface\Skill\ITriggerConditionsPart.h" />
+    <ClInclude Include="Interface\Skill\IWill.h" />
+    <ClInclude Include="Interface\Skill\IWillRawSkill.h" />
+    <ClInclude Include="Interface\Skill\Resolver\ISkillBuilder.h" />
+    <ClInclude Include="Interface\Skill\Resolver\ISkillPartBuilder.h" />
+    <ClInclude Include="Log\LogHelper.h" />
+    <ClInclude Include="Log\LogType.h" />
+    <ClInclude Include="Manager\Manager.h" />
+    <ClInclude Include="Manager\Status\DecreaseDebuffRateStatus.h" />
+    <ClInclude Include="Manager\Status\DecreaseFoulLevelStatus.h" />
+    <ClInclude Include="Manager\Status\DecreaseStaminaRateStatus.h" />
+    <ClInclude Include="Manager\Status\ImmunityDebuffSkillStatus.h" />
+    <ClInclude Include="Manager\Status\ImmunityDebuffsStatus.h" />
+    <ClInclude Include="Manager\Status\MadmanStatus.h" />
+    <ClInclude Include="Manager\Status\ManagerStatus.h" />
+    <ClInclude Include="Manager\Status\NoFoulLevelStatus.h" />
+    <ClInclude Include="Manager\Status\NoInjuredStatus.h" />
+    <ClInclude Include="Manager\Status\TransferFoulLevelStatus.h" />
+    <ClInclude Include="MatchData\Formation\FormationEntity.h" />
+    <ClInclude Include="MatchData\Formation\FormationFacade.h" />
+    <ClInclude Include="MatchData\LocalManagerAdapter\LocalManagerAdapter.h" />
+    <ClInclude Include="MatchData\ManagerData\ManagerData.h" />
+    <ClInclude Include="MatchData\MoveRegion\MoveRegionFacade.h" />
+    <ClInclude Include="MatchData\PlayerData\PlayerPropertyInitializer.h" />
+    <ClInclude Include="MatchProcess\FootballProcess.h" />
+    <ClInclude Include="MatchProcess\GoalkeeperProcess.h" />
+    <ClInclude Include="MatchProcess\MatchProcess.h" />
+    <ClInclude Include="MatchProcess\MoveableProcess.h" />
+    <ClInclude Include="MatchProcess\PassProcess.h" />
+    <ClInclude Include="MatchProcess\PlayerProcess.h" />
+    <ClInclude Include="MatchProcess\Process.h" />
+    <ClInclude Include="MatchProcess\ShootProcess.h" />
+    <ClInclude Include="Match\MatchEntity.h" />
+    <ClInclude Include="Match\Status\MatchStatus.h" />
+    <ClInclude Include="Match\TransferEntity.h" />
+    <ClInclude Include="Pitch\Pitch.h" />
+    <ClInclude Include="Player\Player.h" />
+    <ClInclude Include="Player\Property\PlayerAttribute.h" />
+    <ClInclude Include="Player\Property\RawPlayer.h" />
+    <ClInclude Include="Player\Status\PlayerStatus.h" />
+    <ClInclude Include="ProcessOutput\ResultEntity.h" />
+    <ClInclude Include="ProcessParser\ParseEntity.h" />
+    <ClInclude Include="ProcessRender\SoccerFootball.h" />
+    <ClInclude Include="ProcessRender\SoccerManager.h" />
+    <ClInclude Include="ProcessRender\SoccerMatch.h" />
+    <ClInclude Include="ProcessRender\SoccerPitch.h" />
+    <ClInclude Include="ProcessRender\SoccerPlayer.h" />
+    <ClInclude Include="SkillEngine\Action\ActionFacade.h" />
+    <ClInclude Include="SkillEngine\Action\Effect\SkillEffector.h" />
+    <ClInclude Include="SkillEngine\Action\Trigger\SkillTrigger.h" />
+    <ClInclude Include="SkillEngine\Cache\ActionSkillCache.h" />
+    <ClInclude Include="SkillEngine\Cache\ConfigCache\ActionSkillConfigCache.h" />
+    <ClInclude Include="SkillEngine\Cache\ConfigCache\ConfigurationManager.h" />
+    <ClInclude Include="SkillEngine\Cache\ConfigCache\ConfigurationManagerData.h" />
+    <ClInclude Include="SkillEngine\Cache\ConfigCache\DebuffConfigCache.h" />
+    <ClInclude Include="SkillEngine\Cache\ConfigCache\OpenerSkillConfigCache.h" />
+    <ClInclude Include="SkillEngine\Cache\ConfigCache\PassiveSkillConfigCache.h" />
+    <ClInclude Include="SkillEngine\Cache\ConfigCache\WillConfigCache.h" />
+    <ClInclude Include="SkillEngine\Cache\OpenerSkillCache.h" />
+    <ClInclude Include="SkillEngine\Cache\PassiveSkillCache.h" />
+    <ClInclude Include="SkillEngine\Cache\WillCache.h" />
+    <ClInclude Include="SkillEngine\Entity\ActionRawSkill.h" />
+    <ClInclude Include="SkillEngine\Entity\Buff.h" />
+    <ClInclude Include="SkillEngine\Entity\BuffFactory.h" />
+    <ClInclude Include="SkillEngine\Entity\DeBuff.h" />
+    <ClInclude Include="SkillEngine\Entity\DotBuff.h" />
+    <ClInclude Include="SkillEngine\Entity\DotDebuff.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\BallRelatedEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\DebuffsEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\DisplacementsEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\Displacements\MoveDisplacement.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\Displacements\SkillDisplacement.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\FoulRelatedEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\ImmunityEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\ManagerChangesEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\ModelEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\PropertyChangesEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgradesEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\ActionTypeEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\BuffLastEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\BuffRateEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\CdEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\DebuffLastEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\DebuffRateEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\DebuffStatusEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\FoulRateEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\InjureRateEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\ISkillPropertyEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\TriggerRateEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\SpecialEffectsEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\Specials\AntiOffsideEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\Specials\ChangeShootRegionEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\Specials\ChangeStateEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\Specials\MadmanEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\Specials\PassOutboundEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\Specials\PositionExchangeEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\Specials\WingsEffector.h" />
+    <ClInclude Include="SkillEngine\Entity\Effects\TargetSelector.h" />
+    <ClInclude Include="SkillEngine\Entity\HoldBallBuff.h" />
+    <ClInclude Include="SkillEngine\Entity\OpenerRawSkill.h" />
+    <ClInclude Include="SkillEngine\Entity\Parts\BallRelatedSkillPart.h" />
+    <ClInclude Include="SkillEngine\Entity\Parts\DebuffsSkillPart.h" />
+    <ClInclude Include="SkillEngine\Entity\Parts\DisplacementsSkillPart.h" />
+    <ClInclude Include="SkillEngine\Entity\Parts\FoulRelatedSkillPart.h" />
+    <ClInclude Include="SkillEngine\Entity\Parts\ImmunitySkillPart.h" />
+    <ClInclude Include="SkillEngine\Entity\Parts\ManagerChangesSkillPart.h" />
+    <ClInclude Include="SkillEngine\Entity\Parts\ModelsSkillPart.h" />
+    <ClInclude Include="SkillEngine\Entity\Parts\PropertyChangesSkillPart.h" />
+    <ClInclude Include="SkillEngine\Entity\Parts\SkillUpgradesSkillPart.h" />
+    <ClInclude Include="SkillEngine\Entity\Parts\SpecialEffectsSkillPart.h" />
+    <ClInclude Include="SkillEngine\Entity\Parts\TriggerSkillPart.h" />
+    <ClInclude Include="SkillEngine\Entity\Parts\WillTriggersSkillPart.h" />
+    <ClInclude Include="SkillEngine\Entity\PassiveRawSkill.h" />
+    <ClInclude Include="SkillEngine\Entity\Triggers\FirstHalfTrigger.h" />
+    <ClInclude Include="SkillEngine\Entity\Triggers\HoldBallTrigger.h" />
+    <ClInclude Include="SkillEngine\Entity\Triggers\PercentageTrigger.h" />
+    <ClInclude Include="SkillEngine\Entity\Triggers\SecondHalfTrigger.h" />
+    <ClInclude Include="SkillEngine\Entity\Triggers\StateTrigger.h" />
+    <ClInclude Include="SkillEngine\Entity\Triggers\TargetTrigger.h" />
+    <ClInclude Include="SkillEngine\Entity\Triggers\WillActionTrigger.h" />
+    <ClInclude Include="SkillEngine\Entity\Triggers\WillAreaNumTrigger.h" />
+    <ClInclude Include="SkillEngine\Entity\Triggers\WillAreaTrigger.h" />
+    <ClInclude Include="SkillEngine\Entity\Triggers\WillDisableNumTrigger.h" />
+    <ClInclude Include="SkillEngine\Entity\Triggers\WillOpenballTrigger.h" />
+    <ClInclude Include="SkillEngine\Entity\WillRawSkill.h" />
+    <ClInclude Include="SkillEngine\Opener\Effect\SkillEffector.h" />
+    <ClInclude Include="SkillEngine\Passive\Effect\SkillEffector.h" />
+    <ClInclude Include="SkillEngine\Passive\PassiveFacade.h" />
+    <ClInclude Include="SkillEngine\Resolver\ActionSkillBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\Builders\BallRelatedBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\Builders\DebuffsBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\Builders\DisplacementsBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\Builders\FoulRelatedBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\Builders\ImmunityBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\Builders\ManagerChangesBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\Builders\ModelsBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\Builders\PropertyChangesBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\Builders\SkillUpgradesBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\Builders\SpecialEffectsBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\Builders\TriggerConditionsBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\Builders\TriggerFactory.h" />
+    <ClInclude Include="SkillEngine\Resolver\Builders\TriggersBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\Builders\WillTriggerFactory.h" />
+    <ClInclude Include="SkillEngine\Resolver\OpenerSkillBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\PassiveSkillBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\SkillBuilder.h" />
+    <ClInclude Include="SkillEngine\Resolver\WillBuilder.h" />
+    <ClInclude Include="SkillEngine\SkillFacade.h" />
+    <ClInclude Include="SkillEngine\Will\Effect\WillEffector.h" />
+    <ClInclude Include="SkillEngine\Will\Trigger\WillTrigger.h" />
+    <ClInclude Include="SkillEngine\Will\WillFacade.h" />
+    <ClInclude Include="Skill\ActionSkill.h" />
+    <ClInclude Include="Skill\OpenerSkill.h" />
+    <ClInclude Include="Skill\RawSkill.h" />
+    <ClInclude Include="Skill\SkillResult.h" />
+    <ClInclude Include="Skill\Will.h" />
+    <ClInclude Include="WindowUtils\DefineUtils.h" />
+    <ClInclude Include="WindowUtils\WindowUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AI\StateSelecter.cpp" />
+    <ClCompile Include="AI\States\ActionState.cpp" />
+    <ClCompile Include="AI\States\ChaceState.cpp" />
+    <ClCompile Include="AI\States\DefenceState.cpp" />
+    <ClCompile Include="AI\States\Defence\InterruptionState.cpp" />
+    <ClCompile Include="AI\States\Defence\SlideTackleState.cpp" />
+    <ClCompile Include="AI\States\DiveBallState.cpp" />
+    <ClCompile Include="AI\States\DribbleState.cpp" />
+    <ClCompile Include="AI\States\Dribble\BreakThroughState.cpp" />
+    <ClCompile Include="AI\States\Dribble\DefaultDribbleState.cpp" />
+    <ClCompile Include="AI\States\HoldBallState.cpp" />
+    <ClCompile Include="AI\States\IdleState.cpp" />
+    <ClCompile Include="AI\States\Idle\GKHoldBallState.cpp" />
+    <ClCompile Include="AI\States\OffBallState.cpp" />
+    <ClCompile Include="AI\States\PassState.cpp" />
+    <ClCompile Include="AI\States\Pass\LongPassState.cpp" />
+    <ClCompile Include="AI\States\Pass\ShortPassState.cpp" />
+    <ClCompile Include="AI\States\PositionalState.cpp" />
+    <ClCompile Include="AI\States\ShootState.cpp" />
+    <ClCompile Include="AI\States\Shoot\DefaultShootState.cpp" />
+    <ClCompile Include="AI\States\Shoot\FreekickShootState.cpp" />
+    <ClCompile Include="AI\States\Shoot\VolleyShootState.cpp" />
+    <ClCompile Include="AI\States\State.cpp" />
+    <ClCompile Include="AI\States\StopballState.cpp" />
+    <ClCompile Include="Buff\AbnormalDebuff.cpp" />
+    <ClCompile Include="Buff\AbsBuff.cpp" />
+    <ClCompile Include="Buff\Creature.cpp" />
+    <ClCompile Include="common\2D\Vector2d.cpp" />
+    <ClCompile Include="common\misc\Cgdi.cpp" />
+    <ClCompile Include="common\misc\FrameCounter.cpp" />
+    <ClCompile Include="common\misc\iniFileLoaderBase.cpp" />
+    <ClCompile Include="common\Package\utlbuffer.cpp" />
+    <ClCompile Include="common\Pugixml\pugixml.cpp" />
+    <ClCompile Include="common\String\String.cpp" />
+    <ClCompile Include="common\Time\CrudeTimer.cpp" />
+    <ClCompile Include="common\Time\PrecisionTimer.cpp" />
+    <ClCompile Include="FlowFacade\LocalWorkflowAdapter.cpp" />
+    <ClCompile Include="FootBall\Football.cpp" />
+    <ClCompile Include="Goal\Goal.cpp" />
+    <ClCompile Include="Log\LogHelper.cpp" />
+    <ClCompile Include="Manager\Manager.cpp" />
+    <ClCompile Include="MatchData\Formation\FormationFacade.cpp" />
+    <ClCompile Include="MatchData\LocalManagerAdapter\LocalManagerAdapter.cpp" />
+    <ClCompile Include="MatchData\ManagerData\ManagerData.cpp" />
+    <ClCompile Include="MatchData\MoveRegion\MoveRegionFacade.cpp" />
+    <ClCompile Include="MatchData\PlayerData\PlayerPropertyInitializer.cpp" />
+    <ClCompile Include="MatchProcess\FootballProcess.cpp" />
+    <ClCompile Include="MatchProcess\GoalkeeperProcess.cpp" />
+    <ClCompile Include="MatchProcess\MatchProcess.cpp" />
+    <ClCompile Include="MatchProcess\MoveableProcess.cpp" />
+    <ClCompile Include="MatchProcess\PassProcess.cpp" />
+    <ClCompile Include="MatchProcess\PlayerProcess.cpp" />
+    <ClCompile Include="MatchProcess\Process.cpp" />
+    <ClCompile Include="MatchProcess\ShootProcess.cpp" />
+    <ClCompile Include="Match\MatchEntity.cpp" />
+    <ClCompile Include="Match\Status\MatchStatus.cpp" />
+    <ClCompile Include="Match\TransferEntity.cpp" />
+    <ClCompile Include="Pitch\Pitch.cpp" />
+    <ClCompile Include="Player\Player.cpp" />
+    <ClCompile Include="Player\Player_IAddBuff.cpp" />
+    <ClCompile Include="Player\Player_IAddDebuff.cpp" />
+    <ClCompile Include="Player\Player_IBuff.cpp" />
+    <ClCompile Include="Player\Player_IDecide.cpp" />
+    <ClCompile Include="Player\Player_IDefence.cpp" />
+    <ClCompile Include="Player\Player_IDisturb.cpp" />
+    <ClCompile Include="Player\Player_IDiveBall.cpp" />
+    <ClCompile Include="Player\Player_IDribble.cpp" />
+    <ClCompile Include="Player\Player_IFoul.cpp" />
+    <ClCompile Include="Player\Player_IModel.cpp" />
+    <ClCompile Include="Player\Player_IMoveable.cpp" />
+    <ClCompile Include="Player\Player_Implement.cpp" />
+    <ClCompile Include="Player\Player_IPass.cpp" />
+    <ClCompile Include="Player\Player_IRedecide.cpp" />
+    <ClCompile Include="Player\Player_IRotate.cpp" />
+    <ClCompile Include="Player\Player_IShoot.cpp" />
+    <ClCompile Include="Player\Player_ISight.cpp" />
+    <ClCompile Include="Player\Player_ISkill.cpp" />
+    <ClCompile Include="Player\Player_IStopball.cpp" />
+    <ClCompile Include="Player\Property\PlayerAttribute.cpp" />
+    <ClCompile Include="Player\Property\RawPlayer.cpp" />
+    <ClCompile Include="Player\Status\PlayerStatus.cpp" />
+    <ClCompile Include="ProcessOutput\ResultEntity.cpp" />
+    <ClCompile Include="ProcessParser\ParseEntity.cpp" />
+    <ClCompile Include="ProcessRender\SoccerFootball.cpp" />
+    <ClCompile Include="ProcessRender\SoccerManager.cpp" />
+    <ClCompile Include="ProcessRender\SoccerMatch.cpp" />
+    <ClCompile Include="ProcessRender\SoccerPitch.cpp" />
+    <ClCompile Include="ProcessRender\SoccerPlayer.cpp" />
+    <ClCompile Include="SkillEngine\Action\ActionFacade.cpp" />
+    <ClCompile Include="SkillEngine\Cache\ActionSkillCache.cpp" />
+    <ClCompile Include="SkillEngine\Cache\ConfigCache\ActionSkillConfigCache.cpp" />
+    <ClCompile Include="SkillEngine\Cache\ConfigCache\ConfigurationManager.cpp" />
+    <ClCompile Include="SkillEngine\Cache\ConfigCache\ConfigurationManagerData.cpp" />
+    <ClCompile Include="SkillEngine\Cache\ConfigCache\DebuffConfigCache.cpp" />
+    <ClCompile Include="SkillEngine\Cache\ConfigCache\OpenerSkillConfigCache.cpp" />
+    <ClCompile Include="SkillEngine\Cache\ConfigCache\PassiveSkillConfigCache.cpp" />
+    <ClCompile Include="SkillEngine\Cache\ConfigCache\WillConfigCache.cpp" />
+    <ClCompile Include="SkillEngine\Cache\OpenerSkillCache.cpp" />
+    <ClCompile Include="SkillEngine\Cache\PassiveSkillCache.cpp" />
+    <ClCompile Include="SkillEngine\Cache\WillCache.cpp" />
+    <ClCompile Include="SkillEngine\Entity\ActionRawSkill.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Effects\TargetSelector.cpp" />
+    <ClCompile Include="SkillEngine\Entity\OpenerRawSkill.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Parts\BallRelatedSkillPart.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Parts\DebuffsSkillPart.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Parts\DisplacementsSkillPart.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Parts\ImmunitySkillPart.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Parts\ManagerChangesSkillPart.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Parts\ModelsSkillPart.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Parts\PropertyChangesSkillPart.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Parts\SkillUpgradesSkillPart.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Parts\SpecialEffectsSkillPart.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Parts\TriggerSkillPart.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Parts\WillTriggersSkillPart.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Triggers\StateTrigger.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Triggers\TargetTrigger.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Triggers\WillActionTrigger.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Triggers\WillAreaNumTrigger.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Triggers\WillAreaTrigger.cpp" />
+    <ClCompile Include="SkillEngine\Entity\Triggers\WillDisableNumTrigger.cpp" />
+    <ClCompile Include="SkillEngine\Entity\WillRawSkill.cpp" />
+    <ClCompile Include="SkillEngine\Opener\OpenerFacade.cpp" />
+    <ClCompile Include="SkillEngine\Passive\PassiveFacade.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\ActionSkillBuilder.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\Builders\BallRelatedBuilder.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\Builders\DebuffsBuilder.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\Builders\DisplacementsBuilder.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\Builders\FoulRelatedBuilder.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\Builders\ImmunityBuilder.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\Builders\ManagerChangesBuilder.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\Builders\ModelsBuilder.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\Builders\PropertyChangesBuilder.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\Builders\SkillUpgradesBuilder.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\Builders\SpecialEffectsBuilder.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\Builders\TriggerFactory.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\Builders\WillTriggerFactory.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\OpenerSkillBuilder.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\PassiveSkillBuilder.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\SkillBuilder.cpp" />
+    <ClCompile Include="SkillEngine\Resolver\WillBuilder.cpp" />
+    <ClCompile Include="SkillEngine\SkillFacade.cpp" />
+    <ClCompile Include="SkillEngine\Will\WillFacade.cpp" />
+    <ClCompile Include="Skill\ActionSkill.cpp" />
+    <ClCompile Include="WindowUtils\WindowUtils.cpp" />
+    <ClCompile Include="WindowUtils\WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MatchData\Formation\Formation.xml" />
+    <None Include="MatchData\MoveRegion\RegionConfig.xml" />
+    <None Include="MatchData\SkillConfig\Actions.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MatchData\SkillConfig\Appconfig.xml" />
+    <None Include="MatchData\SkillConfig\DebuffConfig.xml" />
+    <None Include="MatchData\SkillConfig\Models.xml" />
+    <None Include="MatchData\SkillConfig\Openers.xml" />
+    <None Include="MatchData\SkillConfig\Passives.xml" />
+    <None Include="MatchData\SkillConfig\Wills.xml" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\icon2.ico" />
+    <None Include="SkillEngine\Opener\OpenerFacade.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

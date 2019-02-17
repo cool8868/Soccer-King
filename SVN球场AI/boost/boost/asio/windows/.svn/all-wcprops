@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/windows
+END
+basic_handle.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/windows/basic_handle.hpp
+END
+random_access_handle.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/windows/random_access_handle.hpp
+END
+random_access_handle_service.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/windows/random_access_handle_service.hpp
+END
+basic_random_access_handle.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/windows/basic_random_access_handle.hpp
+END
+overlapped_ptr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/windows/overlapped_ptr.hpp
+END
+stream_handle.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/windows/stream_handle.hpp
+END
+stream_handle_service.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/windows/stream_handle_service.hpp
+END
+basic_stream_handle.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/asio/windows/basic_stream_handle.hpp
+END

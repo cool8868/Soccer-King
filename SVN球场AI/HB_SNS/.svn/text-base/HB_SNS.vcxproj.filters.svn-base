@@ -1,0 +1,1857 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{9c6cebad-e879-477c-9eb2-262aa4cb5b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Enum">
+      <UniqueIdentifier>{67ef99ab-25e0-4572-aff7-e478b5cc1a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Defines">
+      <UniqueIdentifier>{0d6b33db-3c39-443c-8694-41912f3ccf8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\String">
+      <UniqueIdentifier>{9b532429-5908-47e1-9242-36bfa9f704da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Structs">
+      <UniqueIdentifier>{d5f14ec0-4bbb-43a1-93ac-3d90e8e89fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\RandomHelper">
+      <UniqueIdentifier>{3c5f4742-5648-4352-957b-d4606309cdd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Pugixml">
+      <UniqueIdentifier>{c5c51e03-5737-4e8f-90b6-39c411a770ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{dd8010b0-aac8-4e92-8a3a-306cd82d5db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Match">
+      <UniqueIdentifier>{ac996f9a-9c53-4e6e-9113-edae583b80d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Match\Status">
+      <UniqueIdentifier>{f308f9d9-718d-474c-b0c9-3e89653fc02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchData">
+      <UniqueIdentifier>{52b86e66-b042-4198-b77d-1b24b6113533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchData\Formation">
+      <UniqueIdentifier>{be66e305-402f-4fa5-b83d-ce0e3c62c827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchData\MoveRegion">
+      <UniqueIdentifier>{89940b44-0478-43bb-9cfa-8b45f6c1e34b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchData\LocalManagerAdapter">
+      <UniqueIdentifier>{45ff439d-27fa-4893-9dcd-baa4cff82012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchData\ManagerData">
+      <UniqueIdentifier>{0173efd4-a02a-4b04-926c-cce337e34ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchData\PlayerData">
+      <UniqueIdentifier>{3a2feb9d-b6f1-4105-830f-9c0ad192eee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{5b55b0fd-1416-445b-8269-78d613fb780e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Status">
+      <UniqueIdentifier>{c18974fb-42cb-41b4-8a94-2a955c086b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchProcess">
+      <UniqueIdentifier>{76bda4ae-0726-45cf-8914-e6d1217d87de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{59a7a5be-18a0-4c71-aabc-4f74b782090d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Property">
+      <UniqueIdentifier>{0a763e48-77bd-48dd-a251-669cca31f267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Rules">
+      <UniqueIdentifier>{524e63b4-8495-4352-8f6d-2356b5437e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\States">
+      <UniqueIdentifier>{e3888ca9-0143-45d8-a65c-f99b0cab6e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Action">
+      <UniqueIdentifier>{f6535697-045c-41d4-a937-787d1895a827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FootBall">
+      <UniqueIdentifier>{496cdcee-81ea-432a-bd52-2b5e9ac77cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pitch">
+      <UniqueIdentifier>{98acd1ad-b061-4647-b939-3539ed074ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Goal">
+      <UniqueIdentifier>{ffcd83bb-8507-4e1b-8d4e-9c51d1458e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\States\Shoot">
+      <UniqueIdentifier>{0218fe1f-6d4b-48b8-bb1b-81dc91b22d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Decides">
+      <UniqueIdentifier>{22987d4e-f645-49fc-9c9c-6d5009c1fa6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\States\Idle">
+      <UniqueIdentifier>{fba9f5e8-2cd3-4835-96a0-5a50298694b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\States\Dribble">
+      <UniqueIdentifier>{76c27f97-652e-41eb-ada9-c2963825082c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\States\Pass">
+      <UniqueIdentifier>{d0397719-8d89-4368-a23c-b0b44ce3735f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\States\Defence">
+      <UniqueIdentifier>{71f4a2f3-acd5-4d39-8297-2574de31376b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Decides\Factory">
+      <UniqueIdentifier>{ca0ea973-98c4-4957-9d1b-1dc7449a7613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Decides\Forward">
+      <UniqueIdentifier>{ab81f6ad-f2c2-43b0-a51f-9f2ab3b0aec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Decides\Midfielder">
+      <UniqueIdentifier>{4e0e023b-ad8f-442c-ba82-75552f251e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Decides\Fullback">
+      <UniqueIdentifier>{86bc4397-df1f-44fd-91be-9b7f40017890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Decides\Goalkeeper">
+      <UniqueIdentifier>{42631f98-a6ee-4980-a233-5f4b9684c755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Rules\FreeKickRules">
+      <UniqueIdentifier>{05c88720-e4c6-4cd9-a089-01bc571a943d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Status">
+      <UniqueIdentifier>{9be1c643-b14a-4c30-b4d5-2ece588caf8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlowFacade">
+      <UniqueIdentifier>{73a639f8-ea94-4f1f-99f1-044d54bb2a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{74b5970b-49a9-4ad5-b623-62dc9ced55cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Manager">
+      <UniqueIdentifier>{28eae92a-9442-4ca9-8817-306748df4e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Player">
+      <UniqueIdentifier>{1867eff8-de84-4740-bfcf-33a96104767b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Manager\Status">
+      <UniqueIdentifier>{0ba1ef1d-da85-4c55-a4a3-43d7c568e0c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Player\Status">
+      <UniqueIdentifier>{9dd7b72d-34d5-4adf-a72b-bccaf9c6043e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Player\Property">
+      <UniqueIdentifier>{3e1483af-66cd-4440-b7f7-1a19dda7e8e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowUtils">
+      <UniqueIdentifier>{770a9e27-68fe-4999-ad2e-9fe2068bf832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Time">
+      <UniqueIdentifier>{2f466f13-aaa3-4e06-a8cd-dd78e24a2e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Misc">
+      <UniqueIdentifier>{8d996bca-0d10-4bc6-b374-743ddc9e6c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res">
+      <UniqueIdentifier>{705e3506-62be-4f29-aac5-46762b4696e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProcessRender">
+      <UniqueIdentifier>{62118181-3f49-4e33-9d4f-b7f02d1cd419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Package">
+      <UniqueIdentifier>{72afc254-2149-4c91-b59e-642ac37b683a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProcessOutput">
+      <UniqueIdentifier>{248e37ac-fa13-416f-bea4-4236a87f3484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\2D">
+      <UniqueIdentifier>{6d956443-e606-43b9-a428-934eea85ea57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProcessParser">
+      <UniqueIdentifier>{c7b2e6cd-ebd8-45cc-ad21-4f6625f2ada4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{f9e66e4e-e72f-467f-a67d-944297c10cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exception">
+      <UniqueIdentifier>{32d674d3-1f28-4abf-89c5-1bbec971a06d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Skill">
+      <UniqueIdentifier>{92756626-7ed3-4c09-80bd-21448b2ce29e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buff">
+      <UniqueIdentifier>{61e08934-5a88-4c9d-9f56-8e0548d5203c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Delegate">
+      <UniqueIdentifier>{e80379f8-c071-4915-9f94-9bd197929615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill">
+      <UniqueIdentifier>{d225d88f-f074-4ab9-be00-3afe0f6c0fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buff\Buffs">
+      <UniqueIdentifier>{d32b1ce8-8cd9-4831-91fa-c92db6097fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Skill\Resolver">
+      <UniqueIdentifier>{7ae6ac2a-55c9-4ca4-b97d-d9a2ca20db33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine">
+      <UniqueIdentifier>{a27343b4-e915-4c83-85b3-a04a77861999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Cache">
+      <UniqueIdentifier>{5161156d-a669-4e86-9b9e-e2f8c80fc209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Cache\ConfigCache">
+      <UniqueIdentifier>{a8ea6de4-e867-4fc8-a19c-bb7db1f929a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Entity">
+      <UniqueIdentifier>{ead5af8e-995d-4696-a0e0-07145dfdbfd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatchData\SkillConfig">
+      <UniqueIdentifier>{e93d0ccf-f0d6-416f-b813-ad5c9df62a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Entity\Effects">
+      <UniqueIdentifier>{08c52476-cc28-49ca-b1b8-687df74d7715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Entity\Parts">
+      <UniqueIdentifier>{2ad7500d-03fa-4c6f-8936-27da79c3a2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Entity\Triggers">
+      <UniqueIdentifier>{f236b834-dc35-46ca-8fd3-ea6df1a4bf6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Entity\Effects\Displacements">
+      <UniqueIdentifier>{42ca4d7d-4d69-4972-ba4c-1312725f0e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Entity\Effects\SkillUpgrades">
+      <UniqueIdentifier>{4ce90b78-e018-4d72-8353-65a5c44db838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector">
+      <UniqueIdentifier>{cee19e7d-e088-450b-8d40-1b35fc095bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Entity\Effects\Specials">
+      <UniqueIdentifier>{9971a5d8-9d79-4177-a3da-eca422b8fec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Action">
+      <UniqueIdentifier>{86bcae63-e12a-4496-8270-e8a3a911e3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Resolver">
+      <UniqueIdentifier>{2e56ce5b-c8fb-43bd-9474-654d2e8461ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Resolver\Builders">
+      <UniqueIdentifier>{b2935002-0788-4654-aba7-3d4cc1eafd99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Action\Effect">
+      <UniqueIdentifier>{1ff123cd-3c48-4b97-abd1-e6e73dde6d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Action\Trigger">
+      <UniqueIdentifier>{1bc7c2d0-2124-4232-94f5-686d2ba43d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Opener">
+      <UniqueIdentifier>{34d1737e-b51b-4073-9034-62ea186b411b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Opener\Effect">
+      <UniqueIdentifier>{d35aad26-e939-4548-86f3-697d4e4de670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Passive">
+      <UniqueIdentifier>{d494ad82-fd72-400e-aaef-fb37def3dece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Passive\Effect">
+      <UniqueIdentifier>{cdad6edd-fb41-4545-b97d-e9363c7a66f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Will">
+      <UniqueIdentifier>{cfe44358-f393-4876-b421-fcca2c301baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Will\Effect">
+      <UniqueIdentifier>{9a009548-b8b0-40e6-84be-35b36c5652b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkillEngine\Will\Trigger">
+      <UniqueIdentifier>{35f769fc-8ea1-49d1-b438-9f2c007bb616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\AI">
+      <UniqueIdentifier>{92b68ba1-8be5-4651-bfd9-98d4495d140f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\AI\Decides">
+      <UniqueIdentifier>{7ed57d56-c8d8-41f9-8ae2-7f05fedf5ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Skill\Entity">
+      <UniqueIdentifier>{91d20ad4-b775-40a3-89cb-8ce3ef6d384b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Skill\Entity\Effects">
+      <UniqueIdentifier>{792c2c41-b2b3-47c3-aeaf-a0d98e519f73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\Enum\BuffType.h">
+      <Filter>common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Enum\DebuffType.h">
+      <Filter>common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Enum\Direction.h">
+      <Filter>common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Enum\InterfaceType.h">
+      <Filter>common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Enum\Interruption.h">
+      <Filter>common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Enum\ModelType.h">
+      <Filter>common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Enum\OpenballSide.h">
+      <Filter>common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Enum\PlayerProperty.h">
+      <Filter>common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Enum\Position.h">
+      <Filter>common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Enum\Side.h">
+      <Filter>common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Enum\SkillClass.h">
+      <Filter>common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Enum\SkillType.h">
+      <Filter>common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Enum\Zone.h">
+      <Filter>common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Defines\Defines.h">
+      <Filter>common\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="common\String\String.h">
+      <Filter>common\String</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Structs\Coordinate.h">
+      <Filter>common\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Structs\Line.h">
+      <Filter>common\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Structs\Region.h">
+      <Filter>common\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Structs\ShootTarget.h">
+      <Filter>common\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\RandomHelper\RandomHelper.h">
+      <Filter>common\RandomHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Pugixml\pugiconfig.hpp">
+      <Filter>common\Pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Pugixml\pugixml.hpp">
+      <Filter>common\Pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchData\Formation\FormationFacade.h">
+      <Filter>MatchData\Formation</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchData\Formation\FormationEntity.h">
+      <Filter>MatchData\Formation</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchData\MoveRegion\MoveRegionFacade.h">
+      <Filter>MatchData\MoveRegion</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchData\LocalManagerAdapter\LocalManagerAdapter.h">
+      <Filter>MatchData\LocalManagerAdapter</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchData\ManagerData\ManagerData.h">
+      <Filter>MatchData\ManagerData</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchData\PlayerData\PlayerPropertyInitializer.h">
+      <Filter>MatchData\PlayerData</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Manager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Match\MatchEntity.h">
+      <Filter>Match</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchProcess\Process.h">
+      <Filter>MatchProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Status\PlayerStatus.h">
+      <Filter>Player\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\IdleState.h">
+      <Filter>AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\State.h">
+      <Filter>AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Actions\ChaceAction.h">
+      <Filter>AI\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Actions\IdleAction.h">
+      <Filter>AI\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Actions\PositionalAction.h">
+      <Filter>AI\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Actions\StopballAction.h">
+      <Filter>AI\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\ActionState.h">
+      <Filter>AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\ChaceState.h">
+      <Filter>AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\HoldBallState.h">
+      <Filter>AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="FootBall\Football.h">
+      <Filter>FootBall</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchProcess\MoveableProcess.h">
+      <Filter>MatchProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\Shoot\DefaultShootState.h">
+      <Filter>AI\States\Shoot</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\Shoot\FreekickShootState.h">
+      <Filter>AI\States\Shoot</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\Shoot\VolleyShootState.h">
+      <Filter>AI\States\Shoot</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\ShootState.h">
+      <Filter>AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchProcess\PlayerProcess.h">
+      <Filter>MatchProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\DribbleState.h">
+      <Filter>AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Decides\PositionalDecide.h">
+      <Filter>AI\Decides</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Decides\HoldBallPositionalDecide.h">
+      <Filter>AI\Decides</Filter>
+    </ClInclude>
+    <ClInclude Include="common\utils.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\OffBallState.h">
+      <Filter>AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\StopballState.h">
+      <Filter>AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\DiveBallState.h">
+      <Filter>AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchProcess\GoalkeeperProcess.h">
+      <Filter>MatchProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\Idle\GKHoldBallState.h">
+      <Filter>AI\States\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\Dribble\BreakThroughState.h">
+      <Filter>AI\States\Dribble</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\Dribble\DefaultDribbleState.h">
+      <Filter>AI\States\Dribble</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\PassState.h">
+      <Filter>AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\Pass\LongPassState.h">
+      <Filter>AI\States\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\Pass\ShortPassState.h">
+      <Filter>AI\States\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\DefenceState.h">
+      <Filter>AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\Defence\InterruptionState.h">
+      <Filter>AI\States\Defence</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\Defence\SlideTackleState.h">
+      <Filter>AI\States\Defence</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\States\PositionalState.h">
+      <Filter>AI\States</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Decides\Factory\PositionalDecideFactory.h">
+      <Filter>AI\Decides\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Decides\Forward\Forward_PositionalDecide.h">
+      <Filter>AI\Decides\Forward</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Decides\Midfielder\Midfielder_PositionalDecide.h">
+      <Filter>AI\Decides\Midfielder</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Decides\Fullback\Fullback_PositionalDecide.h">
+      <Filter>AI\Decides\Fullback</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Decides\Goalkeeper\Goalkeeper_PositionalDecide.h">
+      <Filter>AI\Decides\Goalkeeper</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Decides\Utility.h">
+      <Filter>AI\Decides</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Utility.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Property\PlayerAttribute.h">
+      <Filter>Player\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Property\RawPlayer.h">
+      <Filter>Player\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchProcess\MatchProcess.h">
+      <Filter>MatchProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Goal\Goal.h">
+      <Filter>Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="Match\TransferEntity.h">
+      <Filter>Match</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Rules\FreeKickRules\FreeKickRuleFactory.h">
+      <Filter>AI\Rules\FreeKickRules</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Rules\FreeKickRules\OpenballRule.h">
+      <Filter>AI\Rules\FreeKickRules</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Rules\FreeKickRules\GkOpenballRule.h">
+      <Filter>AI\Rules\FreeKickRules</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Rules\FreeKickRules\DirectFreeKickRule.h">
+      <Filter>AI\Rules\FreeKickRules</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Rules\FreeKickRules\FreeKickRule.h">
+      <Filter>AI\Rules\FreeKickRules</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Rules\FootballRule.h">
+      <Filter>AI\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Rules\MatchRule.h">
+      <Filter>AI\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Rules\PassTargetDecideRule.h">
+      <Filter>AI\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Rules\PlayerRule.h">
+      <Filter>AI\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Rules\FreeKickRules\IndirectFreeKickRule.h">
+      <Filter>AI\Rules\FreeKickRules</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Rules\FreeKickRules\PenaltyKickRule.h">
+      <Filter>AI\Rules\FreeKickRules</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Rules\FreeKickRules\PenaltyShootout.h">
+      <Filter>AI\Rules\FreeKickRules</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Status\ManagerStatus.h">
+      <Filter>Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowFacade\LocalWorkflowAdapter.h">
+      <Filter>FlowFacade</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IFootball.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IFootballProcess.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IPitch.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IGoal.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\ICreateMatch.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IMatch.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IProcess.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IMoveable.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IState.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Manager\Status\IManagerStatus.h">
+      <Filter>Interface\Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\IPlayer.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\Status\IActionStatus.h">
+      <Filter>Interface\Player\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\Status\IDefenceStatus.h">
+      <Filter>Interface\Player\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\Status\IDiveStatus.h">
+      <Filter>Interface\Player\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\Status\IFoulStatus.h">
+      <Filter>Interface\Player\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\Status\IPassStatus.h">
+      <Filter>Interface\Player\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\Status\IPlayerStatus.h">
+      <Filter>Interface\Player\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\Status\IShootStatus.h">
+      <Filter>Interface\Player\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\Property\IPlayerAttribute.h">
+      <Filter>Interface\Player\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\Property\IRawPlayer.h">
+      <Filter>Interface\Player\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Status\DecreaseStaminaRateStatus.h">
+      <Filter>Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IAction.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Pitch\Pitch.h">
+      <Filter>Pitch</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowUtils\WindowUtils.h">
+      <Filter>WindowUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowUtils\DefineUtils.h">
+      <Filter>WindowUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Time\PrecisionTimer.h">
+      <Filter>common\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Time\CrudeTimer.h">
+      <Filter>common\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="common\misc\Cgdi.h">
+      <Filter>common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="common\misc\ConsoleUtils.h">
+      <Filter>common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="common\misc\FrameCounter.h">
+      <Filter>common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="common\misc\iniFileLoaderBase.h">
+      <Filter>common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="common\misc\PriorityQueue.h">
+      <Filter>common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="common\misc\Smoother.h">
+      <Filter>common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="common\misc\Stream_Utility_Functions.h">
+      <Filter>common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="common\misc\TypeToString.h">
+      <Filter>common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="common\misc\utils.h">
+      <Filter>common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="common\misc\autolist.h">
+      <Filter>common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="common\misc\CellSpacePartition.h">
+      <Filter>common\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessRender\SoccerPitch.h">
+      <Filter>ProcessRender</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Package\zlib.h">
+      <Filter>common\Package</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Package\NiRefObject.h">
+      <Filter>common\Package</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Package\NiSmartPointer.h">
+      <Filter>common\Package</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Package\packetbase.h">
+      <Filter>common\Package</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Package\utlbuffer.h">
+      <Filter>common\Package</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Package\utlmemory.h">
+      <Filter>common\Package</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Package\zconf.h">
+      <Filter>common\Package</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessOutput\ResultEntity.h">
+      <Filter>ProcessOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IBinaryOutput.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchProcess\FootballProcess.h">
+      <Filter>MatchProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchProcess\PassProcess.h">
+      <Filter>MatchProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchProcess\ShootProcess.h">
+      <Filter>MatchProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessRender\SoccerPitch.h">
+      <Filter>ProcessRender</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessRender\SoccerPlayer.h">
+      <Filter>ProcessRender</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessRender\SoccerManager.h">
+      <Filter>ProcessRender</Filter>
+    </ClInclude>
+    <ClInclude Include="common\DisplayUtility.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessRender\SoccerFootball.h">
+      <Filter>ProcessRender</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\StateInitializer.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\StateSelecter.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="common\2D\Transformations.h">
+      <Filter>common\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="common\2D\Vector2D.h">
+      <Filter>common\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="common\2D\Wall2D.h">
+      <Filter>common\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="common\2D\WallIntersectionTests.h">
+      <Filter>common\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="common\2D\C2DMatrix.h">
+      <Filter>common\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="common\2D\geometry.h">
+      <Filter>common\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="common\2D\InvertedAABBox2D.h">
+      <Filter>common\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Match\Status\MatchStatus.h">
+      <Filter>Match\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessParser\ParseEntity.h">
+      <Filter>ProcessParser</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessRender\SoccerMatch.h">
+      <Filter>ProcessRender</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IBinaryReadIn.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\LogHelper.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\LogType.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception\SkillErrorException.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception\MyException.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\IRawSkill.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\IActionRawSkill.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\ISkillPart.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\ISkill.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\IEffect.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\IActionSkill.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\IGetSkillTarget.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\IManagerSkill.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\IOpenerRawSkill.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\IOpenerSkill.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\IPassiveRawSkill.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\ISkillFacade.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\ISkillResult.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\ITrigger.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\ITriggerConditionsPart.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\IWillRawSkill.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\IWill.h">
+      <Filter>Interface\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\INotifyRedecide.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\IShortPass.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\IDecide.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\IStopball.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\IRotate.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\IDribble.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\ILongPass.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\IShoot.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\ISight.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\IDisturb.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\IFoul.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\IDefence.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\IDiveBall.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Manager\IManager.h">
+      <Filter>Interface\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Manager\IManagerData.h">
+      <Filter>Interface\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Manager\Status\IDecreaseDebuffRateStatus.h">
+      <Filter>Interface\Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Manager\Status\IDecreaseFoulLevelStatus.h">
+      <Filter>Interface\Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Manager\Status\IDecreaseStaminaRateStatus.h">
+      <Filter>Interface\Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Manager\Status\IImmunityDebuffSkillStatus.h">
+      <Filter>Interface\Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Manager\Status\IImmunityDebuffsStatus.h">
+      <Filter>Interface\Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Manager\Status\IMadmanStatus.h">
+      <Filter>Interface\Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Manager\Status\INoFoulLevelStatus.h">
+      <Filter>Interface\Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Manager\Status\INoInjuredStatus.h">
+      <Filter>Interface\Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Manager\Status\ITransferFoulLevelStatus.h">
+      <Filter>Interface\Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IRequestInitialize.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IVisibleObject.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IFlowEngine.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IOutputer.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Delegate\Delegate.h">
+      <Filter>common\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill\RawSkill.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff\AbsBuff.h">
+      <Filter>Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff\AbsDotBuff.h">
+      <Filter>Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff\AbsHoldBallBuff.h">
+      <Filter>Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff\Creature.h">
+      <Filter>Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff\AbnormalDebuff.h">
+      <Filter>Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff\Buffs\Buff.h">
+      <Filter>Buff\Buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff\Buffs\DeBuff.h">
+      <Filter>Buff\Buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff\Buffs\DownDebuff.h">
+      <Filter>Buff\Buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff\Buffs\FinishingBuff.h">
+      <Filter>Buff\Buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\Resolver\ISkillPartBuilder.h">
+      <Filter>Interface\Skill\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\Resolver\ISkillBuilder.h">
+      <Filter>Interface\Skill\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Cache\ConfigCache\ActionSkillConfigCache.h">
+      <Filter>SkillEngine\Cache\ConfigCache</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Cache\ConfigCache\DebuffConfigCache.h">
+      <Filter>SkillEngine\Cache\ConfigCache</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Cache\ConfigCache\OpenerSkillConfigCache.h">
+      <Filter>SkillEngine\Cache\ConfigCache</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Cache\ConfigCache\PassiveSkillConfigCache.h">
+      <Filter>SkillEngine\Cache\ConfigCache</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Cache\ConfigCache\WillConfigCache.h">
+      <Filter>SkillEngine\Cache\ConfigCache</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Cache\ActionSkillCache.h">
+      <Filter>SkillEngine\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Cache\OpenerSkillCache.h">
+      <Filter>SkillEngine\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Cache\PassiveSkillCache.h">
+      <Filter>SkillEngine\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Cache\WillCache.h">
+      <Filter>SkillEngine\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\IAddDebuff.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\BallRelatedEffector.h">
+      <Filter>SkillEngine\Entity\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Parts\FoulRelatedSkillPart.h">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Parts\ImmunitySkillPart.h">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Parts\ManagerChangesSkillPart.h">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Parts\ModelsSkillPart.h">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Parts\PropertyChangesSkillPart.h">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Parts\SkillUpgradesSkillPart.h">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Parts\SpecialEffectsSkillPart.h">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Parts\TriggerSkillPart.h">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Parts\WillTriggersSkillPart.h">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Parts\BallRelatedSkillPart.h">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Parts\DebuffsSkillPart.h">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Parts\DisplacementsSkillPart.h">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Triggers\SecondHalfTrigger.h">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Triggers\StateTrigger.h">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Triggers\TargetTrigger.h">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Triggers\WillActionTrigger.h">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Triggers\WillAreaNumTrigger.h">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Triggers\WillAreaTrigger.h">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Triggers\WillDisableNumTrigger.h">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Triggers\WillOpenballTrigger.h">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Triggers\FirstHalfTrigger.h">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Triggers\HoldBallTrigger.h">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Triggers\PercentageTrigger.h">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\DebuffsEffector.h">
+      <Filter>SkillEngine\Entity\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\TargetSelector.h">
+      <Filter>SkillEngine\Entity\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\DisplacementsEffector.h">
+      <Filter>SkillEngine\Entity\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\Displacements\MoveDisplacement.h">
+      <Filter>SkillEngine\Entity\Effects\Displacements</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\Displacements\SkillDisplacement.h">
+      <Filter>SkillEngine\Entity\Effects\Displacements</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\ActionTypeEffector.h">
+      <Filter>SkillEngine\Entity\Effects\SkillUpgrades</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\BuffLastEffector.h">
+      <Filter>SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\BuffRateEffector.h">
+      <Filter>SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\CdEffector.h">
+      <Filter>SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\DebuffLastEffector.h">
+      <Filter>SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\DebuffRateEffector.h">
+      <Filter>SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\DebuffStatusEffector.h">
+      <Filter>SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\FoulRateEffector.h">
+      <Filter>SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\InjureRateEffector.h">
+      <Filter>SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\ISkillPropertyEffector.h">
+      <Filter>SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector\TriggerRateEffector.h">
+      <Filter>SkillEngine\Entity\Effects\SkillUpgrades\SkillPropertyEffector</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\Specials\AntiOffsideEffector.h">
+      <Filter>SkillEngine\Entity\Effects\Specials</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\Specials\ChangeShootRegionEffector.h">
+      <Filter>SkillEngine\Entity\Effects\Specials</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\Specials\ChangeStateEffector.h">
+      <Filter>SkillEngine\Entity\Effects\Specials</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\Specials\MadmanEffector.h">
+      <Filter>SkillEngine\Entity\Effects\Specials</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\Specials\PassOutboundEffector.h">
+      <Filter>SkillEngine\Entity\Effects\Specials</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\Specials\PositionExchangeEffector.h">
+      <Filter>SkillEngine\Entity\Effects\Specials</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\Specials\WingsEffector.h">
+      <Filter>SkillEngine\Entity\Effects\Specials</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\SpecialEffectsEffector.h">
+      <Filter>SkillEngine\Entity\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception\ArgumentException.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception\ConfigurationErrorsException.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\SkillUpgradesEffector.h">
+      <Filter>SkillEngine\Entity\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\FoulRelatedEffector.h">
+      <Filter>SkillEngine\Entity\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\ImmunityEffector.h">
+      <Filter>SkillEngine\Entity\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\ManagerChangesEffector.h">
+      <Filter>SkillEngine\Entity\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\ModelEffector.h">
+      <Filter>SkillEngine\Entity\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Effects\PropertyChangesEffector.h">
+      <Filter>SkillEngine\Entity\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\ActionRawSkill.h">
+      <Filter>SkillEngine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\Buff.h">
+      <Filter>SkillEngine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\BuffFactory.h">
+      <Filter>SkillEngine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\DeBuff.h">
+      <Filter>SkillEngine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\DotBuff.h">
+      <Filter>SkillEngine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\DotDebuff.h">
+      <Filter>SkillEngine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\HoldBallBuff.h">
+      <Filter>SkillEngine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception\ObjectNotInitializedException.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\OpenerRawSkill.h">
+      <Filter>SkillEngine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\PassiveRawSkill.h">
+      <Filter>SkillEngine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception\SkillPartBuilderNotFoundException.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Entity\WillRawSkill.h">
+      <Filter>SkillEngine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Action\ActionFacade.h">
+      <Filter>SkillEngine\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Cache\ConfigCache\ConfigurationManager.h">
+      <Filter>SkillEngine\Cache\ConfigCache</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\Builders\WillTriggerFactory.h">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\Builders\TriggersBuilder.h">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\Builders\BallRelatedBuilder.h">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\Builders\DebuffsBuilder.h">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\Builders\DisplacementsBuilder.h">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\Builders\FoulRelatedBuilder.h">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\Builders\ImmunityBuilder.h">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\Builders\ManagerChangesBuilder.h">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\Builders\ModelsBuilder.h">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\Builders\PropertyChangesBuilder.h">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\Builders\SkillUpgradesBuilder.h">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\Builders\SpecialEffectsBuilder.h">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\Builders\TriggerConditionsBuilder.h">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\Builders\TriggerFactory.h">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\SkillBuilder.h">
+      <Filter>SkillEngine\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\WillBuilder.h">
+      <Filter>SkillEngine\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\ActionSkillBuilder.h">
+      <Filter>SkillEngine\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\OpenerSkillBuilder.h">
+      <Filter>SkillEngine\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Resolver\PassiveSkillBuilder.h">
+      <Filter>SkillEngine\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Action\Effect\SkillEffector.h">
+      <Filter>SkillEngine\Action\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Action\Trigger\SkillTrigger.h">
+      <Filter>SkillEngine\Action\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Opener\Effect\SkillEffector.h">
+      <Filter>SkillEngine\Opener\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Passive\PassiveFacade.h">
+      <Filter>SkillEngine\Passive</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Passive\Effect\SkillEffector.h">
+      <Filter>SkillEngine\Passive\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Will\WillFacade.h">
+      <Filter>SkillEngine\Will</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Will\Effect\WillEffector.h">
+      <Filter>SkillEngine\Will\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Will\Trigger\WillTrigger.h">
+      <Filter>SkillEngine\Will\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\SkillFacade.h">
+      <Filter>SkillEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill\SkillResult.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\IModel.h">
+      <Filter>Interface\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\Status\IModelStatus.h">
+      <Filter>Interface\Player\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Player\Status\IDebuffStatus.h">
+      <Filter>Interface\Player\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff\Buffs\InertiaDebuff.h">
+      <Filter>Buff\Buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff\Buffs\StunDebuff.h">
+      <Filter>Buff\Buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff\Buffs\FreezeDebuff.h">
+      <Filter>Buff\Buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff\Buffs\OutOfHandDebuff.h">
+      <Filter>Buff\Buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff\Buffs\PuzzleDebuff.h">
+      <Filter>Buff\Buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill\ActionSkill.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill\OpenerSkill.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill\Will.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception\ApplicationException.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception\ArgumentOutOfRangeException.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Enum\ColorType.h">
+      <Filter>common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception\NotSupportedException.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Status\TransferFoulLevelStatus.h">
+      <Filter>Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Status\NoInjuredStatus.h">
+      <Filter>Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Status\DecreaseDebuffRateStatus.h">
+      <Filter>Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Status\DecreaseFoulLevelStatus.h">
+      <Filter>Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Status\ImmunityDebuffSkillStatus.h">
+      <Filter>Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Status\ImmunityDebuffsStatus.h">
+      <Filter>Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Status\MadmanStatus.h">
+      <Filter>Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Status\NoFoulLevelStatus.h">
+      <Filter>Manager\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\AI\Decides\IPositionalDecide.h">
+      <Filter>Interface\AI\Decides</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEngine\Cache\ConfigCache\ConfigurationManagerData.h">
+      <Filter>SkillEngine\Cache\ConfigCache</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Macros.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Skill\Entity\Effects\ISpecialEffector.h">
+      <Filter>Interface\Skill\Entity\Effects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common\String\String.cpp">
+      <Filter>common\String</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Pugixml\pugixml.cpp">
+      <Filter>common\Pugixml</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchData\Formation\FormationFacade.cpp">
+      <Filter>MatchData\Formation</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchData\MoveRegion\MoveRegionFacade.cpp">
+      <Filter>MatchData\MoveRegion</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchData\LocalManagerAdapter\LocalManagerAdapter.cpp">
+      <Filter>MatchData\LocalManagerAdapter</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchData\PlayerData\PlayerPropertyInitializer.cpp">
+      <Filter>MatchData\PlayerData</Filter>
+    </ClCompile>
+    <ClCompile Include="Match\MatchEntity.cpp">
+      <Filter>Match</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\Manager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\State.cpp">
+      <Filter>AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\IdleState.cpp">
+      <Filter>AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\ActionState.cpp">
+      <Filter>AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\ChaceState.cpp">
+      <Filter>AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\HoldBallState.cpp">
+      <Filter>AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="FootBall\Football.cpp">
+      <Filter>FootBall</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\ShootState.cpp">
+      <Filter>AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchProcess\PlayerProcess.cpp">
+      <Filter>MatchProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\Shoot\VolleyShootState.cpp">
+      <Filter>AI\States\Shoot</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\Shoot\DefaultShootState.cpp">
+      <Filter>AI\States\Shoot</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\Shoot\FreekickShootState.cpp">
+      <Filter>AI\States\Shoot</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\DribbleState.cpp">
+      <Filter>AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\OffBallState.cpp">
+      <Filter>AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\StopballState.cpp">
+      <Filter>AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\DiveBallState.cpp">
+      <Filter>AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\Idle\GKHoldBallState.cpp">
+      <Filter>AI\States\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\Dribble\DefaultDribbleState.cpp">
+      <Filter>AI\States\Dribble</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\Dribble\BreakThroughState.cpp">
+      <Filter>AI\States\Dribble</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\PassState.cpp">
+      <Filter>AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\Pass\ShortPassState.cpp">
+      <Filter>AI\States\Pass</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\Pass\LongPassState.cpp">
+      <Filter>AI\States\Pass</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\DefenceState.cpp">
+      <Filter>AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\Defence\SlideTackleState.cpp">
+      <Filter>AI\States\Defence</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\Defence\InterruptionState.cpp">
+      <Filter>AI\States\Defence</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\States\PositionalState.cpp">
+      <Filter>AI\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Status\PlayerStatus.cpp">
+      <Filter>Player\Status</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IDecide.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IDefence.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IDiveBall.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IDribble.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IFoul.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IMoveable.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IPass.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IRedecide.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IRotate.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IShoot.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IStopball.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_ISight.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_Implement.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Property\PlayerAttribute.cpp">
+      <Filter>Player\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Goal\Goal.cpp">
+      <Filter>Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowFacade\LocalWorkflowAdapter.cpp">
+      <Filter>FlowFacade</Filter>
+    </ClCompile>
+    <ClCompile Include="Pitch\Pitch.cpp">
+      <Filter>Pitch</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchData\ManagerData\ManagerData.cpp">
+      <Filter>MatchData\ManagerData</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Property\RawPlayer.cpp">
+      <Filter>Player\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowUtils\WinMain.cpp">
+      <Filter>WindowUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowUtils\WindowUtils.cpp">
+      <Filter>WindowUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Time\PrecisionTimer.cpp">
+      <Filter>common\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Time\CrudeTimer.cpp">
+      <Filter>common\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="common\misc\Cgdi.cpp">
+      <Filter>common\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="common\misc\FrameCounter.cpp">
+      <Filter>common\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="common\misc\iniFileLoaderBase.cpp">
+      <Filter>common\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessRender\SoccerPitch.cpp">
+      <Filter>ProcessRender</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Package\utlbuffer.cpp">
+      <Filter>common\Package</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessOutput\ResultEntity.cpp">
+      <Filter>ProcessOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchProcess\Process.cpp">
+      <Filter>MatchProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchProcess\MoveableProcess.cpp">
+      <Filter>MatchProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchProcess\FootballProcess.cpp">
+      <Filter>MatchProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchProcess\GoalkeeperProcess.cpp">
+      <Filter>MatchProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchProcess\MatchProcess.cpp">
+      <Filter>MatchProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchProcess\PassProcess.cpp">
+      <Filter>MatchProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchProcess\ShootProcess.cpp">
+      <Filter>MatchProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessRender\SoccerPitch.cpp">
+      <Filter>ProcessRender</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessRender\SoccerPlayer.cpp">
+      <Filter>ProcessRender</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessRender\SoccerManager.cpp">
+      <Filter>ProcessRender</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessRender\SoccerFootball.cpp">
+      <Filter>ProcessRender</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\StateSelecter.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="common\2D\Vector2d.cpp">
+      <Filter>common\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Match\Status\MatchStatus.cpp">
+      <Filter>Match\Status</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessParser\ParseEntity.cpp">
+      <Filter>ProcessParser</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessRender\SoccerMatch.cpp">
+      <Filter>ProcessRender</Filter>
+    </ClCompile>
+    <ClCompile Include="Match\TransferEntity.cpp">
+      <Filter>Match</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\LogHelper.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IDisturb.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Buff\AbsBuff.cpp">
+      <Filter>Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="Buff\Creature.cpp">
+      <Filter>Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="Buff\AbnormalDebuff.cpp">
+      <Filter>Buff</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Cache\ConfigCache\ActionSkillConfigCache.cpp">
+      <Filter>SkillEngine\Cache\ConfigCache</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Cache\ConfigCache\DebuffConfigCache.cpp">
+      <Filter>SkillEngine\Cache\ConfigCache</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Cache\ConfigCache\OpenerSkillConfigCache.cpp">
+      <Filter>SkillEngine\Cache\ConfigCache</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Cache\ConfigCache\PassiveSkillConfigCache.cpp">
+      <Filter>SkillEngine\Cache\ConfigCache</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Cache\ConfigCache\WillConfigCache.cpp">
+      <Filter>SkillEngine\Cache\ConfigCache</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Cache\ActionSkillCache.cpp">
+      <Filter>SkillEngine\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Cache\OpenerSkillCache.cpp">
+      <Filter>SkillEngine\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Cache\PassiveSkillCache.cpp">
+      <Filter>SkillEngine\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Cache\WillCache.cpp">
+      <Filter>SkillEngine\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Triggers\TargetTrigger.cpp">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Triggers\WillActionTrigger.cpp">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Triggers\WillAreaNumTrigger.cpp">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Triggers\WillAreaTrigger.cpp">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Triggers\WillDisableNumTrigger.cpp">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Effects\TargetSelector.cpp">
+      <Filter>SkillEngine\Entity\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Triggers\StateTrigger.cpp">
+      <Filter>SkillEngine\Entity\Triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Action\ActionFacade.cpp">
+      <Filter>SkillEngine\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Cache\ConfigCache\ConfigurationManager.cpp">
+      <Filter>SkillEngine\Cache\ConfigCache</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\Builders\BallRelatedBuilder.cpp">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\Builders\DebuffsBuilder.cpp">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\Builders\DisplacementsBuilder.cpp">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\Builders\FoulRelatedBuilder.cpp">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\Builders\ModelsBuilder.cpp">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\Builders\ImmunityBuilder.cpp">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\Builders\ManagerChangesBuilder.cpp">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\Builders\SkillUpgradesBuilder.cpp">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\Builders\PropertyChangesBuilder.cpp">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\Builders\SpecialEffectsBuilder.cpp">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\Builders\WillTriggerFactory.cpp">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\Builders\TriggerFactory.cpp">
+      <Filter>SkillEngine\Resolver\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\SkillBuilder.cpp">
+      <Filter>SkillEngine\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\WillBuilder.cpp">
+      <Filter>SkillEngine\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\WillRawSkill.cpp">
+      <Filter>SkillEngine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\ActionSkillBuilder.cpp">
+      <Filter>SkillEngine\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\ActionRawSkill.cpp">
+      <Filter>SkillEngine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\OpenerSkillBuilder.cpp">
+      <Filter>SkillEngine\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\OpenerRawSkill.cpp">
+      <Filter>SkillEngine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Resolver\PassiveSkillBuilder.cpp">
+      <Filter>SkillEngine\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Opener\OpenerFacade.cpp">
+      <Filter>SkillEngine\Opener</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Passive\PassiveFacade.cpp">
+      <Filter>SkillEngine\Passive</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Will\WillFacade.cpp">
+      <Filter>SkillEngine\Will</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\SkillFacade.cpp">
+      <Filter>SkillEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IAddBuff.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IAddDebuff.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IModel.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill\ActionSkill.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_IBuff.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player_ISkill.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Cache\ConfigCache\ConfigurationManagerData.cpp">
+      <Filter>SkillEngine\Cache\ConfigCache</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Parts\PropertyChangesSkillPart.cpp">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Parts\BallRelatedSkillPart.cpp">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Parts\DebuffsSkillPart.cpp">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Parts\ImmunitySkillPart.cpp">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Parts\DisplacementsSkillPart.cpp">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Parts\ManagerChangesSkillPart.cpp">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Parts\ModelsSkillPart.cpp">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Parts\SkillUpgradesSkillPart.cpp">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Parts\SpecialEffectsSkillPart.cpp">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Parts\TriggerSkillPart.cpp">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEngine\Entity\Parts\WillTriggersSkillPart.cpp">
+      <Filter>SkillEngine\Entity\Parts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MatchData\Formation\Formation.xml">
+      <Filter>MatchData\Formation</Filter>
+    </None>
+    <None Include="MatchData\MoveRegion\RegionConfig.xml">
+      <Filter>MatchData\MoveRegion</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>资源文件\res</Filter>
+    </None>
+    <None Include="res\icon2.ico">
+      <Filter>资源文件\res</Filter>
+    </None>
+    <None Include="MatchData\SkillConfig\Passives.xml">
+      <Filter>MatchData\SkillConfig</Filter>
+    </None>
+    <None Include="MatchData\SkillConfig\Wills.xml">
+      <Filter>MatchData\SkillConfig</Filter>
+    </None>
+    <None Include="MatchData\SkillConfig\Actions.xml">
+      <Filter>MatchData\SkillConfig</Filter>
+    </None>
+    <None Include="MatchData\SkillConfig\DebuffConfig.xml">
+      <Filter>MatchData\SkillConfig</Filter>
+    </None>
+    <None Include="MatchData\SkillConfig\Models.xml">
+      <Filter>MatchData\SkillConfig</Filter>
+    </None>
+    <None Include="MatchData\SkillConfig\Openers.xml">
+      <Filter>MatchData\SkillConfig</Filter>
+    </None>
+    <None Include="MatchData\SkillConfig\Appconfig.xml">
+      <Filter>MatchData\SkillConfig</Filter>
+    </None>
+    <None Include="SkillEngine\Opener\OpenerFacade.h">
+      <Filter>SkillEngine\Opener</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

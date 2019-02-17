@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill
+END
+IWillRawSkill.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/IWillRawSkill.h
+END
+IPassiveRawSkill.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/IPassiveRawSkill.h
+END
+ITriggerConditionsPart.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/ITriggerConditionsPart.h
+END
+IGetSkillTarget.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/IGetSkillTarget.h
+END
+IActionRawSkill.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/IActionRawSkill.h
+END
+IOpenerSkill.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/IOpenerSkill.h
+END
+IRawSkill.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/IRawSkill.h
+END
+IEffect.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/IEffect.h
+END
+IOpenerRawSkill.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/IOpenerRawSkill.h
+END
+ISkillFacade.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/ISkillFacade.h
+END
+ITrigger.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/ITrigger.h
+END
+ISkillPart.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/ISkillPart.h
+END
+IWill.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/IWill.h
+END
+IManagerSkill.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/IManagerSkill.h
+END
+IActionSkill.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/IActionSkill.h
+END
+ISkillResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/ISkillResult.h
+END
+ISkill.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Interface/Skill/ISkill.h
+END

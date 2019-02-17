@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/Buffs
+END
+DeBuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/Buffs/DeBuff.h
+END
+FreezeDebuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/Buffs/FreezeDebuff.h
+END
+FinishingBuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/Buffs/FinishingBuff.h
+END
+Buff.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/Buffs/Buff.h
+END
+DownDebuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/Buffs/DownDebuff.h
+END
+OutOfHandDebuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/Buffs/OutOfHandDebuff.h
+END
+PuzzleDebuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/Buffs/PuzzleDebuff.h
+END
+StunDebuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/Buffs/StunDebuff.h
+END
+InertiaDebuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/Buffs/InertiaDebuff.h
+END

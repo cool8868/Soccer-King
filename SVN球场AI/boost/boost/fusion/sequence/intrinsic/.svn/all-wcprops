@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/sequence/intrinsic
+END
+size.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/sequence/intrinsic/size.hpp
+END
+swap.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/sequence/intrinsic/swap.hpp
+END
+at_key.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/sequence/intrinsic/at_key.hpp
+END
+empty.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/sequence/intrinsic/empty.hpp
+END
+back.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/sequence/intrinsic/back.hpp
+END
+value_at.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/sequence/intrinsic/value_at.hpp
+END
+has_key.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/sequence/intrinsic/has_key.hpp
+END
+at.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/sequence/intrinsic/at.hpp
+END
+begin.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/sequence/intrinsic/begin.hpp
+END
+at_c.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/sequence/intrinsic/at_c.hpp
+END
+end.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/sequence/intrinsic/end.hpp
+END
+front.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/sequence/intrinsic/front.hpp
+END
+value_at_key.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/sequence/intrinsic/value_at_key.hpp
+END

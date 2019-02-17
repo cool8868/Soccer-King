@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <positions type="x">
+    <add key="40" value="0, 80" />
+    <add key="60" value="0, 120" />
+    <add key="80" value="0, 140" />
+    <add key="100" value="20, 160" />
+    <add key="120" value="40, 180" />
+    <add key="140" value="60, 210" />
+    <add key="160" value="80, 210" />
+    <add key="180" value="100, 210" />
+  </positions>
+  <positions type="y">
+    <add key="34" value="0,68" />
+    <add key="51" value="0, 85" />
+    <add key="68" value="34, 102" />
+    <add key="85" value="51, 136" />
+    <add key="102" value="68,136" />
+  </positions>
+</config>

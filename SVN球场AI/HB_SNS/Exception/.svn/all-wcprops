@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Exception
+END
+ArgumentOutOfRangeException.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Exception/ArgumentOutOfRangeException.h
+END
+ObjectNotInitializedException.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Exception/ObjectNotInitializedException.h
+END
+ArgumentException.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Exception/ArgumentException.h
+END
+ApplicationException.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Exception/ApplicationException.h
+END
+ConfigurationErrorsException.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Exception/ConfigurationErrorsException.h
+END
+MyException.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Exception/MyException.h
+END
+NotSupportedException.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Exception/NotSupportedException.h
+END
+SkillErrorException.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Exception/SkillErrorException.h
+END
+SkillPartBuilderNotFoundException.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Exception/SkillPartBuilderNotFoundException.h
+END

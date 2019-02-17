@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/algorithm
+END
+minmax.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/algorithm/minmax.hpp
+END
+string_regex.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/algorithm/string_regex.hpp
+END
+minmax_element.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/algorithm/minmax_element.hpp
+END
+string.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/algorithm/string.hpp
+END

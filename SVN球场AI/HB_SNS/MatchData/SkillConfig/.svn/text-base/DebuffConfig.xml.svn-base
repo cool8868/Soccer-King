@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<debuffs>
+  <!--倒地-->
+  <debuff type="1" level="1" last="2"></debuff>
+  <debuff type="1" level="2" last="4"></debuff>
+  <debuff type="1" level="3" last="6"></debuff>
+  <debuff type="1" level="4" last="8"></debuff>
+  <!--困惑-->
+  <debuff type="2" level="1" last="2"></debuff>
+  <debuff type="2" level="2" last="3"></debuff>
+  <debuff type="2" level="3" last="4"></debuff>
+  <debuff type="2" level="4" last="4"></debuff>
+  <!--脱手-->
+  <debuff type="3" level="1" last="1"></debuff>
+  <debuff type="3" level="2" last="1"></debuff>
+  <!--晕眩-->
+  <debuff type="4" level="1"></debuff>
+  <debuff type="4" level="2"></debuff>
+
+  <!--静止-->
+  <debuff type="6" level="1" last="3" />
+</debuffs>

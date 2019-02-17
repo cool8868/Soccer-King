@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/adapted/adt
+END
+adapt_assoc_adt.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/adapted/adt/adapt_assoc_adt.hpp
+END
+adapt_assoc_adt_named.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/adapted/adt/adapt_assoc_adt_named.hpp
+END
+adapt_adt.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/adapted/adt/adapt_adt.hpp
+END
+adapt_adt_named.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/adapted/adt/adapt_adt_named.hpp
+END

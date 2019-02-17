@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Models>
+  <Model id="0" name="正常" />
+  <Model id="1" name="消失" />
+  <Model id="2" name="假动作过人" />
+  <Model id="3" name="加速过人" />
+  <Model id="4" name="穿裆过人" />
+  <Model id="5" name="挑球过人" />
+  <Model id="6" name="踩单车" />
+  <Model id="7" name="幻影突破" />
+  <Model id="8" name="贴身防守" />
+  <Model id="9" name="怒吼特效" />
+  <Model id="10" name="咆哮特效" />
+  <Model id="11" name="倒地" />
+  <Model id="12" name="困惑" />
+  <Model id="13" name="眩晕" />
+  <Model id="14" name="惯性" />
+  <Model id="15" name="静止" />
+  <Model id="16" name="外星人" />
+  <Model id="17" name="葫芦娃" />
+  <Model id="18" name="幽灵" />
+  <Model id="19" name="小罗牛尾巴" />
+  <Model id="20" name="魔术盘带" />
+  <Model id="21" name="优雅蝴蝶" />
+  <Model id="22" name="金童" />
+  <Model id="23" name="炸弹效果" />
+  <Model id="24" name="燃烧效果" />
+  <Model id="25" name="装弹效果" />
+  <Model id="26" name="门神怒吼特效" />
+  <Model id="27" name="吸魂效果" />
+  <Model id="28" name="胶水" />
+  <Model id="29" name="战神" />
+  <Model id="30" name="独狼" />
+  <Model id="31" name="铁人" />
+  <Model id="32" name="足球皇帝" />
+  <Model id="33" name="郁金香之剑" />
+  <Model id="34" name="前锋梦魇" />
+  <Model id="35" name="定海神针" />
+  <Model id="36" name="星云锁链" />
+  <Model id="37" name="皮耶罗区域" />
+</Models>

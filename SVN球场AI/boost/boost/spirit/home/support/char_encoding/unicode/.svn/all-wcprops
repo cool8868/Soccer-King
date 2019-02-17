@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/support/char_encoding/unicode
+END
+lowercase_table.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/support/char_encoding/unicode/lowercase_table.hpp
+END
+script_table.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/support/char_encoding/unicode/script_table.hpp
+END
+uppercase_table.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/support/char_encoding/unicode/uppercase_table.hpp
+END
+Scripts.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/support/char_encoding/unicode/Scripts.txt
+END
+DerivedCoreProperties.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/support/char_encoding/unicode/DerivedCoreProperties.txt
+END
+PropList.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/support/char_encoding/unicode/PropList.txt
+END
+category_table.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/support/char_encoding/unicode/category_table.hpp
+END
+query.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/support/char_encoding/unicode/query.hpp
+END
+UnicodeData.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/support/char_encoding/unicode/UnicodeData.txt
+END
+create_tables.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/spirit/home/support/char_encoding/unicode/create_tables.cpp
+END

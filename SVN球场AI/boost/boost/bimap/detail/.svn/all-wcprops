@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail
+END
+non_unique_views_helper.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail/non_unique_views_helper.hpp
+END
+set_view_iterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail/set_view_iterator.hpp
+END
+bimap_core.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail/bimap_core.hpp
+END
+map_view_base.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail/map_view_base.hpp
+END
+manage_additional_parameters.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail/manage_additional_parameters.hpp
+END
+generate_index_binder.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail/generate_index_binder.hpp
+END
+generate_view_binder.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail/generate_view_binder.hpp
+END
+modifier_adaptor.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail/modifier_adaptor.hpp
+END
+manage_bimap_key.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail/manage_bimap_key.hpp
+END
+concept_tags.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail/concept_tags.hpp
+END
+generate_relation_binder.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail/generate_relation_binder.hpp
+END
+is_set_type_of.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail/is_set_type_of.hpp
+END
+set_view_base.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail/set_view_base.hpp
+END
+map_view_iterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail/map_view_iterator.hpp
+END
+user_interface_config.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/detail/user_interface_config.hpp
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/preprocessor/slot/detail
+END
+def.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/preprocessor/slot/detail/def.hpp
+END
+counter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/preprocessor/slot/detail/counter.hpp
+END
+slot1.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/preprocessor/slot/detail/slot1.hpp
+END
+slot2.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/preprocessor/slot/detail/slot2.hpp
+END
+slot3.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/preprocessor/slot/detail/slot3.hpp
+END
+slot4.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/preprocessor/slot/detail/slot4.hpp
+END
+shared.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/preprocessor/slot/detail/shared.hpp
+END
+slot5.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/preprocessor/slot/detail/slot5.hpp
+END

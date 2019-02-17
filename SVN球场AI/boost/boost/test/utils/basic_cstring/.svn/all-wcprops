@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/utils/basic_cstring
+END
+basic_cstring.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/utils/basic_cstring/basic_cstring.hpp
+END
+basic_cstring_fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/utils/basic_cstring/basic_cstring_fwd.hpp
+END
+bcs_char_traits.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/utils/basic_cstring/bcs_char_traits.hpp
+END
+compare.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/utils/basic_cstring/compare.hpp
+END
+io.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/test/utils/basic_cstring/io.hpp
+END

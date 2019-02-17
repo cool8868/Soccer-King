@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/system
+END
+cygwin_error.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/system/cygwin_error.hpp
+END
+system_error.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/system/system_error.hpp
+END
+api_config.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/system/api_config.hpp
+END
+error_code.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/system/error_code.hpp
+END
+windows_error.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/system/windows_error.hpp
+END
+config.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/system/config.hpp
+END
+linux_error.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/system/linux_error.hpp
+END

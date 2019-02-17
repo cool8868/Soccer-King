@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/invocation
+END
+invoke.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/invocation/invoke.hpp
+END
+limits.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/invocation/limits.hpp
+END
+invoke_procedure.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/invocation/invoke_procedure.hpp
+END
+invoke_function_object.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/invocation/invoke_function_object.hpp
+END

@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Passives version="1.6">
+  <Skill id="MT000_1" name="区域防守" level="1" last="90" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="-1" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="1" rate="-1" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="2" rate="-1" gradient="0" target="4" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT000_2" name="区域防守" level="2" last="90" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="-2" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="1" rate="-2" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="2" rate="-2" gradient="0" target="4" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT000_3" name="区域防守" level="3" last="90" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="-3" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="1" rate="-3" gradient="0" target="4" targetPosition="0"/>
+      <PropertyChange property="2" rate="-3" gradient="0" target="4" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT004_1" name="拆线防守" level="1" last="90" type="0" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="1" target="3" targetPosition="0" targetSkillProperty="4" rate="5" fixType="1" />
+      <SkillUpgrade type="3" skillType="1" target="3" targetPosition="0" targetSkillProperty="6" rate="5" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT004_2" name="拆线防守" level="2" last="90" type="0" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="1" target="3" targetPosition="0" targetSkillProperty="4" rate="10" fixType="1" />
+      <SkillUpgrade type="3" skillType="1" target="3" targetPosition="0" targetSkillProperty="6" rate="10" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT005_1" name="犯规遏制" level="1" last="90" type="0" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="7" rate="-8" fixType="0" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT006_1" name="协防" level="1" last="90" type="0" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="22" rate="100" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT007_1" name="防守大师" level="1" last="90" type="0" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="1" target="3" targetPosition="0" targetSkillProperty="1" rate="-7" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT007_2" name="防守大师" level="2" last="90" type="0" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="1" target="3" targetPosition="0" targetSkillProperty="1" rate="-10" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT009_1" name="强化诅咒（天赋剥夺）" level="1" last="90" type="0" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="0,2,3,4" target="4" targetPosition="0" targetSkillProperty="1" rate="5" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT009_2" name="强化诅咒（天赋剥夺）" level="2" last="90" type="0" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="0,2,3,4" target="4" targetPosition="0" targetSkillProperty="1" rate="7" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT011_1" name="文明足球" level="1" last="90" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="2" targetSkillProperty="7" rate="-2" fixType="0" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT011_2" name="文明足球" level="2" last="90" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="2" targetSkillProperty="7" rate="-4" fixType="0" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT012_1" name="合理冲撞" level="1" last="90" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="2" rate="1" fixType="0" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT012_2" name="合理冲撞" level="2" last="90" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="2" rate="2" fixType="0" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT015_1" name="隐蔽犯规" level="1" last="90" type="1" formation="0">
+    <Immunity>
+      <Immunity type="3" probability="15" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT016_1" name="和谐训练" level="1" last="90" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="7" rate="-3" fixType="0" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT016_2" name="和谐训练" level="2" last="90" type="1" formation="0">    
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="7" rate="-5" fixType="0" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT016_3" name="和谐训练" level="3" last="90" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="7" rate="-7" fixType="0" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT017_1" name="粗野动作" level="1" last="90" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="3" rate="100" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT018_1" name="夺命剪刀腿" level="1" last="90" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="2" rate="5" fixType="0" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT018_2" name="夺命剪刀腿" level="2" last="90" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="2" rate="10" fixType="0" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT019_1" name="灰哨" level="1" last="45" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="7" rate="-3" fixType="0" />
+    </SkillUpgrades>    
+  </Skill>
+
+  <Skill id="MT019_2" name="灰哨" level="2" last="45" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="7" rate="-6" fixType="0" />
+    </SkillUpgrades>    
+  </Skill>
+
+  <Skill id="MT019_3" name="灰哨" level="3" last="45" type="1" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="7" rate="-10" fixType="0" />
+    </SkillUpgrades>    
+  </Skill>
+
+  <Skill id="MT023_1" name="1VS1" level="1" last="90" type="2" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="21" rate="-8" gradient="0" target="3" targetPosition="4"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT023_2" name="1VS1" level="2" last="90" type="2" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="21" rate="-15" gradient="0" target="3" targetPosition="4"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT026_1" name="3-4-3" level="1" last="90" type="2" formation="0">
+    <Immunity>
+      <Immunity type="7" targetDebuff="5" probability="20" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT027_1" name="反越位" level="1" last="90" type="2" formation="0">
+    <SpecialEffects>
+      <SpecialEffect name="AntiOffsideEffector" value="6" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT027_2" name="反越位" level="2" last="90" type="2" formation="0">
+    <SpecialEffects>
+      <SpecialEffect name="AntiOffsideEffector" value="12" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT028_1" name="顶级锋线" level="1" last="90" type="2" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="0" target="3" targetPosition="0" targetSkillProperty="1" rate="-17" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT028_2" name="顶级锋线" level="2" last="90" type="2" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="0" target="3" targetPosition="0" targetSkillProperty="1" rate="-33" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT030_1" name="音速炮" level="1" last="90" type="2" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="0" target="3" targetPosition="0" targetSkillProperty="0" targetDebuff="3" rate="40" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT032_1" name="中路渗透" level="1" last="90" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="3" rate="3" gradient="0" target="3" targetPosition="3,4" coordinate="20,116,0,0"/>
+      <PropertyChange property="4" rate="3" gradient="0" target="3" targetPosition="3,4" coordinate="20,116,0,0"/>
+      <PropertyChange property="5" rate="3" gradient="0" target="3" targetPosition="3,4" coordinate="20,116,0,0"/>
+      <PropertyChange property="9" rate="3" gradient="0" target="3" targetPosition="3,4" coordinate="20,116,0,0"/>
+      <PropertyChange property="10" rate="3" gradient="0" target="3" targetPosition="3,4" coordinate="20,116,0,0"/>
+      <PropertyChange property="11" rate="3" gradient="0" target="3" targetPosition="3,4" coordinate="20,116,0,0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT032_2" name="中路渗透" level="2" last="90" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="3" rate="6" gradient="0" target="3" targetPosition="3,4" coordinate="20,116,0,0"/>
+      <PropertyChange property="4" rate="6" gradient="0" target="3" targetPosition="3,4" coordinate="20,116,0,0"/>
+      <PropertyChange property="5" rate="6" gradient="0" target="3" targetPosition="3,4" coordinate="20,116,0,0"/>
+      <PropertyChange property="9" rate="6" gradient="0" target="3" targetPosition="3,4" coordinate="20,116,0,0"/>
+      <PropertyChange property="10" rate="6" gradient="0" target="3" targetPosition="3,4" coordinate="20,116,0,0"/>
+      <PropertyChange property="11" rate="6" gradient="0" target="3" targetPosition="3,4" coordinate="20,116,0,0"/>
+    </ManagerChanges>
+  </Skill>
+
+
+  <Skill id="MT033_1" name="两翼齐飞" level="1" last="90" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="2" gradient="0" target="3" targetPosition="3,4" coordinate="0,20,116,136"/>
+      <PropertyChange property="1" rate="2" gradient="0" target="3" targetPosition="3,4" coordinate="0,20,116,136"/>
+      <PropertyChange property="2" rate="2" gradient="0" target="3" targetPosition="3,4" coordinate="0,20,116,136"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT033_2" name="两翼齐飞" level="2" last="90" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="4" gradient="0" target="3" targetPosition="3,4" coordinate="0,20,116,136"/>
+      <PropertyChange property="1" rate="4" gradient="0" target="3" targetPosition="3,4" coordinate="0,20,116,136"/>
+      <PropertyChange property="2" rate="4" gradient="0" target="3" targetPosition="3,4" coordinate="0,20,116,136"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT036_1" name="强化内切" level="1" last="90" type="3" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="10" gradient="0" target="7" targetPosition="4" coordinate="0,20,116,136"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT037_1" name="交叉换位" level="1" last="90" type="3" formation="11,12,13,14,15">
+    <SpecialEffects>
+      <SpecialEffect name="PositionExchangeEffector" value="2" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT037_2" name="交叉换位" level="2" last="90" type="3" formation="11,12,13,14,15">
+    <SpecialEffects>
+      <SpecialEffect name="PositionExchangeEffector" value="4" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT037_3" name="交叉换位" level="3" last="90" type="3" formation="11,12,13,14,15">
+    <SpecialEffects>
+      <SpecialEffect name="PositionExchangeEffector" value="6" />
+    </SpecialEffects>
+  </Skill>
+
+  <Skill id="MT039_1" name="全面压制" level="1" last="90" type="3" formation="7,8,9,10,11,12,13,14,15">
+    <!--<ManagerChanges>
+      <PropertyChange property="16" rate="10" gradient="0" target="4" targetPosition="0"/>
+    </ManagerChanges>-->
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="1" target="4" targetPosition="0" targetDebuff="0" targetSkillProperty="7" rate="10" fixType="0" />
+    </SkillUpgrades>
+    <Immunity>
+      <Immunity type="5" rate="0" targetDebuff="0" probability="10" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT039_2" name="全面压制" level="2" last="90" type="3" formation="7,8,9,10,11,12,13,14,15">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="1" target="4" targetPosition="0" targetDebuff="0" targetSkillProperty="7" rate="20" fixType="0" />
+    </SkillUpgrades>
+    <Immunity>
+      <Immunity type="5" rate="0" targetDebuff="0" probability="15" />
+    </Immunity>  
+  </Skill>
+
+  <Skill id="MT039_3" name="全面压制" level="3" last="90" type="3" formation="7,8,9,10,11,12,13,14,15">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="1" target="4" targetPosition="0" targetDebuff="0" targetSkillProperty="7" rate="30" fixType="0" />
+    </SkillUpgrades>
+    <Immunity>
+      <Immunity type="5" rate="0" targetDebuff="0" probability="20" />
+    </Immunity>   
+  </Skill>
+
+  <Skill id="MT048_1" name="中场发动机" level="1" last="90" type="4" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="3" targetSkillProperty="1" rate="-5" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT048_2" name="中场发动机" level="2" last="90" type="4" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="3" targetSkillProperty="1" rate="-10" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT049_1" name="王牌双后腰" level="1" last="90" type="4" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="3" targetSkillProperty="6" rate="7" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT049_2" name="王牌双后腰" level="2" last="90" type="4" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="3" targetSkillProperty="6" rate="15" fixType="1" />
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="MT053_1" name="忍耐力训练" level="1" last="90" type="5" formation="0">
+    <Immunity>
+      <Immunity type="5" probability="1" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT053_2" name="忍耐力训练" level="2" last="90" type="5" formation="0">
+    <Immunity>
+      <Immunity type="5" probability="2" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT056_1" name="军训" level="1" last="90" type="5" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="*" rate="1" gradient="0" target="3" targetPosition="0"/>      
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT056_2" name="军训" level="2" last="90" type="5" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="*" rate="1.5" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT056_3" name="军训" level="3" last="90" type="5" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="*" rate="2.5" gradient="0" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT057_1" name="自信" level="1" last="90" type="5" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="0" gradient="0.02" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="0" gradient="0.02" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="0" gradient="0.02" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="0" gradient="0.02" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="0" gradient="0.02" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="0" gradient="0.02" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT057_2" name="自信" level="2" last="90" type="5" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="0" gradient="0.03" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="0" gradient="0.03" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="0" gradient="0.03" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="0" gradient="0.03" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="0" gradient="0.03" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="0" gradient="0.03" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT057_3" name="自信" level="3" last="90" type="5" formation="0">
+    <ManagerChanges>
+      <PropertyChange property="0" rate="0" gradient="0.04" target="3" targetPosition="0"/>
+      <PropertyChange property="1" rate="0" gradient="0.04" target="3" targetPosition="0"/>
+      <PropertyChange property="2" rate="0" gradient="0.04" target="3" targetPosition="0"/>
+      <PropertyChange property="6" rate="0" gradient="0.04" target="3" targetPosition="0"/>
+      <PropertyChange property="7" rate="0" gradient="0.04" target="3" targetPosition="0"/>
+      <PropertyChange property="8" rate="0" gradient="0.04" target="3" targetPosition="0"/>
+    </ManagerChanges>
+  </Skill>
+
+  <Skill id="MT058_1" name="勇气" level="1" last="90" type="5" formation="0">
+    <Immunity>
+      <Immunity type="6" rate="-20" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT058_2" name="勇气" level="2" last="90" type="5" formation="0">
+    <Immunity>
+      <Immunity type="6" rate="-30" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT058_3" name="勇气" level="3" last="90" type="5" formation="0">
+    <Immunity>
+      <Immunity type="6" rate="-40" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT059_1" name="坚韧" level="1" last="90" type="5" formation="0">
+    <Immunity>
+      <Immunity type="5" rate="4" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="MT059_2" name="坚韧" level="2" last="90" type="5" formation="0">
+    <Immunity>
+      <Immunity type="5" rate="8" />
+    </Immunity>
+  </Skill>
+
+  <Skill id="GU001_1" name="侵略性" level="1" last="90" type="5" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="8" rate="1.5" fixType="0"></SkillUpgrade>
+    </SkillUpgrades>
+  </Skill>
+
+  <Skill id="GU002_1" name="怒火释放" level="1" last="90" type="5" formation="0">
+    <SkillUpgrades>
+      <SkillUpgrade type="3" skillType="*" target="3" targetPosition="0" targetSkillProperty="8" rate="5.5" fixType="0"></SkillUpgrade>
+    </SkillUpgrades>
+  </Skill>
+</Passives>

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/lambda
+END
+bind.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/lambda/bind.hpp
+END
+loops.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/lambda/loops.hpp
+END
+casts.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/lambda/casts.hpp
+END
+if.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/lambda/if.hpp
+END
+closures.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/lambda/closures.hpp
+END
+lambda.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/lambda/lambda.hpp
+END
+exceptions.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/lambda/exceptions.hpp
+END
+switch.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/lambda/switch.hpp
+END
+numeric.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/lambda/numeric.hpp
+END
+control_structures.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/lambda/control_structures.hpp
+END
+construct.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/lambda/construct.hpp
+END
+algorithm.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/lambda/algorithm.hpp
+END
+core.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/lambda/core.hpp
+END

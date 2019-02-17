@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/property_map
+END
+unordered_set_support.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/property_map/unordered_set_support.hpp
+END
+set_support.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/bimap/property_map/set_support.hpp
+END

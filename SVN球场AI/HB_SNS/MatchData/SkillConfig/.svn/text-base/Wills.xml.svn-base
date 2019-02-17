@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Wills version="1.0.0.3">
+  <Will id="W102" name="蓝衣军团的命运">
+    <Triggers>
+      <Trigger type="0" target="4" targetPosition="0" isSuccess="0" state="DefaultShootState,VolleyShootState,FreekickShootState" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="0" rate="-0.5" last="90" gradient="0" target="4" targetPosition="4" />
+      <PropertyChange property="1" rate="-0.5" last="90" gradient="0" target="4" targetPosition="4" />
+      <PropertyChange property="15" rate="-0.5" last="90" gradient="0" target="4" targetPosition="4" />
+      <PropertyChange property="2" rate="-0.5" last="90" gradient="0" target="4" targetPosition="4" />
+    </PropertyChanges>
+  </Will>
+  <Will id="W104" name="The Blues">
+    <Triggers>
+      <Trigger type="0" target="3" targetPosition="1" isSuccess="1" state="DiveBallState" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="0" rate="0.5" last="90" gradient="0" target="3" targetPosition="4" />
+      <PropertyChange property="1" rate="0.5" last="90" gradient="0" target="3" targetPosition="4" />
+      <PropertyChange property="15" rate="0.5" last="90" gradient="0" target="3" targetPosition="4" />
+      <PropertyChange property="2" rate="0.5" last="90" gradient="0" target="3" targetPosition="4" />
+      <PropertyChange property="9" rate="0.5" last="90" gradient="0" target="3" targetPosition="3" />
+      <PropertyChange property="10" rate="0.5" last="90" gradient="0" target="3" targetPosition="3" />
+      <PropertyChange property="11" rate="0.5" last="90" gradient="0" target="3" targetPosition="3" />
+    </PropertyChanges>
+  </Will>
+  <Will id="W106" name="枪手">
+    <Triggers>
+      <Trigger type="3" area="1" side="1" position="0" condition="1" num="4" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="0" rate="5" last="0" gradient="0" target="3" targetPosition="4" />
+      <PropertyChange property="1" rate="5" last="0" gradient="0" target="3" targetPosition="4" />
+      <PropertyChange property="15" rate="5" last="0" gradient="0" target="3" targetPosition="4" />
+      <PropertyChange property="2" rate="5" last="0" gradient="0" target="3" targetPosition="4" />
+    </PropertyChanges>
+  </Will>
+  <Will id="W109" name="链式防守">
+    <Triggers>
+      <Trigger type="0" target="3" targetPosition="0" isSuccess="1" state="InterruptionState,SlideTackleState" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="0" rate="-2" last="90" gradient="0" target="1" targetPosition="0" />
+      <PropertyChange property="1" rate="-2" last="90" gradient="0" target="1" targetPosition="0" />
+      <PropertyChange property="15" rate="-2" last="90" gradient="0" target="1" targetPosition="0" />
+      <PropertyChange property="2" rate="-2" last="90" gradient="0" target="1" targetPosition="0" />
+    </PropertyChanges>
+  </Will>
+  <Will id="W111" name="慕尼黑攻势">
+    <Triggers>
+      <Trigger type="1" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="4" rate="3" last="90" gradient="0" target="3" targetPosition="0" />
+      <PropertyChange property="4" rate="10" last="90" gradient="0" target="3" targetPosition="0" />
+    </PropertyChanges>
+  </Will>
+  <Will id="W112" name="球王衣钵">
+    <Triggers>
+      <Trigger type="0" target="4" targetPosition="0" isSuccess="1" state="InterruptionState,SlideTackleState" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="0" rate="2" last="90" gradient="0" target="1" targetPosition="0" />
+      <PropertyChange property="1" rate="2" last="90" gradient="0" target="1" targetPosition="0" />
+      <PropertyChange property="15" rate="2" last="90" gradient="0" target="1" targetPosition="0" />
+      <PropertyChange property="2" rate="2" last="90" gradient="0" target="1" targetPosition="0" />
+    </PropertyChanges>
+  </Will>
+  <Will id="W113" name="蓝色禁锢">
+    <Triggers>
+      <Trigger type="0" target="3" targetPosition="0" isSuccess="1" state="LongPassState,ShortPassState" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="0" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+      <PropertyChange property="1" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+      <PropertyChange property="2" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+      <PropertyChange property="3" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+      <PropertyChange property="4" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+      <PropertyChange property="5" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+      <PropertyChange property="6" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+      <PropertyChange property="7" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+      <PropertyChange property="8" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+      <PropertyChange property="9" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+      <PropertyChange property="10" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+      <PropertyChange property="11" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+      <PropertyChange property="12" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+      <PropertyChange property="13" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+      <PropertyChange property="14" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+      <PropertyChange property="15" rate="5" last="5" gradient="0" target="5" targetPosition="0" />
+    </PropertyChanges>
+  </Will>
+  <Will id="W114" name="白色旗帜">
+    <Triggers>
+      <Trigger type="1" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="22" rate="3" last="90" gradient="0" target="3" targetPosition="0" />
+    </PropertyChanges>
+  </Will>
+  <Will id="W115" name="圣西罗铁闸">
+    <Triggers>
+      <Trigger type="2" target="3" targetPosition="3" area="0" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="6" rate="5" last="0" gradient="0" target="3" targetPosition="3" />
+      <PropertyChange property="7" rate="5" last="0" gradient="0" target="3" targetPosition="3" />
+      <PropertyChange property="8" rate="5" last="0" gradient="0" target="3" targetPosition="3" />
+    </PropertyChanges>
+  </Will>
+  <Will id="W117" name="红魔忠魂">
+    <Triggers>
+      <Trigger type="4" side="1" condition="2" num="1" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="0" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="1" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="2" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="3" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="4" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="5" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="6" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="7" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="8" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="9" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="10" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="11" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="12" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="13" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="14" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="15" rate="-5" last="90" gradient="0" target="4" targetPosition="0" />
+    </PropertyChanges>
+  </Will>
+  <Will id="W118" name="桑巴旋舞">
+    <Triggers>
+      <Trigger type="1" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="4" rate="-10" last="90" gradient="0" target="4" targetPosition="0" />
+    </PropertyChanges>
+  </Will>
+  <Will id="W120" name="德甲王子">
+    <Triggers>
+      <Trigger type="0" target="3" targetPosition="1" isSuccess="1" state="DiveBallState" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="0" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="1" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="2" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="3" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="4" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="5" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="6" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="7" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="8" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="9" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="10" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="11" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="12" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="13" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="14" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="15" rate="-0.5" last="90" gradient="0" target="4" targetPosition="0" />
+    </PropertyChanges>
+  </Will>
+  <Will id="W122" name="红黑军魂">
+    <Triggers>
+      <Trigger type="0" target="4" targetPosition="0" isSuccess="0" state="LongPassState,ShortPassState" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="0" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="1" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="2" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="3" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="4" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="5" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="6" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="7" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="8" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="9" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="10" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="11" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="12" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="13" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="14" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+      <PropertyChange property="15" rate="-0.3" last="90" gradient="0" target="4" targetPosition="0" />
+    </PropertyChanges>
+  </Will>
+  <Will id="W124" name="德国三驾马车">
+    <Triggers>
+      <Trigger type="0" target="4" targetPosition="0" isSuccess="1" state="InterruptionState,SlideTackleState" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="0" rate="2" last="90" gradient="0" target="1" targetPosition="0" />
+      <PropertyChange property="1" rate="2" last="90" gradient="0" target="1" targetPosition="0" />
+      <PropertyChange property="15" rate="2" last="90" gradient="0" target="1" targetPosition="0" />
+      <PropertyChange property="2" rate="2" last="90" gradient="0" target="1" targetPosition="0" />
+      <PropertyChange property="3" rate="2" last="90" gradient="0" target="1" targetPosition="0" />
+      <PropertyChange property="4" rate="2" last="90" gradient="0" target="1" targetPosition="0" />
+      <PropertyChange property="5" rate="2" last="90" gradient="0" target="1" targetPosition="0" />
+    </PropertyChanges>
+  </Will>
+  <Will id="W128" name="狼蛛">
+    <Triggers>
+      <Trigger type="0" target="3" targetPosition="0" isSuccess="0" state="DefaultShootState,VolleyShootState,FreekickShootState" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="12" rate="2" last="90" gradient="0" target="3" targetPosition="1" />
+      <PropertyChange property="13" rate="2" last="90" gradient="0" target="3" targetPosition="1" />
+      <PropertyChange property="14" rate="2" last="90" gradient="0" target="3" targetPosition="1" />
+    </PropertyChanges>
+  </Will>
+  <Will id="W131" name="潘帕斯雄鹰">
+    <Triggers>
+      <Trigger type="0" target="3" targetPosition="0" isSuccess="1" state="BreakThroughState" />
+    </Triggers>
+    <PropertyChanges>
+      <PropertyChange property="0" rate="2" last="90" gradient="0" target="0" targetPosition="0" />
+      <PropertyChange property="1" rate="2" last="90" gradient="0" target="0" targetPosition="0" />
+      <PropertyChange property="15" rate="2" last="90" gradient="0" target="0" targetPosition="0" />
+      <PropertyChange property="2" rate="2" last="90" gradient="0" target="0" targetPosition="0" />
+      <PropertyChange property="9" rate="2" last="90" gradient="0" target="0" targetPosition="0" />
+      <PropertyChange property="10" rate="2" last="90" gradient="0" target="0" targetPosition="0" />
+      <PropertyChange property="11" rate="2" last="90" gradient="0" target="0" targetPosition="0" />
+    </PropertyChanges>
+  </Will>
+</Wills>

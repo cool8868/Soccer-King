@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/AI/Rules/FreeKickRules
+END
+FreeKickRule.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/HB_SNS/AI/Rules/FreeKickRules/FreeKickRule.h
+END
+IndirectFreeKickRule.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/AI/Rules/FreeKickRules/IndirectFreeKickRule.h
+END
+PenaltyShootout.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/HB_SNS/AI/Rules/FreeKickRules/PenaltyShootout.h
+END
+FreeKickRuleFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/AI/Rules/FreeKickRules/FreeKickRuleFactory.h
+END
+OpenballRule.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/AI/Rules/FreeKickRules/OpenballRule.h
+END
+DirectFreeKickRule.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/AI/Rules/FreeKickRules/DirectFreeKickRule.h
+END
+GkOpenballRule.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/AI/Rules/FreeKickRules/GkOpenballRule.h
+END
+PenaltyKickRule.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/AI/Rules/FreeKickRules/PenaltyKickRule.h
+END

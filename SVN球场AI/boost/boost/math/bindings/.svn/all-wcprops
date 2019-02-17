@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/math/bindings
+END
+mpreal.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/math/bindings/mpreal.hpp
+END
+rr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/math/bindings/rr.hpp
+END
+mpfr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/math/bindings/mpfr.hpp
+END

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="SkillDebuger" type="System.Configuration.NameValueSectionHandler"/>
+    <section name="PassiveSkillDebuger" type="System.Configuration.NameValueSectionHandler"/>
+    <section name="OpenerSkillDebuger" type="System.Configuration.NameValueSectionHandler"/>
+  </configSections>
+
+  <appSettings>
+    <add key="ManagerService" value="The9.HB.Match.DAF.LocalManagerAdapter, The9.HB.Match.DAF"/>
+  </appSettings>
+
+  <SkillDebuger>
+    <!--主队-->
+    <add key="0" value="" />
+    <add key="1" value="" />
+    <add key="2" value="" />
+    <add key="3" value="" />
+    <add key="4" value="" />
+    <add key="5" value="" />
+    <add key="6" value="CA001_1" />
+    <add key="7" value="" />
+    <add key="8" value="" />
+    <add key="9" value="" />
+    <add key="10" value="" />
+
+    <!--客队-->
+    <add key="11" value="" />
+    <add key="12" value="" />
+    <add key="13" value="" />
+    <add key="14" value="" />
+    <add key="15" value="" />
+    <add key="16" value="" />
+    <add key="17" value="" />
+    <add key="18" value="" />
+    <add key="19" value="" />
+    <add key="20" value="" />
+    <add key="21" value="" />
+  </SkillDebuger>
+
+  <PassiveSkillDebuger>
+    <add key="0" value="" />
+    <add key="1" value="" />
+  </PassiveSkillDebuger>
+
+  <OpenerSkillDebuger>
+    <add key="0" value="" />
+    <add key="1" value="" />
+  </OpenerSkillDebuger>
+</configuration>

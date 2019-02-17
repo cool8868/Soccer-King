@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/utility/detail
+END
+in_place_factory_prefix.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/utility/detail/in_place_factory_prefix.hpp
+END
+result_of_iterate.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/utility/detail/result_of_iterate.hpp
+END
+in_place_factory_suffix.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/utility/detail/in_place_factory_suffix.hpp
+END

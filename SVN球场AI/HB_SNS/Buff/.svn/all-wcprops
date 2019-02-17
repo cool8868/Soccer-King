@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff
+END
+AbsHoldBallBuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/AbsHoldBallBuff.h
+END
+Creature.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/Creature.h
+END
+AbsDotBuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/AbsDotBuff.h
+END
+AbnormalDebuff.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/AbnormalDebuff.cpp
+END
+AbsBuff.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/AbsBuff.cpp
+END
+Creature.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/Creature.cpp
+END
+AbnormalDebuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/AbnormalDebuff.h
+END
+AbsBuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/Buff/AbsBuff.h
+END

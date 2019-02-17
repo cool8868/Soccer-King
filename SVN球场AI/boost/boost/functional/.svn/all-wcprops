@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/functional
+END
+hash.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/functional/hash.hpp
+END
+hash_fwd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/functional/hash_fwd.hpp
+END
+lightweight_forward_adapter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/functional/lightweight_forward_adapter.hpp
+END
+value_factory.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/functional/value_factory.hpp
+END
+forward_adapter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/functional/forward_adapter.hpp
+END
+factory.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/functional/factory.hpp
+END

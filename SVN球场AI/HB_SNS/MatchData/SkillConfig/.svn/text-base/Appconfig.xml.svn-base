@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="SkillEngineConfig" type="System.Configuration.NameValueSectionHandler"/>
+    <section name="TriggerMapping" type="System.Configuration.NameValueSectionHandler"/>
+    <section name="WillTriggerMapping" type="System.Configuration.NameValueSectionHandler"/>
+  </configSections>  
+  
+  <SkillEngineConfig>
+    <add key="ActionSkillBuilderConfig" value="TriggerConditions,PropertyChanges,Displacements,FoulRelated,BallRelated,Debuffs,SpecialEffects,Models" />
+    <add key="OpenerSkillBuilderConfig" value="ManagerChanges,SkillUpgrades,Immunity,SpecialEffects" />
+    <add key="PassiveSkillBuilderConfig" value="ManagerChanges,SkillUpgrades,Immunity,SpecialEffects" />
+    <add key="WillBuilderConfig" value="Triggers,PropertyChanges" />
+  </SkillEngineConfig>
+
+  <TriggerMapping>
+    <add key="0" value="FirstHalfTrigger" />
+    <add key="1" value="SecondHalfTrigger" />
+    <add key="2" value="StateTrigger" />
+    <add key="3" value="TargetTrigger" />
+    <add key="4" value="PercentageTrigger" />
+    <add key="5" value="HoldBallTrigger" />
+  </TriggerMapping>
+
+  <WillTriggerMapping>
+    <add key="0" value="WillActionTrigger" />
+    <add key="1" value="WillOpenballTrigger" />
+    <add key="2" value="WillAreaTrigger" />
+    <add key="3" value="WillAreaNumTrigger" />
+    <add key="4" value="WillDisableNumTrigger" />
+  </WillTriggerMapping>
+</configuration>

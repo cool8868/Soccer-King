@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/MatchData/SkillConfig
+END
+Actions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/MatchData/SkillConfig/Actions.xml
+END
+DebuffConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/MatchData/SkillConfig/DebuffConfig.xml
+END
+Models.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/MatchData/SkillConfig/Models.xml
+END
+Appconfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/MatchData/SkillConfig/Appconfig.xml
+END
+Wills.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/MatchData/SkillConfig/Wills.xml
+END
+ManagerDataAppconfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/MatchData/SkillConfig/ManagerDataAppconfig.xml
+END
+Openers.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/MatchData/SkillConfig/Openers.xml
+END
+Passives.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/MatchData/SkillConfig/Passives.xml
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/ProcessRender
+END
+SoccerManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/HB_SNS/!svn/ver/885/trunk/c++/HB_SNS/HB_SNS/ProcessRender/SoccerManager.h
+END
+SoccerMatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/HB_SNS/!svn/ver/781/trunk/c++/HB_SNS/HB_SNS/ProcessRender/SoccerMatch.h
+END
+SoccerPlayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/HB_SNS/!svn/ver/885/trunk/c++/HB_SNS/HB_SNS/ProcessRender/SoccerPlayer.h
+END
+SoccerFootball.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/HB_SNS/!svn/ver/777/trunk/c++/HB_SNS/HB_SNS/ProcessRender/SoccerFootball.cpp
+END
+SoccerFootball.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/HB_SNS/!svn/ver/777/trunk/c++/HB_SNS/HB_SNS/ProcessRender/SoccerFootball.h
+END
+SoccerPitch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/HB_SNS/!svn/ver/885/trunk/c++/HB_SNS/HB_SNS/ProcessRender/SoccerPitch.cpp
+END
+SoccerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/HB_SNS/!svn/ver/885/trunk/c++/HB_SNS/HB_SNS/ProcessRender/SoccerManager.cpp
+END
+SoccerMatch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/HB_SNS/!svn/ver/781/trunk/c++/HB_SNS/HB_SNS/ProcessRender/SoccerMatch.cpp
+END
+SoccerPitch.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/HB_SNS/!svn/ver/885/trunk/c++/HB_SNS/HB_SNS/ProcessRender/SoccerPitch.h
+END
+SoccerPlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/HB_SNS/!svn/ver/1666/trunk/c++/HB_SNS/HB_SNS/ProcessRender/SoccerPlayer.cpp
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/generation
+END
+make_fused_procedure.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/generation/make_fused_procedure.hpp
+END
+make_fused_function_object.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/generation/make_fused_function_object.hpp
+END
+make_fused.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/generation/make_fused.hpp
+END
+make_unfused.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/HB_SNS/!svn/ver/675/trunk/c++/HB_SNS/boost/boost/fusion/functional/generation/make_unfused.hpp
+END

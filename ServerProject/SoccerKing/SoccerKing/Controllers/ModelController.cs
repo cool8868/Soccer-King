@@ -12,6 +12,7 @@ using SoccerKing.Models;
 namespace SoccerKing.Controllers
 {
 	[Route("api/[controller]")]
+	[ApiController]
 	public class ModelController : ControllerBase
 	{
 		private readonly soccerkingContext _context;

@@ -14,7 +14,7 @@ using SoccerKing.Models;
 namespace SoccerKing.Controllers
 {
 	[Route("api/[controller]")]
-	public class ChouController : ControllerBase
+	public class SignController : ControllerBase
 	{
 		private readonly soccerkingContext _context;
 		public const int PlayerCount = 3142;//球员总数量
@@ -23,13 +23,195 @@ namespace SoccerKing.Controllers
 		public const int PlayerDCount = 885;//后卫总数量
 		public const int PlayerGKCount = 266;//门将总数量
 		public const int InitTeamCount = 121;//初始球队模板数量，新创建的球队，从这里随机取一个
+		private readonly int QiutanCost = 1000000;//球探花费
 
-		public ChouController(soccerkingContext context)
+		private static Dictionary<long, string> DicLeagueFreePlayers = new Dictionary<long, string>();
+		private static Dictionary<long, int> DicLeagueFreeCount = new Dictionary<long, int>();
+		public static Dictionary<int, Dicplayers> DicPlayersMem = new Dictionary<int, Dicplayers>();
+
+		public SignController(soccerkingContext context)
 		{
 			_context = context;
-			//PlayerCount = context.Dicplayers.Count();
+			List<Dicplayers> list = context.Dicplayers.ToList();
+			foreach (Dicplayers p in list)
+			{
+				DicPlayersMem.Add(p.Id, p);
+			}
 		}
 
+		#region 更新球员价格（根据球员综合能力和潜力公式得出）
+		//[HttpGet("ChangePrice/")]
+		//public int ChangePrice(int idx)
+		//{
+		//	List<Dicplayers> list = _context.Dicplayers.ToList();
+		//	foreach (Dicplayers d in list)
+		//	{
+		//		d.Price = (int)Math.Pow((double)(d.综合 * d.潜力), 2);
+		//		if (d.综合 >= 90)
+		//			d.Price *= 2;
+		//		else if (d.综合 <= 80)
+		//			d.Price /= 2;
+
+		//		if (d.潜力 <= 80)
+		//			d.Price /= 2;
+		//		d.Price = (int)(d.Price / 1000000);
+		//		_context.Dicplayers.Update(d);
+		//	}
+		//	_context.SaveChanges();
+
+		//	return 1;
+		//}
+		#endregion
+
+		/// <summary>
+		/// 球探搜索一名自有球员，需要花费一定资金
+		/// </summary>
+		/// <param name="leagueId">联赛Id</param>
+		/// <returns></returns>
+		[HttpGet("t/id")]
+		[Authorize]
+		public IActionResult Qiutan(long leagueId)
+		{
+			//Step1.是否有自由球员,如果有,返回该球员
+			if (!DicLeagueFreePlayers.ContainsKey(leagueId))
+			{
+				Freesignplayers fsp = _context.Freesignplayers.Find(leagueId);
+				if (fsp == null || fsp.LeagueId == 0L)
+				{
+					return NotFound(1);
+				}
+				else
+				{
+					DicLeagueFreePlayers.Add(leagueId, fsp.PlayerIdArr);
+					if (!DicLeagueFreeCount.ContainsKey(leagueId))
+					{
+						int freeCount = 0;
+						for (int i = 0, length = fsp.PlayerIdArr.Length; i < length; i++)
+						{
+							if (fsp.PlayerIdArr.Substring(i, 1) == "0")
+							{
+								freeCount++;
+							}
+						}
+						DicLeagueFreeCount.Add(leagueId, freeCount);
+					}
+				}
+			}
+			int fc = DicLeagueFreeCount[leagueId];
+			if (fc < 1)//没有自由球员了
+				return NotFound(3);
+			int randomId = RandomHelper.GetInt32(1, fc);
+			int tempCount = 0;
+			string tempStr = DicLeagueFreePlayers[leagueId];
+			int randomPlayerId = 0;
+			//找出该球员
+			for (int j = 0; j < PlayerCount; j++)
+			{				
+				if (tempStr.Substring(j, 1) == "0")
+				{
+					tempCount++;
+					if (tempCount == randomId)
+					{
+						randomPlayerId = j + 1;
+						break;
+					}
+				}
+			}
+			if (!DicPlayersMem.ContainsKey(randomPlayerId))
+				return NotFound(4);
+
+			//Step2.扣除球探费用
+			Users user = _context.Users.Find(User.Identity.Name);
+			if (user == null || string.IsNullOrEmpty(user.OpenId))
+				return NotFound();
+			user.Cash -= QiutanCost;
+			int saveResult = _context.SaveChanges();
+			if (saveResult < 1)
+				return NotFound(2);			
+
+			//Step3.返回数据给玩家
+			Dicplayers player = DicPlayersMem[randomPlayerId];
+			return Ok(player);
+		}
+
+		
+		/// <summary>
+		/// 签约球员
+		/// </summary>
+		/// <param name="playerId">球员Id</param>
+		/// <returns>签约是否成功</returns>
+		[HttpPost]
+		[Authorize]
+		public IActionResult SignPlayer(SignPlayer player)
+		{
+			//判断是否签约成功
+			int changes = player.PriceChanges - player.WeiYueJinChanges;
+			if (changes < -9)
+				return Ok(-1);
+			if (changes < 0)
+			{
+				int random = RandomHelper.GetInt32(-9, 0);
+				if (random > changes)
+					return Ok(-1);
+			}
+			//获取联赛信息
+			Leaguememebers leagueMember = _context.Leaguememebers.Single(b => b.UserId == User.Identity.Name);
+			if (leagueMember == null || leagueMember.Id == 0)
+				return NotFound(0);
+			//Step1.该球员在不在，如果在，是否还是自由球员
+			if (!DicPlayersMem.ContainsKey(player.PlayerId))
+				return NotFound(1);
+			if (DicLeagueFreePlayers.ContainsKey(leagueMember.LeagueId))
+			{
+				if (DicLeagueFreePlayers[leagueMember.LeagueId].Substring(player.PlayerId - 1, 1) == "1")
+					return NotFound(2);
+			}
+			else
+				return NotFound(3);
+			Dicplayers dicPlayer = _context.Dicplayers.Find(player.PlayerId);
+			if (dicPlayer == null || dicPlayer.Id == 0)
+				return NotFound(4);
+			//Step2.扣除签约费用
+			//Users user = _context.Users.Find(User.Identity.Name);
+			//if (user == null || string.IsNullOrEmpty(user.OpenId))
+			//	return NotFound(5);
+			string sql = "call CostCash('" + User.Identity.Name + "'," + dicPlayer.Price + ")";
+			int result = _context.Database.ExecuteSqlCommand(sql);
+			if (result < 1)
+				return NotFound(5);
+
+			//Step3.签订合同
+			Userplayers up = new Userplayers();
+			up.Id = 0;
+			up.Age = (sbyte)RandomHelper.GetInt32(16, 26);
+			up.Jx = 0;
+			up.Lv = 1;
+			up.Pz = 5;
+			up.Name = dicPlayer.名字;
+			up.Pid = dicPlayer.Id;
+			up.Rowtime = DateTime.Now;
+			up.Status = 0;
+			up.Type = 0;
+			up.SignPrice = dicPlayer.Price * (100 + player.PriceChanges * 5) / 100;
+			up.WeiYueJin = dicPlayer.Price* 3 * (100 + player.WeiYueJinChanges * 10) / 100;
+			up.Uid = User.Identity.Name;
+			_context.Userplayers.Add(up);
+			//Step4.自由球员数据更新,两个字典表和一个数据库
+			char[] c = DicLeagueFreePlayers[player.PlayerId].ToCharArray();
+			c[dicPlayer.Id - 1] = '1';
+			DicLeagueFreePlayers[leagueMember.LeagueId] = c.ToString();
+			DicLeagueFreeCount[leagueMember.LeagueId]--;
+			Freesignplayers fsp = _context.Freesignplayers.Single(b => b.LeagueId == leagueMember.LeagueId);
+			if (fsp != null)
+			{
+				fsp.PlayerIdArr = DicLeagueFreePlayers[leagueMember.LeagueId];
+				_context.Freesignplayers.Update(fsp);
+			}
+			//Step5.保存球员数据
+			_context.SaveChanges();
+
+			return Ok(0);
+		}
 
 		/// <summary>
 		/// 抽卡
@@ -55,7 +237,7 @@ namespace SoccerKing.Controllers
 			for (int i = 0; i < num; i++)
 			{
 				Dicplayers dp = _context.Dicplayers.Find(pidList[i]);
-				if (dp == null)
+				if (dp == null || dp.Id == 0)
 				{
 					continue;
 				}
@@ -82,8 +264,8 @@ namespace SoccerKing.Controllers
 		/// <summary>
 		/// 创建球队，给这名玩家创建11名球员
 		/// </summary>
-		/// <returns></returns>
-		//[Authorize]
+		/// <returns>创建球队</returns>
+		[Authorize]
 		[HttpGet("c/")]
 		public List<Userplayers> CreateTeam()
 		{
@@ -468,6 +650,16 @@ namespace SoccerKing.Controllers
 
 			}
 			return list;
+		}
+
+		/// <summary>
+		/// 从球员列表里获取一名球员
+		/// </summary>
+		/// <returns></returns>
+		private Dicplayers GetOnePlayer()
+		{
+			int pid = RandomHelper.GetInt32(1, PlayerCount);
+			return _context.Dicplayers.Find(pid);
 		}
 
 

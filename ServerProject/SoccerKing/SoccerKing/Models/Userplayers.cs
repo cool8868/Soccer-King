@@ -9,6 +9,8 @@ namespace SoccerKing.Models
         public string Uid { get; set; }
         public int? Pid { get; set; }
         public string Name { get; set; }
+        public long? SignPrice { get; set; }
+        public long? WeiYueJin { get; set; }
         public int? Lv { get; set; }
         public int? Pz { get; set; }
         public sbyte? Jx { get; set; }

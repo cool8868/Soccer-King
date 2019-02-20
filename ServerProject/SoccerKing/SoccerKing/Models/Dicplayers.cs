@@ -11,6 +11,8 @@ namespace SoccerKing.Models
         }
 
         public int Id { get; set; }
+        public int? 综合 { get; set; }
+        public int? Price { get; set; }
         public int? 速度t { get; set; }
         public int? 射门t { get; set; }
         public int? 传球t { get; set; }
@@ -21,7 +23,6 @@ namespace SoccerKing.Models
         public int? 大位置 { get; set; }
         public string 名字 { get; set; }
         public string 国籍 { get; set; }
-        public int? 综合 { get; set; }
         public int? 潜力 { get; set; }
         public int? 传中 { get; set; }
         public int? 射术 { get; set; }

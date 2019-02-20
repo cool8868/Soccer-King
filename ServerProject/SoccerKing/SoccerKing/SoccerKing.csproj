@@ -22,10 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Deepleo.Weixin.SDK.Core\Deepleo.Weixin.SDK.Core.csproj" />
   </ItemGroup>
 

@@ -9,6 +9,7 @@ using Deepleo.Weixin.SDK;
 using Microsoft.Extensions.Options;
 using System.Net.Http;
 using Codeplex.Data;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -35,6 +36,7 @@ namespace SoccerKing.Controllers
 
 		// POST: api/Todo
 		[HttpPost]
+		[Authorize]
 		public async Task<IActionResult> PostUsers(Users user)
 		{
 			user.Diamond = 0;
@@ -43,28 +45,29 @@ namespace SoccerKing.Controllers
 			user.Status = 0;
 			user.Train = 0;
 			user.Sw = 0;
-			user.Dw = 0;
+			user.Dw = 1;
 			user.RowTime = DateTime.Now;			
 			_context.Users.Add(user);
 			await _context.SaveChangesAsync();
 
-			return NoContent();
+			return Ok();
 		}
 
+		
 		// PUT: api/Todo/5
-		[HttpPut("{id}")]
-		public async Task<IActionResult> PutUsers(string id, Users users)
-		{
-			if (id != users.OpenId)
-			{
-				return BadRequest();
-			}
+		//[HttpPut("{id}")]
+		//public async Task<IActionResult> PutUsers(string id, Users users)
+		//{
+		//	if (id != users.OpenId)
+		//	{
+		//		return BadRequest();
+		//	}
 
-			_context.Entry(users).State = EntityState.Modified;
-			await _context.SaveChangesAsync();
+		//	_context.Entry(users).State = EntityState.Modified;
+		//	await _context.SaveChangesAsync();
 
-			return NoContent();
-		}
+		//	return NoContent();
+		//}
 
 
 		[HttpGet("login/{token}")]
@@ -86,7 +89,7 @@ namespace SoccerKing.Controllers
 			//_context.Log.Add(l);
 			//_context.SaveChanges();
 
-			return NoContent();
+			return Ok();
 		}
 
 		public dynamic GetAccessToken(string code, string appId, string appSecret)

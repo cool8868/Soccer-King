@@ -9,7 +9,9 @@ namespace SoccerKing.Models
         public int? Level { get; set; }
         public DateTime? StartDate { get; set; }
         public DateTime? EndDate { get; set; }
+        public int? CurrentTeams { get; set; }
+        public int? TeamLimit { get; set; }
         public sbyte Status { get; set; }
-        public DateTime Rowtime { get; set; }
+        public DateTime RowVersion { get; set; }
     }
 }

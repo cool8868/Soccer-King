@@ -27,7 +27,7 @@ namespace SoccerKing.Controllers
 
 		private static Dictionary<long, string> DicLeagueFreePlayers = new Dictionary<long, string>();
 		private static Dictionary<long, int> DicLeagueFreeCount = new Dictionary<long, int>();
-		public static Dictionary<int, Dicplayers> DicPlayersMem = new Dictionary<int, Dicplayers>();
+		private static Dictionary<int, Dicplayers> DicPlayersMem = new Dictionary<int, Dicplayers>();		
 
 		public SignController(soccerkingContext context)
 		{
@@ -437,6 +437,81 @@ namespace SoccerKing.Controllers
 			SaveData(listPlayers);
 			return listPlayers;
 		}
+
+
+		#region 创建AI球队模板（每个AI有11名球员）
+		/// <summary>
+		/// 创建AI球队模板（每个AI有11名球员）
+		/// </summary>
+		/// <returns>是否创建成功</returns>
+		//[HttpGet("CreateAITeam/")]
+		//public IActionResult CreateAITeamModel()
+		//{
+		//	List<Users> userList = _context.Users.Where(b => b.Status == 1).ToList();
+		//	foreach (Users u in userList)
+		//	{
+		//		List<Userplayers> list = new List<Userplayers>();
+
+		//		#region 各位置数量
+		//		//442阵型，各位置球员数量
+		//		int fcount = 2;//前锋数量
+		//		int mcount = 4;
+		//		int dcount = 4;
+		//		int gkcount = 1;
+		//		#endregion
+
+		//		#region 循环生成
+
+
+		//		List<int> listId = new List<int>();
+		//		//生成前锋
+		//		for (int j = 0; j < fcount; j++)
+		//		{					
+		//			int fid = RandomHelper.GetInt32(PlayerFCount - 20, PlayerFCount);
+		//			listId.Add(fid);
+		//		}
+		//		for (int j = 0; j < mcount; j++)//生成中场
+		//		{
+		//			int fid = RandomHelper.GetInt32(PlayerMCount-20, PlayerMCount);
+		//			listId.Add(fid);
+		//		}
+		//		for (int j = 0; j < dcount; j++)//生成后卫
+		//		{
+		//			int fid = RandomHelper.GetInt32(PlayerDCount-20, PlayerDCount);
+		//			listId.Add(fid);
+		//		}
+		//		if (gkcount > 0)//生成门将
+		//		{
+		//			int fid = RandomHelper.GetInt32(PlayerGKCount-20, PlayerGKCount);
+		//			listId.Add(fid);
+		//		}
+		//		foreach (int li in listId)
+		//		{
+		//			Userplayers up = new Userplayers();
+		//			Dicplayersfrelation f = _context.Dicplayersfrelation.Find(li);
+		//			up.Age = 20;
+		//			up.Jx = 0;
+		//			up.Lv = 1;
+		//			up.Name = DicPlayersMem[f.PlayerId].名字;
+		//			up.Pid = f.PlayerId;
+		//			up.Pz = 1;
+		//			up.Rowtime = DateTime.Now;
+		//			up.SignPrice = 500000;
+		//			up.Status = 0;
+		//			up.Type = 0;
+		//			up.WeiYueJin = 1500000;
+		//			up.Uid = u.OpenId;
+		//			_context.Userplayers.Add(up);
+		//		}
+		//		#endregion
+		//	}
+		//	_context.SaveChanges();
+		//	return Ok();
+		//}
+		#endregion
+
+
+
 		/// <summary>
 		/// 生成系统球队模板，新玩家创建球队从其中随机其一
 		/// </summary>

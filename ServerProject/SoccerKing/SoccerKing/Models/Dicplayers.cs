@@ -13,12 +13,6 @@ namespace SoccerKing.Models
         public int Id { get; set; }
         public int? 综合 { get; set; }
         public int? Price { get; set; }
-        public int? 速度t { get; set; }
-        public int? 射门t { get; set; }
-        public int? 传球t { get; set; }
-        public int? 盘带t { get; set; }
-        public int? 防守t { get; set; }
-        public int? 力量t { get; set; }
         public int? 位置 { get; set; }
         public int? 大位置 { get; set; }
         public string 名字 { get; set; }

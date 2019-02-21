@@ -15,6 +15,7 @@ namespace SoccerKing.Models
         {
         }
 
+        public virtual DbSet<AiTeam> AiTeam { get; set; }
         public virtual DbSet<Clubinfo> Clubinfo { get; set; }
         public virtual DbSet<Coach> Coach { get; set; }
         public virtual DbSet<Dicplayers> Dicplayers { get; set; }
@@ -31,6 +32,8 @@ namespace SoccerKing.Models
         public virtual DbSet<Freesignplayers> Freesignplayers { get; set; }
         public virtual DbSet<League> League { get; set; }
         public virtual DbSet<LeagueMatch> LeagueMatch { get; set; }
+        public virtual DbSet<LeagueMatchAnPai> LeagueMatchAnPai { get; set; }
+        public virtual DbSet<LeagueSaiCheng> LeagueSaiCheng { get; set; }
         public virtual DbSet<Leaguememebers> Leaguememebers { get; set; }
         public virtual DbSet<Log> Log { get; set; }
         public virtual DbSet<NpcName> NpcName { get; set; }
@@ -56,6 +59,18 @@ namespace SoccerKing.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
+			modelBuilder.Entity<AiTeam>(entity =>
+            {
+                entity.ToTable("ai_team");
+
+                entity.Property(e => e.Id).HasColumnType("int(11)");
+
+                entity.Property(e => e.PlayerIdStr)
+                    .IsRequired()
+                    .HasColumnType("varchar(80)");
+            });
+
             modelBuilder.Entity<Clubinfo>(entity =>
             {
                 entity.ToTable("clubinfo");
@@ -138,10 +153,6 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.传中).HasColumnType("int(11)");
 
-                entity.Property(e => e.传球t)
-                    .HasColumnName("传球T")
-                    .HasColumnType("int(11)");
-
                 entity.Property(e => e.位置).HasColumnType("int(11)");
 
                 entity.Property(e => e.体能).HasColumnType("int(11)");
@@ -149,10 +160,6 @@ namespace SoccerKing.Models
                 entity.Property(e => e.侵略性).HasColumnType("int(11)");
 
                 entity.Property(e => e.凌空).HasColumnType("int(11)");
-
-                entity.Property(e => e.力量t)
-                    .HasColumnName("力量T")
-                    .HasColumnType("int(11)");
 
                 entity.Property(e => e.加速).HasColumnType("int(11)");
 
@@ -170,10 +177,6 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.射术).HasColumnType("int(11)");
 
-                entity.Property(e => e.射门t)
-                    .HasColumnName("射门T")
-                    .HasColumnType("int(11)");
-
                 entity.Property(e => e.射门力量).HasColumnType("int(11)");
 
                 entity.Property(e => e.平衡).HasColumnType("int(11)");
@@ -206,10 +209,6 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.盘带).HasColumnType("int(11)");
 
-                entity.Property(e => e.盘带t)
-                    .HasColumnName("盘带T")
-                    .HasColumnType("int(11)");
-
                 entity.Property(e => e.盯人).HasColumnType("int(11)");
 
                 entity.Property(e => e.短传).HasColumnType("int(11)");
@@ -232,17 +231,9 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.速度).HasColumnType("int(11)");
 
-                entity.Property(e => e.速度t)
-                    .HasColumnName("速度T")
-                    .HasColumnType("int(11)");
-
                 entity.Property(e => e.铲球).HasColumnType("int(11)");
 
                 entity.Property(e => e.长传).HasColumnType("int(11)");
-
-                entity.Property(e => e.防守t)
-                    .HasColumnName("防守T")
-                    .HasColumnType("int(11)");
 
                 entity.Property(e => e.鱼跃).HasColumnType("int(11)");
             });
@@ -257,10 +248,6 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.传中).HasColumnType("int(11)");
 
-                entity.Property(e => e.传球t)
-                    .HasColumnName("传球T")
-                    .HasColumnType("int(11)");
-
                 entity.Property(e => e.位置).HasColumnType("int(11)");
 
                 entity.Property(e => e.体能).HasColumnType("int(11)");
@@ -268,10 +255,6 @@ namespace SoccerKing.Models
                 entity.Property(e => e.侵略性).HasColumnType("int(11)");
 
                 entity.Property(e => e.凌空).HasColumnType("int(11)");
-
-                entity.Property(e => e.力量t)
-                    .HasColumnName("力量T")
-                    .HasColumnType("int(11)");
 
                 entity.Property(e => e.加速).HasColumnType("int(11)");
 
@@ -287,10 +270,6 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.射术).HasColumnType("int(11)");
 
-                entity.Property(e => e.射门t)
-                    .HasColumnName("射门T")
-                    .HasColumnType("int(11)");
-
                 entity.Property(e => e.射门力量).HasColumnType("int(11)");
 
                 entity.Property(e => e.平衡).HasColumnType("int(11)");
@@ -323,10 +302,6 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.盘带).HasColumnType("int(11)");
 
-                entity.Property(e => e.盘带t)
-                    .HasColumnName("盘带T")
-                    .HasColumnType("int(11)");
-
                 entity.Property(e => e.盯人).HasColumnType("int(11)");
 
                 entity.Property(e => e.短传).HasColumnType("int(11)");
@@ -349,17 +324,9 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.速度).HasColumnType("int(11)");
 
-                entity.Property(e => e.速度t)
-                    .HasColumnName("速度T")
-                    .HasColumnType("int(11)");
-
                 entity.Property(e => e.铲球).HasColumnType("int(11)");
 
                 entity.Property(e => e.长传).HasColumnType("int(11)");
-
-                entity.Property(e => e.防守t)
-                    .HasColumnName("防守T")
-                    .HasColumnType("int(11)");
 
                 entity.Property(e => e.鱼跃).HasColumnType("int(11)");
             });
@@ -897,6 +864,36 @@ namespace SoccerKing.Models
                     .HasDefaultValueSql("'0'");
             });
 
+            modelBuilder.Entity<LeagueMatchAnPai>(entity =>
+            {
+                entity.ToTable("league_match_an_pai");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasColumnType("int(11)");
+
+                entity.Property(e => e.A).HasColumnType("varchar(50)");
+
+                entity.Property(e => e.B).HasColumnType("varchar(50)");
+
+                entity.Property(e => e.Round).HasColumnType("int(11)");
+            });
+
+            modelBuilder.Entity<LeagueSaiCheng>(entity =>
+            {
+                entity.ToTable("league_sai_cheng");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasColumnType("int(11)");
+
+                entity.Property(e => e.A).HasColumnType("int(11)");
+
+                entity.Property(e => e.B).HasColumnType("int(11)");
+
+                entity.Property(e => e.Round).HasColumnType("int(11)");
+            });
+
             modelBuilder.Entity<Leaguememebers>(entity =>
             {
                 entity.ToTable("leaguememebers");
@@ -929,9 +926,18 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.Losts).HasColumnType("int(11)");
 
+                entity.Property(e => e.MaxPower).HasColumnType("int(11)");
+
+                entity.Property(e => e.MyPower).HasColumnType("int(11)");
+
                 entity.Property(e => e.Rowtime)
                     .HasColumnType("datetime")
                     .HasDefaultValueSql("'current_timestamp()'");
+
+                entity.Property(e => e.Rowverion)
+                    .HasColumnType("timestamp")
+                    .HasDefaultValueSql("'current_timestamp()'")
+                    .ValueGeneratedOnAddOrUpdate();
 
                 entity.Property(e => e.Score)
                     .HasColumnType("int(11)")

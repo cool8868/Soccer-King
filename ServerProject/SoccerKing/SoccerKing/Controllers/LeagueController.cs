@@ -51,6 +51,23 @@ namespace SoccerKing.Controllers
 			return CreateEmptyLeague();
 		}
 
+		//[HttpGet("testRV/{id}")]
+		//public int testRV(long id)
+		//{
+		//	League l = _context.League.Find(id);
+		//	l.CurrentTeams++;
+		//	//_context.League.Update(l);
+		//	try
+		//	{
+		//		return _context.SaveChanges();
+		//	}
+		//	catch
+		//	{
+		//		return 0;
+		//	}
+		//}
+
+
 		//[HttpGet("testSP/")]
 		//public int TestSp()
 		//{
@@ -69,14 +86,14 @@ namespace SoccerKing.Controllers
 		/// <returns>是否报名成功</returns>
 		[Authorize]
 		[HttpGet("b/{id}")]
-		public IActionResult Baoming(int id)
+		public IActionResult Baoming(long id)
 		{
 			League l = _context.League.Find(id);
 			if (l == null || l.Id == 0L)
 				return BadRequest();
 
 			if (l.TeamLimit == l.CurrentTeams)
-				return BadRequest();
+				return Ok(1);
 
 			l.CurrentTeams++;
 			Leaguememebers lm = new Leaguememebers();
@@ -92,8 +109,16 @@ namespace SoccerKing.Controllers
 			lm.Win = 0;
 			lm.Cash = 0;
 			_context.Leaguememebers.Add(lm);
-			_context.SaveChanges();
-			return Ok();
+			try
+			{
+				_context.SaveChanges();
+			}
+			catch
+			{
+				_context.Leaguememebers.Remove(lm);
+				_context.SaveChangesAsync();
+			}
+			return Ok(0);
 		}
 
 		/// <summary>
@@ -113,8 +138,8 @@ namespace SoccerKing.Controllers
 		/// 创建联赛，判断当前需不需要创建新的联赛
 		/// </summary>
 		protected void CreateLeague()
-		{
-			League l = _context.League.FromSql("select * from League order by id desc limit 0,1;").FirstOrDefault();
+		{			
+			League l = _context.League.OrderByDescending(b => b.Id).Single();
 			if (l == null || l.Id == 0)
 			{
 				//创建联赛
@@ -123,14 +148,14 @@ namespace SoccerKing.Controllers
 
 			if (l.StartDate != null)
 			{
-				//如果没有当天创建的联赛，则需要创建新联赛
-				if (l.StartDate.Value.AddDays(1) > DateTime.Now)
+				//如果没有4小时内创建的联赛，则需要创建新联赛
+				if (l.StartDate.Value.AddHours(4) < DateTime.Now)
 				{
 					CreateEmptyLeague();
 				}
 			}
-			//如果满了，也需要创建联赛
-			if (l.CurrentTeams >= l.TeamLimit)
+			//如果满了，也需要创建联赛,留4个AI
+			if (l.CurrentTeams >= (l.TeamLimit-4))
 			{
 				CreateEmptyLeague();
 			}
@@ -150,9 +175,62 @@ namespace SoccerKing.Controllers
 			l.Status = 0;			
 			l.TeamLimit = LeagueTeamLimit;
 			l.CurrentTeams = 0;
+
 			_context.League.Add(l);
 			_context.SaveChanges();
+
+			//添加20个AI球队，后续玩家进入，替换这些AI
+			List<NpcName> npcList = new List<NpcName>();
+
+			int rid = RandomHelper.GetInt32(0, 179);
+			DateTime now = DateTime.Now;
+			for (int i = 0; i < 20; i++)
+			{
+				Leaguememebers lm = new Leaguememebers();
+				lm.Draw = 0;
+				lm.Goals = 0;
+				lm.LeagueId = l.Id;
+				lm.Lose = 0;
+				lm.Losts = 0;
+				lm.Rowtime = now;
+				lm.Score = 0;
+				lm.Status = 0;
+				lm.Win = 0;
+				lm.Cash = 0;
+				lm.UserId = npcList[rid + i].Account;
+			}
+
 			return l.Id;
+		}
+
+		
+
+		/// <summary>
+		/// 给新创建的联赛添加20个AI球队
+		/// </summary>
+		/// <param name="leagueId">联赛Id</param>
+		private void AddAIIntoLeague(long leagueId)
+		{
+			int rid = RandomHelper.GetInt32(0, 179);
+			DateTime now = DateTime.Now;
+			List<NpcName> npcList = _context.NpcName.ToList();
+			for (int i = 0; i < 20; i++)
+			{
+				Leaguememebers lm = new Leaguememebers();
+				lm.Draw = 0;
+				lm.Goals = 0;
+				lm.LeagueId = leagueId;
+				lm.Lose = 0;
+				lm.Losts = 0;
+				lm.Rowtime = now;
+				lm.Score = 0;
+				lm.Status = 0;
+				lm.Win = 0;
+				lm.Cash = 0;
+				lm.UserId = npcList[rid + i].Account;
+				_context.Leaguememebers.Add(lm);
+			}
+			_context.SaveChangesAsync();
 		}
 
 		

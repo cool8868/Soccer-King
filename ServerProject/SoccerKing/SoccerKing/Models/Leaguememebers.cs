@@ -17,5 +17,8 @@ namespace SoccerKing.Models
         public int? Losts { get; set; }
         public sbyte? Status { get; set; }
         public DateTime? Rowtime { get; set; }
+        public int? MyPower { get; set; }
+        public int? MaxPower { get; set; }
+        public DateTime Rowverion { get; set; }
     }
 }

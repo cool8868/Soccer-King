@@ -53,7 +53,30 @@ namespace SoccerKing.Controllers
 			return Ok();
 		}
 
-		
+		//[HttpGet("CreateAI")]
+		//public async Task<IActionResult> CreateAI()
+		//{
+		//	List<NpcName> npcList = _context.NpcName.ToList();
+		//	foreach (NpcName n in npcList)
+		//	{
+		//		Users u = new Users();
+		//		u.OpenId = n.Id.ToString();
+		//		u.Nick = n.Nick;
+		//		u.UnionId = string.Empty;
+		//		u.Sw = 0;
+		//		u.RowTime = DateTime.Now;
+		//		u.Cash = 0;
+		//		u.Diamond = 0;
+		//		u.Dw = 1;
+		//		u.Status = 1;
+		//		u.Train = 0;
+		//		u.Fans = 0;
+		//		_context.Users.Add(u);
+		//	}
+		//	await _context.SaveChangesAsync();
+		//	return Ok();
+		//}
+
 		// PUT: api/Todo/5
 		//[HttpPut("{id}")]
 		//public async Task<IActionResult> PutUsers(string id, Users users)

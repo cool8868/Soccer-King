@@ -6,17 +6,11 @@ namespace SoccerKing.Models
     public partial class DicplayersD
     {
         public int Id { get; set; }
-        public int? 速度t { get; set; }
-        public int? 射门t { get; set; }
-        public int? 传球t { get; set; }
-        public int? 盘带t { get; set; }
-        public int? 防守t { get; set; }
-        public int? 力量t { get; set; }
+        public int? 综合 { get; set; }
+        public int? 潜力 { get; set; }
         public int? 位置 { get; set; }
         public string 名字 { get; set; }
         public string 国籍 { get; set; }
-        public int? 综合 { get; set; }
-        public int? 潜力 { get; set; }
         public int? 传中 { get; set; }
         public int? 射术 { get; set; }
         public int? 头球 { get; set; }

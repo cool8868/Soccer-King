@@ -10,7 +10,7 @@ namespace SoccerKing.Models
         public string Name { get; set; }
         public sbyte Age { get; set; }
         public int Lv { get; set; }
-        public sbyte? Type { get; set; }
+        public sbyte Type { get; set; }
         public sbyte Status { get; set; }
         public DateTime Rowtime { get; set; }
     }

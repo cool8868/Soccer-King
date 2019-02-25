@@ -147,12 +147,12 @@ namespace SoccerKing.Controllers
 			//判断是否签约成功
 			int changes = player.PriceChanges - player.WeiYueJinChanges;
 			if (changes < -9)
-				return Ok(-1);
+				return Ok(1);
 			if (changes < 0)
 			{
 				int random = RandomHelper.GetInt32(-9, 0);
 				if (random > changes)
-					return Ok(-1);
+					return Ok(1);
 			}
 			//获取联赛信息
 			Leaguememebers leagueMember = _context.Leaguememebers.Single(b => b.UserId == User.Identity.Name);
@@ -172,13 +172,14 @@ namespace SoccerKing.Controllers
 			if (dicPlayer == null || dicPlayer.Id == 0)
 				return NotFound(4);
 			//Step2.扣除签约费用
-			//Users user = _context.Users.Find(User.Identity.Name);
-			//if (user == null || string.IsNullOrEmpty(user.OpenId))
-			//	return NotFound(5);
-			string sql = "call CostCash('" + User.Identity.Name + "'," + dicPlayer.Price + ")";
-			int result = _context.Database.ExecuteSqlCommand(sql);
-			if (result < 1)
+			Users user = _context.Users.Find(User.Identity.Name);
+			if (user == null || string.IsNullOrEmpty(user.OpenId))
 				return NotFound(5);
+			
+			//string sql = "call CostCash('" + User.Identity.Name + "'," + dicPlayer.Price + ")";
+			//int result = _context.Database.ExecuteSqlCommand(sql);
+			//if (result < 1)
+			//	return NotFound(5);
 
 			//Step3.签订合同
 			Userplayers up = new Userplayers();
@@ -192,10 +193,13 @@ namespace SoccerKing.Controllers
 			up.Rowtime = DateTime.Now;
 			up.Status = 0;
 			up.Type = 0;
-			up.SignPrice = dicPlayer.Price * (100 + player.PriceChanges * 5) / 100;
-			up.WeiYueJin = dicPlayer.Price* 3 * (100 + player.WeiYueJinChanges * 10) / 100;
+			up.SignPrice = (long)dicPlayer.Price * (100 + player.PriceChanges * 5) / 100;
+			up.WeiYueJin = (long)dicPlayer.Price* 3 * (100 + player.WeiYueJinChanges * 10) / 100;
 			up.Uid = User.Identity.Name;
 			_context.Userplayers.Add(up);
+
+			user.Cash -= up.SignPrice;//扣除签约费
+
 			//Step4.自由球员数据更新,两个字典表和一个数据库
 			char[] c = DicLeagueFreePlayers[player.PlayerId].ToCharArray();
 			c[dicPlayer.Id - 1] = '1';
@@ -208,9 +212,16 @@ namespace SoccerKing.Controllers
 				_context.Freesignplayers.Update(fsp);
 			}
 			//Step5.保存球员数据
-			_context.SaveChanges();
-
-			return Ok(0);
+			try
+			{
+				_context.SaveChanges();
+				return Ok(0);
+			}
+			catch (Exception ex)
+			{
+				LogHelper.Instance.Error(ex.Message);
+				return Ok(2);
+			}			
 		}
 
 		/// <summary>

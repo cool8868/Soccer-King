@@ -14,6 +14,8 @@ using Microsoft.EntityFrameworkCore;
 using SoccerKing.Models;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using NLog.Web;
+using NLog.Extensions.Logging;
 
 namespace SoccerKing
 {
@@ -76,10 +78,11 @@ namespace SoccerKing
 					ClockSkew = TimeSpan.FromMinutes(5) //5 minute tolerance for the expiration date
 				};
 			});
+
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-		public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+		public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
 		{
 			if (env.IsDevelopment())
 			{
@@ -96,6 +99,10 @@ namespace SoccerKing
 			app.UseStaticFiles();
 			app.UseHttpsRedirection();			
 			app.UseMvc();
+
+			/*使用NLog*/
+			loggerFactory.AddNLog();
+			env.ConfigureNLog("NLog.config");
 		}
 	}
 }

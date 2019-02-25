@@ -7,7 +7,7 @@ namespace SoccerKing.Models
     {
         public long LeagueId { get; set; }
         public string PlayerIdArr { get; set; }
-        public sbyte? Status { get; set; }
-        public DateTime RowVersion { get; set; }
+        public sbyte Status { get; set; }
+        //public long RowVersion { get; set; }
     }
 }

@@ -59,8 +59,7 @@ namespace SoccerKing.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
-			modelBuilder.Entity<AiTeam>(entity =>
+            modelBuilder.Entity<AiTeam>(entity =>
             {
                 entity.ToTable("ai_team");
 
@@ -127,13 +126,17 @@ namespace SoccerKing.Models
                     .HasColumnType("datetime")
                     .HasDefaultValueSql("'current_timestamp()'");
 
-                entity.Property(e => e.Special).HasColumnType("tinyint(4)");
+                entity.Property(e => e.Special)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.Status)
                     .HasColumnType("tinyint(4)")
                     .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.Type).HasColumnType("tinyint(4)");
+                entity.Property(e => e.Type)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.Uid)
                     .IsRequired()
@@ -163,9 +166,13 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.加速).HasColumnType("int(11)");
 
-                entity.Property(e => e.名字).HasColumnType("varchar(50)");
+                entity.Property(e => e.名字)
+                    .IsRequired()
+                    .HasColumnType("varchar(50)");
 
-                entity.Property(e => e.国籍).HasColumnType("varchar(50)");
+                entity.Property(e => e.国籍)
+                    .IsRequired()
+                    .HasColumnType("varchar(50)");
 
                 entity.Property(e => e.国际声誉).HasColumnType("int(11)");
 
@@ -189,7 +196,9 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.强壮).HasColumnType("int(11)");
 
-                entity.Property(e => e.惯用脚).HasColumnType("varchar(50)");
+                entity.Property(e => e.惯用脚)
+                    .IsRequired()
+                    .HasColumnType("varchar(50)");
 
                 entity.Property(e => e.手形).HasColumnType("int(11)");
 
@@ -752,19 +761,30 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.Idx).HasColumnType("int(11)");
 
-                entity.Property(e => e.Age).HasColumnType("tinyint(4)");
+                entity.Property(e => e.Age)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.Lv).HasColumnType("int(11)");
+                entity.Property(e => e.Lv)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.Name)
                     .IsRequired()
                     .HasColumnType("varchar(50)");
 
-                entity.Property(e => e.Rowtime).HasColumnType("datetime");
+                entity.Property(e => e.Rowtime)
+                    .HasColumnType("datetime")
+                    .HasDefaultValueSql("'current_timestamp()'")
+                    .ValueGeneratedOnAddOrUpdate();
 
-                entity.Property(e => e.Status).HasColumnType("tinyint(4)");
+                entity.Property(e => e.Status)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.Type).HasColumnType("tinyint(4)");
+                entity.Property(e => e.Type)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.Uid)
                     .IsRequired()
@@ -782,12 +802,13 @@ namespace SoccerKing.Models
                     .HasColumnType("bigint(20)")
                     .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.PlayerIdArr).HasColumnType("varchar(3142)");
+                entity.Property(e => e.PlayerIdArr)
+                    .IsRequired()
+                    .HasColumnType("varchar(3142)");
 
                 entity.Property(e => e.RowVersion)
-                    .HasColumnType("timestamp")
-                    .HasDefaultValueSql("'current_timestamp()'")
-                    .ValueGeneratedOnAddOrUpdate();
+                    .HasColumnType("bigint(20)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.Status)
                     .HasColumnType("tinyint(4)")
@@ -800,6 +821,10 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.Id).HasColumnType("bigint(20)");
 
+                entity.Property(e => e.CurrentRound)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
+
                 entity.Property(e => e.CurrentTeams).HasColumnType("int(11)");
 
                 entity.Property(e => e.EndDate).HasColumnType("datetime");
@@ -807,9 +832,8 @@ namespace SoccerKing.Models
                 entity.Property(e => e.Level).HasColumnType("int(11)");
 
                 entity.Property(e => e.RowVersion)
-                    .HasColumnType("timestamp")
-                    .HasDefaultValueSql("'current_timestamp()'")
-                    .ValueGeneratedOnAddOrUpdate();
+                    .HasColumnType("bigint(20)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.StartDate).HasColumnType("datetime");
 
@@ -914,7 +938,9 @@ namespace SoccerKing.Models
                     .HasColumnType("int(11)")
                     .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.Goals).HasColumnType("int(11)");
+                entity.Property(e => e.Goals)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.LeagueId)
                     .HasColumnType("bigint(20)")
@@ -924,26 +950,33 @@ namespace SoccerKing.Models
                     .HasColumnType("int(11)")
                     .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.Losts).HasColumnType("int(11)");
+                entity.Property(e => e.Losts)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.MaxPower).HasColumnType("int(11)");
+                entity.Property(e => e.MaxPower)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.MyPower).HasColumnType("int(11)");
+                entity.Property(e => e.MyPower)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.RowVersion)
+                    .HasColumnType("bigint(20)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.Rowtime)
                     .HasColumnType("datetime")
                     .HasDefaultValueSql("'current_timestamp()'");
 
-                entity.Property(e => e.Rowverion)
-                    .HasColumnType("timestamp")
-                    .HasDefaultValueSql("'current_timestamp()'")
-                    .ValueGeneratedOnAddOrUpdate();
-
                 entity.Property(e => e.Score)
                     .HasColumnType("int(11)")
                     .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.Status).HasColumnType("tinyint(4)");
+                entity.Property(e => e.Status)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.UserId)
                     .IsRequired()
@@ -978,10 +1011,13 @@ namespace SoccerKing.Models
                 entity.Property(e => e.Id).HasColumnType("int(11)");
 
                 entity.Property(e => e.Account)
+                    .IsRequired()
                     .HasColumnName("account")
                     .HasColumnType("varchar(50)");
 
-                entity.Property(e => e.Nick).HasColumnType("varchar(50)");
+                entity.Property(e => e.Nick)
+                    .IsRequired()
+                    .HasColumnType("varchar(50)");
             });
 
             modelBuilder.Entity<Options>(entity =>
@@ -1018,10 +1054,9 @@ namespace SoccerKing.Models
                     .HasColumnType("int(11)")
                     .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.Rowtime)
-                    .HasColumnType("datetime")
-                    .HasDefaultValueSql("'current_timestamp()'")
-                    .ValueGeneratedOnAddOrUpdate();
+                entity.Property(e => e.RowVersion)
+                    .HasColumnType("bigint(20)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.Salary)
                     .HasColumnType("bigint(20)")
@@ -1032,6 +1067,7 @@ namespace SoccerKing.Models
                     .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.UserId)
+                    .IsRequired()
                     .HasColumnType("varchar(50)")
                     .HasDefaultValueSql("'0'");
 
@@ -1191,11 +1227,17 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.Id).HasColumnType("int(11)");
 
-                entity.Property(e => e.Age).HasColumnType("tinyint(4)");
+                entity.Property(e => e.Age)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.Jx).HasColumnType("tinyint(4)");
+                entity.Property(e => e.Jx)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.Lv).HasColumnType("int(11)");
+                entity.Property(e => e.Lv)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.Name)
                     .IsRequired()
@@ -1204,15 +1246,29 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.Pid).HasColumnType("int(11)");
 
-                entity.Property(e => e.Pz).HasColumnType("int(11)");
+                entity.Property(e => e.Pz)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.Rowtime).HasColumnType("datetime");
+                entity.Property(e => e.RowVersion)
+                    .HasColumnType("bigint(20)")
+                    .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.SignPrice).HasColumnType("bigint(20)");
+                entity.Property(e => e.Rowtime)
+                    .HasColumnType("datetime")
+                    .HasDefaultValueSql("'current_timestamp()'");
 
-                entity.Property(e => e.Status).HasColumnType("tinyint(4)");
+                entity.Property(e => e.SignPrice)
+                    .HasColumnType("bigint(20)")
+                    .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.Type).HasColumnType("tinyint(4)");
+                entity.Property(e => e.Status)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
+
+                entity.Property(e => e.Type)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.Uid)
                     .IsRequired()
@@ -1220,11 +1276,14 @@ namespace SoccerKing.Models
                     .HasColumnType("varchar(50)")
                     .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.WeiYueJin).HasColumnType("bigint(20)");
+                entity.Property(e => e.WeiYueJin)
+                    .HasColumnType("bigint(20)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.HasOne(d => d.P)
                     .WithMany(p => p.Userplayers)
                     .HasForeignKey(d => d.Pid)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_userplayers_dicplayers");
             });
 
@@ -1239,15 +1298,20 @@ namespace SoccerKing.Models
 
                 entity.Property(e => e.Cash)
                     .HasColumnName("cash")
-                    .HasColumnType("bigint(20)");
+                    .HasColumnType("bigint(20)")
+                    .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.Diamond).HasColumnType("int(11)");
+                entity.Property(e => e.Diamond)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.Dw)
                     .HasColumnType("int(11)")
                     .HasDefaultValueSql("'1'");
 
-                entity.Property(e => e.Fans).HasColumnType("bigint(20)");
+                entity.Property(e => e.Fans)
+                    .HasColumnType("bigint(20)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.Nick)
                     .IsRequired()
@@ -1257,18 +1321,22 @@ namespace SoccerKing.Models
                     .HasColumnType("datetime")
                     .HasDefaultValueSql("'current_timestamp()'");
 
-                entity.Property(e => e.Status).HasColumnType("tinyint(4)");
+                entity.Property(e => e.RowVersion)
+                    .HasColumnType("bigint(20)")
+                    .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.Sw).HasColumnType("int(11)");
+                entity.Property(e => e.Status)
+                    .HasColumnType("tinyint(4)")
+                    .HasDefaultValueSql("'0'");
 
-                entity.Property(e => e.TimeSpan)
-                    .HasColumnType("timestamp")
-                    .HasDefaultValueSql("'current_timestamp()'")
-                    .ValueGeneratedOnAddOrUpdate();
+                entity.Property(e => e.Sw)
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.Train)
                     .HasColumnName("train")
-                    .HasColumnType("int(11)");
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'0'");
 
                 entity.Property(e => e.UnionId).HasColumnType("varchar(50)");
             });

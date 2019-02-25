@@ -13,12 +13,12 @@ namespace SoccerKing.Models
         public int Draw { get; set; }
         public int Lose { get; set; }
         public int Score { get; set; }
-        public int? Goals { get; set; }
-        public int? Losts { get; set; }
-        public sbyte? Status { get; set; }
-        public DateTime? Rowtime { get; set; }
-        public int? MyPower { get; set; }
-        public int? MaxPower { get; set; }
-        public DateTime Rowverion { get; set; }
+        public int Goals { get; set; }
+        public int Losts { get; set; }
+        public sbyte Status { get; set; }
+        public DateTime Rowtime { get; set; }
+        public int MyPower { get; set; }
+        public int MaxPower { get; set; }
+        //public long RowVersion { get; set; }
     }
 }

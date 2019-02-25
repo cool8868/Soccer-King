@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using SoccerKing.Common;
 using SoccerKing.Models;
 
+
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace SoccerKing.Controllers
@@ -25,7 +26,7 @@ namespace SoccerKing.Controllers
 
 		public LeagueController(soccerkingContext context)
 		{
-			_context = context;			
+			_context = context;
 		}
 
 		/// <summary>
@@ -67,6 +68,16 @@ namespace SoccerKing.Controllers
 		//	}
 		//}
 
+		[HttpGet("testEmpty/{Id}")]
+		public long TestSp(long Id)
+		{
+			//LogHelper.Instance.Error("====================================================");
+			//LogHelper.Instance.Error("====================================================");
+
+			if (_context.League.Find(Id) == null)
+				return -1;
+			return _context.League.Find(Id).Id;
+		}
 
 		//[HttpGet("testSP/")]
 		//public int TestSp()
@@ -91,32 +102,36 @@ namespace SoccerKing.Controllers
 			League l = _context.League.Find(id);
 			if (l == null || l.Id == 0L)
 				return BadRequest();
-
-			if (l.TeamLimit == l.CurrentTeams)
+			//留4个AI给玩家虐
+			if (l.TeamLimit > (l.CurrentTeams-4))
 				return Ok(1);
 
+			Leaguememebers ai = _context.Leaguememebers.Where(b => b.LeagueId == id && b.Status == 1).Single();
+			if (ai == null)
+			{
+				return Ok(2);
+			}
+			if (l.CurrentTeams == 0)//从第一个玩家进入联赛开始，算正式启动比赛
+			{
+				l.StartDate = DateTime.Now;
+			}
 			l.CurrentTeams++;
-			Leaguememebers lm = new Leaguememebers();
-			lm.UserId = User.Identity.Name;
-			lm.Draw = 0;
-			lm.Goals = 0;
-			lm.LeagueId = l.Id;
-			lm.Lose = 0;
-			lm.Losts = 0;
-			lm.Rowtime = DateTime.Now;
-			lm.Score = 0;
-			lm.Status = 0;
-			lm.Win = 0;
-			lm.Cash = 0;
-			_context.Leaguememebers.Add(lm);
+			string userId = User.Identity.Name;
+			if (_context.Leaguememebers.Where(b=>b.LeagueId == id && b.UserId == userId) != null)
+			{
+				return Ok(0);
+			}
+			ai.UserId = userId;
+			ai.Status = 0;//ai成为真实玩家后，状态要重置为0
+			
 			try
 			{
 				_context.SaveChanges();
 			}
-			catch
+			catch(Exception ex)
 			{
-				_context.Leaguememebers.Remove(lm);
-				_context.SaveChangesAsync();
+				LogHelper.Instance.Error(ex.Message);
+				return Ok(3);
 			}
 			return Ok(0);
 		}
@@ -128,7 +143,8 @@ namespace SoccerKing.Controllers
 		[HttpGet]
 		public async Task<ActionResult<IEnumerable<League>>> GetTop10()
 		{
-			return await _context.League.FromSql("select * from league order by id desc limit 0,10;").ToListAsync();
+			//return await _context.League.FromSql("select * from league order by id desc limit 0,10;").ToListAsync();			
+			return await _context.League.OrderByDescending(b => b.Id).Take(10).ToListAsync();
 		}
 
 		
@@ -149,7 +165,7 @@ namespace SoccerKing.Controllers
 			if (l.StartDate != null)
 			{
 				//如果没有4小时内创建的联赛，则需要创建新联赛
-				if (l.StartDate.Value.AddHours(4) < DateTime.Now)
+				if (l.StartDate.AddHours(4) < DateTime.Now)
 				{
 					CreateEmptyLeague();
 				}
@@ -180,25 +196,7 @@ namespace SoccerKing.Controllers
 			_context.SaveChanges();
 
 			//添加20个AI球队，后续玩家进入，替换这些AI
-			List<NpcName> npcList = new List<NpcName>();
-
-			int rid = RandomHelper.GetInt32(0, 179);
-			DateTime now = DateTime.Now;
-			for (int i = 0; i < 20; i++)
-			{
-				Leaguememebers lm = new Leaguememebers();
-				lm.Draw = 0;
-				lm.Goals = 0;
-				lm.LeagueId = l.Id;
-				lm.Lose = 0;
-				lm.Losts = 0;
-				lm.Rowtime = now;
-				lm.Score = 0;
-				lm.Status = 0;
-				lm.Win = 0;
-				lm.Cash = 0;
-				lm.UserId = npcList[rid + i].Account;
-			}
+			AddAIIntoLeague(l.Id);
 
 			return l.Id;
 		}
@@ -224,7 +222,7 @@ namespace SoccerKing.Controllers
 				lm.Losts = 0;
 				lm.Rowtime = now;
 				lm.Score = 0;
-				lm.Status = 0;
+				lm.Status = 1;//AI的Status字段比较特别，为1
 				lm.Win = 0;
 				lm.Cash = 0;
 				lm.UserId = npcList[rid + i].Account;

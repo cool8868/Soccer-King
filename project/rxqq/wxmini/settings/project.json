@@ -30,5 +30,6 @@
   },
   "start-scene": "e47d09dc-5a64-4928-b9ed-169f8c93c713",
   "use-customize-simulator": false,
-  "use-project-simulator-setting": false
+  "use-project-simulator-setting": false,
+  "assets-sort-type": "name"
 }

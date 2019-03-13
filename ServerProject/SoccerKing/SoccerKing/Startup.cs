@@ -48,7 +48,7 @@ namespace SoccerKing
 			{
 				options.AddPolicy("corsAll", builder =>
 				{
-					builder.WithOrigins("http://localhost:7457").AllowAnyMethod().AllowAnyHeader();
+					builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
 				});
 			}
 			);

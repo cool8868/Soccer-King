@@ -27,6 +27,8 @@ cc.Class({
         // 初始化跳跃动作
         this.jumpAction = this.setJumpAction();
         this.node.runAction(this.jumpAction);
+                
+    
     }
 
     // update (dt) {},
